@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+
+# Raw source files (large government downloads, re-derivable from
+# etl/README_etl.md's source list) stay out of git entirely.
+datasets/
+
+# Cleaned ETL output is committed - it's what the app and everyone
+# on the team actually run against, and it's small enough that this
+# repo doesn't need Git LFS for it. Only data/processed/ is allowed
+# through; anything else later added under data/ (a raw/ or tmp/
+# staging folder, say) stays ignored by default.
+data/*
+!data/processed/
+!data/processed/**

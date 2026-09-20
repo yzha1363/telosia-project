@@ -1,0 +1,187 @@
+dimension,classification,category_code,category_label,level,parent_code,is_nfd
+industry,ANZSIC,01,Agriculture,subdivision,A,False
+industry,ANZSIC,02,Aquaculture,subdivision,A,False
+industry,ANZSIC,03,Forestry and logging,subdivision,A,False
+industry,ANZSIC,04,"Fishing, hunting and trapping",subdivision,A,False
+industry,ANZSIC,05,"Agriculture, forestry and fishing support services",subdivision,A,False
+industry,ANZSIC,06,Coal mining,subdivision,B,False
+industry,ANZSIC,07,Oil and gas extraction,subdivision,B,False
+industry,ANZSIC,08,Metal ore mining,subdivision,B,False
+industry,ANZSIC,09,Non-metallic mineral mining and quarrying,subdivision,B,False
+industry,ANZSIC,10,Exploration and other mining support services,subdivision,B,False
+industry,ANZSIC,11,Food product manufacturing,subdivision,C,False
+industry,ANZSIC,12,Beverage and tobacco product manufacturing,subdivision,C,False
+industry,ANZSIC,13,"Textile, leather, clothing and footwear manufacturing",subdivision,C,False
+industry,ANZSIC,14,Wood product manufacturing,subdivision,C,False
+industry,ANZSIC,15,"Pulp, paper and converted paper product manufacturing",subdivision,C,False
+industry,ANZSIC,16,Printing (including the reproduction of recorded media),subdivision,C,False
+industry,ANZSIC,17,Petroleum and coal product manufacturing,subdivision,C,False
+industry,ANZSIC,18,Basic chemical and chemical product manufacturing,subdivision,C,False
+industry,ANZSIC,19,Polymer product and rubber product manufacturing,subdivision,C,False
+industry,ANZSIC,20,Non-metallic mineral product manufacturing,subdivision,C,False
+industry,ANZSIC,21,Primary metal and metal product manufacturing,subdivision,C,False
+industry,ANZSIC,22,Fabricated metal product manufacturing,subdivision,C,False
+industry,ANZSIC,23,Transport equipment manufacturing,subdivision,C,False
+industry,ANZSIC,24,Machinery and equipment manufacturing,subdivision,C,False
+industry,ANZSIC,25,Furniture and other manufacturing,subdivision,C,False
+industry,ANZSIC,26,Electricity supply,subdivision,D,False
+industry,ANZSIC,27,Gas supply,subdivision,D,False
+industry,ANZSIC,28,"Water supply, sewerage and drainage services",subdivision,D,False
+industry,ANZSIC,29,"Waste collection, treatment and disposal services",subdivision,D,False
+industry,ANZSIC,30,Building construction,subdivision,E,False
+industry,ANZSIC,31,Heavy and civil engineering construction,subdivision,E,False
+industry,ANZSIC,32,Construction services,subdivision,E,False
+industry,ANZSIC,33,Basic material wholesaling,subdivision,F,False
+industry,ANZSIC,34,Machinery and equipment wholesaling,subdivision,F,False
+industry,ANZSIC,35,Motor vehicle and motor vehicle parts wholesaling,subdivision,F,False
+industry,ANZSIC,36,"Grocery, liquor and tobacco product wholesaling",subdivision,F,False
+industry,ANZSIC,37,Other goods wholesaling,subdivision,F,False
+industry,ANZSIC,38,Commission-based wholesaling,subdivision,F,False
+industry,ANZSIC,39,Motor vehicle and motor vehicle parts retailing,subdivision,G,False
+industry,ANZSIC,40,Fuel retailing,subdivision,G,False
+industry,ANZSIC,41,Food retailing,subdivision,G,False
+industry,ANZSIC,42,Other store-based retailing,subdivision,G,False
+industry,ANZSIC,43,Non-store retailing and retail commission-based buying and/or selling,subdivision,G,False
+industry,ANZSIC,44,Accommodation,subdivision,H,False
+industry,ANZSIC,45,Food and beverage services,subdivision,H,False
+industry,ANZSIC,46,Road transport,subdivision,I,False
+industry,ANZSIC,47,Rail transport,subdivision,I,False
+industry,ANZSIC,48,Water transport,subdivision,I,False
+industry,ANZSIC,49,Air and space transport,subdivision,I,False
+industry,ANZSIC,50,Other transport,subdivision,I,False
+industry,ANZSIC,51,Postal and courier pick-up and delivery services,subdivision,I,False
+industry,ANZSIC,52,Transport support services,subdivision,I,False
+industry,ANZSIC,53,Warehousing and storage services,subdivision,I,False
+industry,ANZSIC,54,Publishing (except internet and music publishing),subdivision,J,False
+industry,ANZSIC,55,Motion picture and sound recording activities,subdivision,J,False
+industry,ANZSIC,56,Broadcasting (except internet),subdivision,J,False
+industry,ANZSIC,57,Internet publishing and broadcasting,subdivision,J,False
+industry,ANZSIC,58,Telecommunications services,subdivision,J,False
+industry,ANZSIC,59,"Internet service providers, web search portals and data processing services",subdivision,J,False
+industry,ANZSIC,60,Library and other information services,subdivision,J,False
+industry,ANZSIC,62,Finance,subdivision,K,False
+industry,ANZSIC,63,Insurance and superannuation funds,subdivision,K,False
+industry,ANZSIC,64,Auxiliary finance and insurance services,subdivision,K,False
+industry,ANZSIC,66,Rental and hiring services (except real estate),subdivision,L,False
+industry,ANZSIC,67,Property operators and real estate services,subdivision,L,False
+industry,ANZSIC,69,"Professional, scientific and technical services (except computer system design and related services)",subdivision,M,False
+industry,ANZSIC,70,Computer system design and related services,subdivision,M,False
+industry,ANZSIC,72,Administrative services,subdivision,N,False
+industry,ANZSIC,73,"Building cleaning, pest control and other support services",subdivision,N,False
+industry,ANZSIC,75,Public administration,subdivision,O,False
+industry,ANZSIC,76,Defence,subdivision,O,False
+industry,ANZSIC,77,"Public order, safety and regulatory services",subdivision,O,False
+industry,ANZSIC,80,Preschool and school education,subdivision,P,False
+industry,ANZSIC,81,Tertiary education,subdivision,P,False
+industry,ANZSIC,82,"Adult, community and other education",subdivision,P,False
+industry,ANZSIC,84,Hospitals,subdivision,Q,False
+industry,ANZSIC,85,Medical and other health care services,subdivision,Q,False
+industry,ANZSIC,86,Residential care services,subdivision,Q,False
+industry,ANZSIC,87,Social assistance services,subdivision,Q,False
+industry,ANZSIC,89,Heritage activities,subdivision,R,False
+industry,ANZSIC,90,Creative and performing arts activities,subdivision,R,False
+industry,ANZSIC,91,Sports and recreation activities,subdivision,R,False
+industry,ANZSIC,92,Gambling activities,subdivision,R,False
+industry,ANZSIC,94,Repair and maintenance,subdivision,S,False
+industry,ANZSIC,95,Personal care and other services,subdivision,S,False
+industry,ANZSIC,96,Private households employing staff and undifferentiated goods and service-producing activities of households for own use,subdivision,S,False
+industry,ANZSIC,99,Inadequately described,subdivision,,False
+industry,ANZSIC,A,"Agriculture, forestry and fishing",division,,False
+industry,ANZSIC,A0,"Agriculture, forestry and fishing, nfd",division_nfd,A,True
+industry,ANZSIC,B,Mining,division,,False
+industry,ANZSIC,B0,"Mining, nfd",division_nfd,B,True
+industry,ANZSIC,C,Manufacturing,division,,False
+industry,ANZSIC,C0,"Manufacturing, nfd",division_nfd,C,True
+industry,ANZSIC,D,"Electricity, gas, water and waste services",division,,False
+industry,ANZSIC,D0,"Electricity, gas, water and waste services, nfd",division_nfd,D,True
+industry,ANZSIC,E,Construction,division,,False
+industry,ANZSIC,E0,"Construction, nfd",division_nfd,E,True
+industry,ANZSIC,F,Wholesale trade,division,,False
+industry,ANZSIC,F0,"Wholesale trade, nfd",division_nfd,F,True
+industry,ANZSIC,G,Retail trade,division,,False
+industry,ANZSIC,G0,"Retail trade, nfd",division_nfd,G,True
+industry,ANZSIC,H,Accommodation and food services,division,,False
+industry,ANZSIC,H0,"Accommodation and food services, nfd",division_nfd,H,True
+industry,ANZSIC,I,"Transport, postal and warehousing",division,,False
+industry,ANZSIC,I0,"Transport, postal and warehousing, nfd",division_nfd,I,True
+industry,ANZSIC,J,Information media and telecommunications,division,,False
+industry,ANZSIC,J0,"Information media and telecommunications, nfd",division_nfd,J,True
+industry,ANZSIC,K,Financial and insurance services,division,,False
+industry,ANZSIC,K0,"Financial and insurance services, nfd",division_nfd,K,True
+industry,ANZSIC,L,"Rental, hiring and real estate services",division,,False
+industry,ANZSIC,L0,"Rental, hiring and real estate services, nfd",division_nfd,L,True
+industry,ANZSIC,M,"Professional, scientific and technical services",division,,False
+industry,ANZSIC,M0,"Professional, scientific and technical services, nfd",division_nfd,M,True
+industry,ANZSIC,N,Administrative and support services,division,,False
+industry,ANZSIC,N0,"Administrative and support services, nfd",division_nfd,N,True
+industry,ANZSIC,O,Public administration and safety,division,,False
+industry,ANZSIC,O0,"Public administration and safety, nfd",division_nfd,O,True
+industry,ANZSIC,P,Education and training,division,,False
+industry,ANZSIC,P0,"Education and training, nfd",division_nfd,P,True
+industry,ANZSIC,Q,Health care and social assistance,division,,False
+industry,ANZSIC,Q0,"Health care and social assistance, nfd",division_nfd,Q,True
+industry,ANZSIC,R,Arts and recreation services,division,,False
+industry,ANZSIC,R0,"Arts and recreation services, nfd",division_nfd,R,True
+industry,ANZSIC,S,Other services,division,,False
+industry,ANZSIC,S0,"Other services, nfd",division_nfd,S,True
+industry,ANZSIC,TOTAL,Total,total,,False
+occupation,ANZSCO,1,Managers,major_group,,False
+occupation,ANZSCO,10,"Managers, nfd",sub_major_group_nfd,1,True
+occupation,ANZSCO,11,"Chief executives, general managers and legislators",sub_major_group,1,False
+occupation,ANZSCO,12,Farmers and farm managers,sub_major_group,1,False
+occupation,ANZSCO,13,Specialist managers,sub_major_group,1,False
+occupation,ANZSCO,14,"Hospitality, retail and service managers",sub_major_group,1,False
+occupation,ANZSCO,2,Professionals,major_group,,False
+occupation,ANZSCO,20,"Professionals, nfd",sub_major_group_nfd,2,True
+occupation,ANZSCO,21,Arts and media professionals,sub_major_group,2,False
+occupation,ANZSCO,22,"Business, human resource and marketing professionals",sub_major_group,2,False
+occupation,ANZSCO,23,"Design, engineering, science and transport professionals",sub_major_group,2,False
+occupation,ANZSCO,24,Education professionals,sub_major_group,2,False
+occupation,ANZSCO,25,Health professionals,sub_major_group,2,False
+occupation,ANZSCO,26,ICT professionals,sub_major_group,2,False
+occupation,ANZSCO,27,"Legal, social and welfare professionals",sub_major_group,2,False
+occupation,ANZSCO,3,Technicians and trades workers,major_group,,False
+occupation,ANZSCO,30,"Technicians and trades workers, nfd",sub_major_group_nfd,3,True
+occupation,ANZSCO,31,"Engineering, ICT and science technicians",sub_major_group,3,False
+occupation,ANZSCO,32,Automotive and engineering trades workers,sub_major_group,3,False
+occupation,ANZSCO,33,Construction trades workers,sub_major_group,3,False
+occupation,ANZSCO,34,Electrotechnology and telecommunications trades workers,sub_major_group,3,False
+occupation,ANZSCO,35,Food trades workers,sub_major_group,3,False
+occupation,ANZSCO,36,Skilled animal and horticultural workers,sub_major_group,3,False
+occupation,ANZSCO,39,Other technicians and trades workers,sub_major_group,3,False
+occupation,ANZSCO,4,Community and personal service workers,major_group,,False
+occupation,ANZSCO,40,"Community and personal service workers, nfd",sub_major_group_nfd,4,True
+occupation,ANZSCO,41,Health and welfare support workers,sub_major_group,4,False
+occupation,ANZSCO,42,Carers and aides,sub_major_group,4,False
+occupation,ANZSCO,43,Hospitality workers,sub_major_group,4,False
+occupation,ANZSCO,44,Protective service workers,sub_major_group,4,False
+occupation,ANZSCO,45,Sports and personal service workers,sub_major_group,4,False
+occupation,ANZSCO,5,Clerical and administrative workers,major_group,,False
+occupation,ANZSCO,50,"Clerical and administrative workers, nfd",sub_major_group_nfd,5,True
+occupation,ANZSCO,51,Office managers and program administrators,sub_major_group,5,False
+occupation,ANZSCO,52,Personal assistants and secretaries,sub_major_group,5,False
+occupation,ANZSCO,53,General clerical workers,sub_major_group,5,False
+occupation,ANZSCO,54,Inquiry clerks and receptionists,sub_major_group,5,False
+occupation,ANZSCO,55,Numerical clerks,sub_major_group,5,False
+occupation,ANZSCO,56,Clerical and office support workers,sub_major_group,5,False
+occupation,ANZSCO,59,Other clerical and administrative workers,sub_major_group,5,False
+occupation,ANZSCO,6,Sales workers,major_group,,False
+occupation,ANZSCO,60,"Sales workers, nfd",sub_major_group_nfd,6,True
+occupation,ANZSCO,61,Sales representatives and agents,sub_major_group,6,False
+occupation,ANZSCO,62,Sales assistants and salespersons,sub_major_group,6,False
+occupation,ANZSCO,63,Sales support workers,sub_major_group,6,False
+occupation,ANZSCO,7,Machinery operators and drivers,major_group,,False
+occupation,ANZSCO,70,"Machinery operators and drivers, nfd",sub_major_group_nfd,7,True
+occupation,ANZSCO,71,Machine and stationary plant operators,sub_major_group,7,False
+occupation,ANZSCO,72,Mobile plant operators,sub_major_group,7,False
+occupation,ANZSCO,73,Road and rail drivers,sub_major_group,7,False
+occupation,ANZSCO,74,Storepersons,sub_major_group,7,False
+occupation,ANZSCO,8,Labourers,major_group,,False
+occupation,ANZSCO,80,"Labourers, nfd",sub_major_group_nfd,8,True
+occupation,ANZSCO,81,Cleaners and laundry workers,sub_major_group,8,False
+occupation,ANZSCO,82,Construction and mining labourers,sub_major_group,8,False
+occupation,ANZSCO,83,Factory process workers,sub_major_group,8,False
+occupation,ANZSCO,84,"Farm, forestry and garden workers",sub_major_group,8,False
+occupation,ANZSCO,85,Food preparation assistants,sub_major_group,8,False
+occupation,ANZSCO,89,Other labourers,sub_major_group,8,False
+occupation,ANZSCO,TOTAL,Total,total,,False

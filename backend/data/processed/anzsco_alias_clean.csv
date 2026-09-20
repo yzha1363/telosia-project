@@ -1,0 +1,3270 @@
+anzsco_code,alias_text,category
+1111,Chief Executive Officer,Alternative Title
+1111,Chief Executive or Managing Director,Principal Title
+1111,Director-General,Specialisation
+1111,Executive Director,Specialisation
+1111,Secretary (Government Department),Specialisation
+1112,Assistant Commissioner (Police),Specialisation
+1112,Chief Operating Officer,Alternative Title
+1112,Corporate General Manager,Principal Title
+1112,Hospital Administrator,Specialisation
+1112,Kaiwhakahaere (NZ),Specialisation
+1112,Managing Editor,Specialisation
+1112,Trade Union Secretary,Specialisation
+1112,Admiral (Navy),Specialisation
+1112,Air Chief Marshal (Air Force),Specialisation
+1112,Air Commodore (Air Force),Specialisation
+1112,Air Force Senior Officer,Alternative Title
+1112,Air Marshal (Air Force),Specialisation
+1112,Air Vice Marshal (Air Force),Specialisation
+1112,Army Senior Officer,Alternative Title
+1112,Brigadier (Army),Specialisation
+1112,Captain (Navy),Specialisation
+1112,Colonel (Army),Specialisation
+1112,Commander (Navy),Specialisation
+1112,Commodore (Navy),Specialisation
+1112,Defence Force Senior Officer,Principal Title
+1112,General (Army),Specialisation
+1112,Group Captain (Air Force),Specialisation
+1112,Lieutenant Colonel (Army),Specialisation
+1112,Lieutenant General (Army),Specialisation
+1112,Major General (Army),Specialisation
+1112,Navy Senior Officer,Alternative Title
+1112,Rear Admiral (Navy),Specialisation
+1112,Vice Admiral (Navy),Specialisation
+1112,Wing Commander (Air Force),Specialisation
+1113,Alderman,Alternative Title
+1113,Community Board Member (NZ),Specialisation
+1113,Councillor,Alternative Title
+1113,Local Government Legislator,Principal Title
+1113,Mayor,Specialisation
+1113,Chief Minister,Specialisation
+1113,Government Minister,Specialisation
+1113,Member of Parliament,Principal Title
+1113,Member of the Legislative Assembly,Specialisation
+1113,Member of the Legislative Council,Specialisation
+1113,Parliamentarian,Alternative Title
+1113,Premier,Specialisation
+1113,Prime Minister,Specialisation
+1113,Senator,Specialisation
+1113,Aboriginal Community Council Member,Occupation in nec category
+1113,"Councillor, Aboriginal Land Council",Occupation in nec category
+1113,Legislators nec,Principal Title
+1211,Aquaculture Farm Manager,Alternative Title
+1211,Aquaculture Farmer,Principal Title
+1211,Grow-Out Manager (Aquaculture),Specialisation
+1211,Hatchery Manager (Aquaculture),Specialisation
+1211,Oyster Farmer,Specialisation
+1213,Apiarist,Principal Title
+1213,Beekeeper,Alternative Title
+1213,Beef Cattle Farm Manager,Alternative Title
+1213,Beef Cattle Farmer,Principal Title
+1213,Beef Cattle Grazier,Alternative Title
+1213,Dairy Cattle Farm Manager,Alternative Title
+1213,Dairy Cattle Farmer,Principal Title
+1213,Share Dairy Farmer,Specialisation
+1213,Deer Farmer,Principal Title
+1213,Goat Farmer,Principal Title
+1213,Horse Breeder,Principal Title
+1213,Horse Stud Manager,Alternative Title
+1213,Pig Breeder,Specialisation
+1213,Pig Farm Manager,Alternative Title
+1213,Pig Farmer,Principal Title
+1213,Egg Producer,Specialisation
+1213,Hatchery Manager (Poultry),Specialisation
+1213,Poultry Farm Manager,Alternative Title
+1213,Poultry Farmer,Principal Title
+1213,Sheep Farm Manager,Alternative Title
+1213,Sheep Farmer,Principal Title
+1213,Wool Grower,Specialisation
+1213,Mixed Cattle and Sheep Farm Manager,Alternative Title
+1213,Mixed Cattle and Sheep Farmer,Principal Title
+1213,Alpaca Farmer,Occupation in nec category
+1213,Crocodile Farmer,Occupation in nec category
+1213,Dog Breeder,Occupation in nec category
+1213,Emu Farmer,Occupation in nec category
+1213,Livestock Farmers nec,Principal Title
+1213,Llama Farmer,Occupation in nec category
+1213,Ostrich Farmer,Occupation in nec category
+1215,Cotton Grower,Principal Title
+1215,"Grain, Oilseed, Pulse or Pasture Farm Manager",Alternative Title
+1215,"Grain, Oilseed, Pulse or Pasture Grower / Field Crop Grower",Principal Title
+1215,Sugar Cane Farm Manager,Alternative Title
+1215,Sugar Cane Grower,Principal Title
+1215,Broadacre Crop Growers nec,Principal Title
+1215,Tree Farmer,Occupation in nec category
+1216,Floriculturist,Alternative Title
+1216,Flower Grower,Principal Title
+1216,Market Gardener (Flowers) (Aus),Specialisation
+1216,Fruit Grower,Principal Title
+1216,Market Gardener (Fruit) (Aus),Specialisation
+1216,Olive Grower,Specialisation
+1216,Orchardist,Specialisation
+1216,Nut Grower,Principal Title
+1216,Production Nursery Grower,Principal Title
+1216,Turf Farmer,Alternative Title
+1216,Turf Grower,Principal Title
+1216,Market Gardener (Vegetables) (Aus),Specialisation
+1216,Vegetable Farm Manager,Alternative Title
+1216,Vegetable Grower (Aus) / Market Gardener (NZ),Principal Title
+1216,Vigneron,Alternative Title
+1216,Vineyard Manager (Wine Grapes),Alternative Title
+1216,Viticulturist (Wine Grapes),Alternative Title
+1216,Wine Grape Grower,Principal Title
+1216,Coffee Grower,Occupation in nec category
+1216,Ginger Farmer,Occupation in nec category
+1216,Hop Farmer,Occupation in nec category
+1216,Horticultural Crop Growers nec,Principal Title
+1216,Mushroom Grower,Occupation in nec category
+1217,Broadacre Crop and Livestock Farmer,Principal Title
+1217,Cattle and Wheat Farmer,Specialisation
+1217,Farmer and Grazier,Alternative Title
+1217,Sheep and Wheat Farmer,Specialisation
+1217,Mixed Production Farmers nec,Principal Title
+1311,Business Development Manager,Specialisation
+1311,Market Research Manager,Specialisation
+1311,Sales and Marketing Manager,Principal Title
+1311,Advertising Manager,Principal Title
+1311,Communications Manager,Alternative Title
+1311,Community Relations Manager,Specialisation
+1311,Corporate Affairs Manager,Alternative Title
+1311,Corporate Relations Manager,Alternative Title
+1311,External Relations Manager,Specialisation
+1311,Media Relations Manager,Specialisation
+1311,PR Manager,Alternative Title
+1311,Public Affairs Manager,Alternative Title
+1311,Public Relations Manager,Principal Title
+1321,Administration Manager,Alternative Title
+1321,Business Services Manager,Alternative Title
+1321,Corporate Services Manager,Principal Title
+1322,Chief Financial Officer,Alternative Title
+1322,Finance Director,Alternative Title
+1322,Finance Manager,Principal Title
+1322,Financial Administrator,Specialisation
+1322,Financial Controller,Alternative Title
+1323,Human Resource Manager,Principal Title
+1323,Kaiwhakahaere Tumu (NZ),Specialisation
+1323,Occupational Health and Safety Manager,Specialisation
+1323,Training and Development Manager,Specialisation
+1323,Workplace Relations Manager,Specialisation
+1324,Corporate Planning Manager,Specialisation
+1324,Policy and Planning Manager,Principal Title
+1324,Public Policy Manager,Alternative Title
+1324,Strategic Planning Manager,Specialisation
+1325,Research and Development Manager,Principal Title
+1331,Building and Construction Manager,Alternative Title
+1331,Construction Project Manager,Principal Title
+1331,Shipbuilding Program Manager,Specialisation
+1331,Professional Builder,Alternative Title
+1331,Project Builder,Principal Title
+1332,Engineering Manager,Principal Title
+1333,Importer or Exporter,Principal Title
+1333,Wholesaler,Principal Title
+1334,Manufacturer,Principal Title
+1335,Forest Logistics Manager (NZ),Specialisation
+1335,Forest Manager,Alternative Title
+1335,Forestry Contractor (NZ),Specialisation
+1335,Harvest Manager (Forestry),Specialisation
+1335,Operations Manager (Forestry),Specialisation
+1335,Production Manager (Forestry),Principal Title
+1335,Operations Manager (Production),Specialisation
+1335,Plant Manager (Manufacturing),Specialisation
+1335,Production Manager (Manufacturing),Principal Title
+1335,Sawmill Manager,Specialisation
+1335,Timber and Wood Products Mill Manager,Specialisation
+1335,Works Manager (Manufacturing),Specialisation
+1335,Mine Manager,Alternative Title
+1335,Mine Superintendent,Alternative Title
+1335,Production Manager (Mining),Principal Title
+1335,Quarry Manager,Specialisation
+1336,Agricultural Goods Logistics Manager,Specialisation
+1336,Logistics Manager,Specialisation
+1336,Logistics Officer (Air Force),Specialisation
+1336,Ordnance Corps Officer (Army),Specialisation
+1336,Supply and Distribution Manager,Principal Title
+1336,Supply Chain Manager,Specialisation
+1336,Supply Officer (Navy),Specialisation
+1336,Transport Corps Officer (Army),Specialisation
+1336,Procurement Manager,Principal Title
+1336,Purchasing Manager,Alternative Title
+1341,Child Care Centre Director,Alternative Title
+1341,Child Care Centre Manager,Principal Title
+1341,Child Care Coordinator,Alternative Title
+1342,Director of Clinical Services,Specialisation
+1342,Director of Medical Services,Specialisation
+1342,Medical Administrator / Medical Superintendent,Principal Title
+1342,Medical Manager,Alternative Title
+1342,Assistant Director of Nursing,Specialisation
+1342,Deputy Director of Nursing,Specialisation
+1342,Director of Nursing,Alternative Title
+1342,Executive Director of Nursing,Specialisation
+1342,Nursing Clinical Director,Principal Title
+1342,Senior Nurse Manager,Alternative Title
+1342,Primary Health Organisation Manager,Principal Title
+1342,Welfare Centre Manager,Principal Title
+1342,Welfare Project Manager,Alternative Title
+1342,Director of Pharmacy,Occupation in nec category
+1342,Director of Physiotherapy Services,Occupation in nec category
+1342,Director of Speech Pathology,Occupation in nec category
+1342,Disability Services Program Manager,Occupation in nec category
+1342,Health and Welfare Services Managers nec,Principal Title
+1342,Manager of Allied Health Services,Occupation in nec category
+1343,Headmaster/mistress,Alternative Title
+1343,Middle or Intermediate School Principal,Specialisation
+1343,Primary School Principal,Specialisation
+1343,School Principal,Principal Title
+1343,Secondary School Principal,Specialisation
+1344,Dean (University),Specialisation
+1344,Faculty Head,Principal Title
+1344,Head Teacher (TAFE),Specialisation
+1344,Regional Education Manager,Principal Title
+1344,School Administrator,Specialisation
+1344,Education Managers nec,Principal Title
+1344,Polytechnic Registrar,Occupation in nec category
+1344,Project Coordinator (Education),Occupation in nec category
+1344,TAFE Registrar,Occupation in nec category
+1344,University Registrar,Occupation in nec category
+1351,Chief Information Officer,Principal Title
+1351,Chief Information Security Officer,Specialisation
+1351,Chief Technology Officer,Alternative Title
+1351,ICT Development Manager,Specialisation
+1351,ICT Project Manager,Principal Title
+1351,ICT Security Project Manager,Specialisation
+1351,ICT Managers nec,Principal Title
+1351,IT Service Delivery Manager,Occupation in nec category
+1351,Network Manager,Occupation in nec category
+1391,Air Defence Officer (Air Force) (Aus),Specialisation
+1391,Armoured Corps Officer (Army),Specialisation
+1391,Artillery Officer (Army),Specialisation
+1391,Commissioned Defence Force Officer,Principal Title
+1391,General Service Officer (Army) (Aus),Specialisation
+1391,Ground Defence Officer (Air Force) (Aus),Specialisation
+1391,Infantry Officer (Army),Specialisation
+1391,Military Police Officer (Air Force) (NZ),Specialisation
+1391,Military Police Officer (Army),Specialisation
+1391,Military Police Officer (Navy) (NZ),Specialisation
+1391,Observer (Navy),Specialisation
+1391,Security Police Officer (Air Force) (Aus),Specialisation
+1391,Special Service Officer (Army) (Aus),Specialisation
+1391,Commissioned Fire Officer,Principal Title
+1391,Fire Investigator,Specialisation
+1391,Inspector (Fire Services),Specialisation
+1391,Commissioned Police Officer,Principal Title
+1392,Senior Non-commissioned Defence Force Member,Principal Title
+1399,Art Gallery Director,Specialisation
+1399,Arts Administrator or Manager,Principal Title
+1399,Community Arts Centre Manager,Specialisation
+1399,Cultural Centre Manager,Specialisation
+1399,Environmental Manager,Principal Title
+1399,Laboratory Manager,Principal Title
+1399,Sports Administrator,Principal Title
+1399,Quality Assurance Manager,Principal Title
+1399,Quality Facilitator,Alternative Title
+1399,Regulatory Affairs Manager,Principal Title
+1399,Airport Manager,Occupation in nec category
+1399,Ambassador,Occupation in nec category
+1399,Ambulance Services Manager,Occupation in nec category
+1399,Archbishop,Occupation in nec category
+1399,Bishop,Occupation in nec category
+1399,Harbour Master,Occupation in nec category
+1399,Security Manager (Non-ICT),Occupation in nec category
+1399,Specialist Managers nec,Principal Title
+1411,Bistro Manager,Specialisation
+1411,Cafe or Restaurant Manager,Principal Title
+1411,Canteen Manager,Specialisation
+1411,Caterer,Specialisation
+1411,Food and Beverage Manager,Alternative Title
+1411,Internet Cafe Manager,Specialisation
+1411,Restaurateur,Alternative Title
+1412,Caravan Park and Camping Ground Manager,Principal Title
+1413,Duty Manager (Hotel),Specialisation
+1413,Hotel or Motel Manager,Principal Title
+1413,Hotelier,Alternative Title
+1413,Publican,Alternative Title
+1413,Resort Manager,Specialisation
+1414,Club Licensee,Alternative Title
+1414,Gaming Manager,Specialisation
+1414,Licensed Club Manager,Principal Title
+1414,Nightclub Manager,Specialisation
+1419,Bed and Breakfast Operator,Principal Title
+1419,Retirement Village Manager,Principal Title
+1419,Accommodation and Hospitality Managers nec,Principal Title
+1419,Backpackers Manager,Occupation in nec category
+1419,Boarding House Manager,Occupation in nec category
+1419,Casino Duty Manager,Occupation in nec category
+1419,Guest House Manager,Occupation in nec category
+1419,Hostel Manager,Occupation in nec category
+1419,Reception Centre Manager,Occupation in nec category
+1421,Fast Food Manager,Specialisation
+1421,Newsagent,Specialisation
+1421,Retail Bakery Manager,Specialisation
+1421,Retail Manager (General),Principal Title
+1421,Retail Store Manager,Alternative Title
+1421,Shop Manager,Alternative Title
+1421,Antique Dealer,Principal Title
+1421,Betting Agency Manager,Principal Title
+1421,Hair or Beauty Salon Manager,Principal Title
+1421,Post Office Manager,Principal Title
+1421,Travel Agency Manager,Principal Title
+1491,Amusement Centre Manager,Principal Title
+1491,Bridge Club Manager,Specialisation
+1491,Entertainment Centre Manager,Alternative Title
+1491,Fairground Operator,Specialisation
+1491,Video Arcade Manager,Specialisation
+1491,Fitness Centre Manager,Principal Title
+1491,Aquatic Centre Manager,Specialisation
+1491,Golf Course Manager,Specialisation
+1491,Indoor Sports Centre Manager,Specialisation
+1491,Sports Centre Manager,Principal Title
+1491,Squash Centre Manager,Specialisation
+1491,Stadium Manager,Specialisation
+1491,Ten Pin Bowling Centre Manager,Specialisation
+1491,Tennis Centre Manager,Specialisation
+1492,Call or Contact Centre Manager,Principal Title
+1492,Client Service Manager,Alternative Title
+1492,Customer Service Manager,Principal Title
+1492,Service Manager,Alternative Title
+1493,Conference and Event Organiser,Principal Title
+1493,Event Manager,Alternative Title
+1493,Event Planner,Specialisation
+1493,Exhibition Organiser,Specialisation
+1493,Wedding Coordinator,Specialisation
+1494,Fleet Manager,Principal Title
+1494,Railway Station Manager,Principal Title
+1494,Bus Company Manager,Specialisation
+1494,Car Rental Agency Manager,Specialisation
+1494,Transport Company Manager,Principal Title
+1499,Boarding Kennel or Cattery Operator,Principal Title
+1499,Cinema or Theatre Manager,Principal Title
+1499,Building Manager,Alternative Title
+1499,Facilities Manager,Principal Title
+1499,Shopping Centre Manager,Specialisation
+1499,Bank Manager,Specialisation
+1499,Credit Union Manager,Specialisation
+1499,Financial Institution Branch Manager,Principal Title
+1499,Equipment Hire Manager,Principal Title
+1499,Abattoir Manager,Occupation in nec category
+1499,Brothel Keeper,Occupation in nec category
+1499,"Hospitality, Retail and Service Managers nec",Principal Title
+1499,Laundromat Operator,Occupation in nec category
+1499,Marina Manager,Occupation in nec category
+1499,Taxi Proprietor,Occupation in nec category
+2111,Actor,Principal Title
+2111,Mime Artist,Specialisation
+2111,Voice-over Artist,Specialisation
+2111,Ballet Dancer,Specialisation
+2111,Contemporary or Modern Dancer,Specialisation
+2111,Dancer or Choreographer,Principal Title
+2111,Exotic Dancer,Specialisation
+2111,Busker,Specialisation
+2111,Circus Artist,Specialisation
+2111,Clown,Specialisation
+2111,Comedian,Specialisation
+2111,Entertainer or Variety Artist,Principal Title
+2111,Magician/Illusionist,Specialisation
+2111,Puppeteer,Specialisation
+2111,Ventriloquist,Specialisation
+2111,"Actors, Dancers and Other Entertainers nec",Principal Title
+2111,Circus Trainer,Occupation in nec category
+2111,Disc Jockey (Nightclub),Occupation in nec category
+2111,Extra (Film or Television),Occupation in nec category
+2111,Motivational Speaker,Occupation in nec category
+2111,Public Speaker,Occupation in nec category
+2111,Stunt Performer,Occupation in nec category
+2112,Composer,Principal Title
+2112,Music Arranger,Specialisation
+2112,Songwriter,Specialisation
+2112,Band Leader,Specialisation
+2112,Choral Director,Specialisation
+2112,Music Director,Principal Title
+2112,Orchestra Conductor,Specialisation
+2112,Drummer,Specialisation
+2112,Guitarist,Specialisation
+2112,Instrumentalist,Alternative Title
+2112,Musician (Instrumental),Principal Title
+2112,Pianist,Specialisation
+2112,Violinist,Specialisation
+2112,Band Singer,Specialisation
+2112,Chorister,Specialisation
+2112,Commercial Singer (Advertising),Specialisation
+2112,Jazz Singer,Specialisation
+2112,Opera Singer,Specialisation
+2112,Pop Singer,Specialisation
+2112,Rock Singer,Specialisation
+2112,Singer,Principal Title
+2112,Vocalist,Alternative Title
+2112,Music Copyist,Occupation in nec category
+2112,Music Professionals nec,Principal Title
+2112,Music Researcher,Occupation in nec category
+2112,Musicologist,Occupation in nec category
+2113,Fashion Photographer,Specialisation
+2113,Landscape Photographer,Specialisation
+2113,News Photographer,Specialisation
+2113,Photographer,Principal Title
+2113,Photographic Artist,Specialisation
+2113,Portrait Photographer,Specialisation
+2113,Sports Photographer,Specialisation
+2113,Technical Photographer,Specialisation
+2114,Painter (Artistic),Alternative Title
+2114,Painter (Visual Arts),Principal Title
+2114,Potter or Ceramic Artist,Principal Title
+2114,Sculptor,Principal Title
+2114,Leadlighter,Occupation in nec category
+2114,Multimedia Artist,Occupation in nec category
+2114,Quilter,Occupation in nec category
+2114,Textile Artist,Occupation in nec category
+2114,Visual Arts and Crafts Professionals nec,Principal Title
+2121,Artistic Director,Principal Title
+2121,Executive Producer,Specialisation
+2121,Film Producer,Specialisation
+2121,Media Producer (excluding Video),Principal Title
+2121,Stage Producer,Specialisation
+2121,Television Producer,Specialisation
+2121,Disc Jockey (Radio),Specialisation
+2121,Radio Announcer,Alternative Title
+2121,Radio Presenter,Principal Title
+2121,Talkback Host,Specialisation
+2121,Tourism Radio Presenter,Specialisation
+2121,Television Presenter,Principal Title
+2122,Author,Principal Title
+2122,Novelist,Specialisation
+2122,Playwright,Specialisation
+2122,Poet,Specialisation
+2122,Screenwriter,Specialisation
+2122,Script Writer,Specialisation
+2122,Book or Script Editor,Principal Title
+2122,Script Coordinator,Specialisation
+2123,"Art Director (Film, Television or Stage)",Principal Title
+2123,Production Designer,Alternative Title
+2123,"Director (Film, Television, Radio or Stage)",Principal Title
+2123,Cinematographer,Alternative Title
+2123,Director of Photography,Principal Title
+2123,Film and Video Editor,Principal Title
+2123,Program Director (Television or Radio),Principal Title
+2123,Stage Manager,Principal Title
+2123,Technical Director,Principal Title
+2123,Technical Producer,Alternative Title
+2123,Video Producer,Principal Title
+2123,Audio Director,Occupation in nec category
+2123,Casting Director,Occupation in nec category
+2123,"Film, Television, Radio and Stage Directors nec",Principal Title
+2123,Lighting Director,Occupation in nec category
+2123,Location Manager (Film or Television),Occupation in nec category
+2124,Copywriter,Principal Title
+2124,Associate Editor,Alternative Title
+2124,Features Editor,Specialisation
+2124,News Editor,Specialisation
+2124,Newspaper or Periodical Editor,Principal Title
+2124,Pictures Editor,Specialisation
+2124,Subeditor,Specialisation
+2124,Website/Blog Editor,Specialisation
+2124,Columnist,Specialisation
+2124,Feature Writer,Specialisation
+2124,Leader Writer,Specialisation
+2124,Newspaper Reporter,Specialisation
+2124,Print Journalist,Principal Title
+2124,Radio Journalist,Principal Title
+2124,Radio Reporter,Alternative Title
+2124,Technical Writer,Principal Title
+2124,Television Journalist,Principal Title
+2124,Television Reporter,Alternative Title
+2124,Blogger,Occupation in nec category
+2124,Critic,Occupation in nec category
+2124,Editorial Assistant,Occupation in nec category
+2124,Journalists and Other Writers nec,Principal Title
+2124,Photo Journalist,Occupation in nec category
+2124,Vlogger,Occupation in nec category
+2211,Accountant (General),Principal Title
+2211,Financial Analyst,Specialisation
+2211,Insolvency Consultant,Specialisation
+2211,Insolvency Practitioner,Specialisation
+2211,Carbon Accountant,Specialisation
+2211,Commercial Accountant,Specialisation
+2211,Cost Accountant,Alternative Title
+2211,Management Accountant,Principal Title
+2211,Product Accountant,Specialisation
+2211,Taxation Accountant,Principal Title
+2211,Taxation Agent,Alternative Title
+2211,Taxation Consultant,Alternative Title
+2212,Company Secretary,Principal Title
+2212,Corporate Treasurer,Principal Title
+2212,Financial Risk Manager,Alternative Title
+2212,External Auditor,Principal Title
+2212,Audit Officer,Alternative Title
+2212,Internal Auditor,Principal Title
+2221,Commodities Broker,Alternative Title
+2221,Commodities Trader,Principal Title
+2221,Energy Trader,Specialisation
+2221,Grain Buyer,Specialisation
+2221,Livestock Trader,Specialisation
+2221,Media Buyer,Specialisation
+2221,Water Broker/Trader,Specialisation
+2221,Wool Broker,Specialisation
+2221,Finance Broker,Principal Title
+2221,Lease Broker,Specialisation
+2221,Mortgage Broker,Specialisation
+2221,Insurance Broker,Principal Title
+2221,Financial Brokers nec,Principal Title
+2221,Investment Broker,Occupation in nec category
+2222,Derivatives Trader,Specialisation
+2222,Financial Market Dealer,Principal Title
+2222,Fixed Interest Dealer,Specialisation
+2222,Foreign Exchange Dealer,Specialisation
+2222,Money Market Dealer,Alternative Title
+2222,Securities Dealer,Specialisation
+2222,Futures Trader,Principal Title
+2222,Sharebroker,Alternative Title
+2222,Stockbroker,Alternative Title
+2222,Stockbroking Dealer,Principal Title
+2222,Trading Floor Operator (Stock Exchange),Specialisation
+2222,Equities Analyst,Occupation in nec category
+2222,Financial Dealers nec,Principal Title
+2223,Financial Investment Adviser,Principal Title
+2223,Financial Planning Adviser,Alternative Title
+2223,Financial Investment Manager,Principal Title
+2223,Portfolio Manager,Alternative Title
+2223,Superannuation Funds Manager,Specialisation
+2223,Unit Trust Manager,Specialisation
+2231,Human Resource Adviser,Principal Title
+2231,Human Resource Consultant,Alternative Title
+2231,Personnel Officer,Specialisation
+2231,Workforce Planning Analyst,Specialisation
+2231,Casting Agent,Specialisation
+2231,Employment Consultant,Alternative Title
+2231,Literary Agent,Specialisation
+2231,Recruitment Consultant,Principal Title
+2231,Industrial Relations Officer,Specialisation
+2231,Trade Union Official,Specialisation
+2231,Union Organiser,Specialisation
+2231,Workplace Relations Adviser,Principal Title
+2233,Education Officer (Air Force and Army),Specialisation
+2233,ICT Trainer,Specialisation
+2233,Training and Development Professional,Principal Title
+2233,Training Officer,Alternative Title
+2233,Training Systems Officer (Navy),Specialisation
+2241,Actuary,Principal Title
+2241,Mathematician,Principal Title
+2241,Operations Research Analyst,Specialisation
+2241,Data Analyst,Principal Title
+2241,Data Scientist,Principal Title
+2241,Biometrician,Specialisation
+2241,Biostatistician,Specialisation
+2241,Demographer,Specialisation
+2241,Epidemiologist,Specialisation
+2241,Statistician,Principal Title
+2242,Archivist,Principal Title
+2242,Film Archivist,Specialisation
+2242,Legal Archivist,Specialisation
+2242,Manuscripts Archivist,Specialisation
+2242,Parliamentary Archivist,Specialisation
+2242,Gallery or Museum Curator,Principal Title
+2242,Clinical Trial Data Manager,Specialisation
+2242,Health Data Administrator,Specialisation
+2242,Health Information Manager,Principal Title
+2242,Configuration Management Technician (Naval Shipbuilding),Specialisation
+2242,Freedom of Information Officer,Specialisation
+2242,Records Manager,Principal Title
+2243,Agricultural Economist,Specialisation
+2243,Econometrician,Specialisation
+2243,Economic Analyst,Alternative Title
+2243,Economic Forecaster,Specialisation
+2243,Economist,Principal Title
+2243,Environmental Economist,Specialisation
+2243,Health Economist,Specialisation
+2243,Labour Market Economist,Specialisation
+2243,Mineral Economist,Specialisation
+2243,Taxation Economist,Specialisation
+2244,Criminal Intelligence Analyst,Specialisation
+2244,Defence Intelligence Analyst,Specialisation
+2244,Intelligence Officer,Principal Title
+2244,Foreign Policy Officer,Specialisation
+2244,Policy Adviser,Alternative Title
+2244,Policy Analyst,Principal Title
+2244,Research and Evaluation Analyst (NZ),Specialisation
+2245,Asset Manager (Land and Property),Specialisation
+2245,Land Economist,Principal Title
+2245,Property Economist,Alternative Title
+2245,Plant and Machinery Valuer,Specialisation
+2245,Property Valuer,Specialisation
+2245,Real Estate Valuer,Specialisation
+2245,Valuer,Principal Title
+2246,Acquisitions Librarian,Specialisation
+2246,Audiovisual Librarian,Specialisation
+2246,Bibliographer,Specialisation
+2246,Cataloguer,Specialisation
+2246,Children's Librarian,Specialisation
+2246,Corporate Librarian,Specialisation
+2246,Legal Librarian,Specialisation
+2246,Librarian,Principal Title
+2246,Multicultural Services Librarian,Specialisation
+2246,Parliamentary Librarian,Specialisation
+2246,Reference Librarian,Specialisation
+2246,Special Librarian,Specialisation
+2246,Special Needs Librarian,Specialisation
+2247,Change Management Facilitator,Specialisation
+2247,Delivery Coach,Specialisation
+2247,Industry Analyst,Specialisation
+2247,Organisation and Methods Analyst,Principal Title
+2247,Procedures Analyst,Alternative Title
+2247,Quality Auditor,Specialisation
+2247,Business Analyst,Specialisation
+2247,Business Consultant,Alternative Title
+2247,Business Improvement Manager,Specialisation
+2247,Management Consultant,Principal Title
+2247,Logistics Analyst,Alternative Title
+2247,Supply Chain Analyst,Principal Title
+2249,Electorate Officer,Principal Title
+2249,Aboriginal Liaison Officer,Specialisation
+2249,Business Liaison Officer,Specialisation
+2249,Community Liaison Officer,Specialisation
+2249,Disability Liaison Officer,Specialisation
+2249,Liaison Officer,Principal Title
+2249,Māori Liaison Adviser,Specialisation
+2249,Police Liaison Officer,Specialisation
+2249,Migration Agent / Immigration Consultant,Principal Title
+2249,Migration Consultant,Alternative Title
+2249,Patents Examiner,Principal Title
+2249,Electoral Officer,Occupation in nec category
+2249,Information and Organisation Professionals nec,Principal Title
+2249,Information Management Co-ordinator,Occupation in nec category
+2249,Knowledge Manager,Occupation in nec category
+2249,Lobbyist,Occupation in nec category
+2249,Museum Registrar,Occupation in nec category
+2249,Procurement Specialist,Occupation in nec category
+2249,Sales Analyst,Occupation in nec category
+2251,Advertising Account Executive,Alternative Title
+2251,Advertising Account Manager,Alternative Title
+2251,Advertising Specialist,Principal Title
+2251,Creative Director (Advertising),Alternative Title
+2251,Market Research Analyst,Principal Title
+2251,Brand Manager,Specialisation
+2251,Category Manager,Specialisation
+2251,Marketing Consultant,Alternative Title
+2251,Marketing Coordinator,Alternative Title
+2251,Marketing Officer,Alternative Title
+2251,Marketing Specialist,Principal Title
+2251,Pricing Analyst,Specialisation
+2251,Product Manager,Specialisation
+2251,Sales Promotion Officer,Specialisation
+2251,Content Creator (Marketing),Principal Title
+2251,Social media specialist (Marketing),Alternative Title
+2251,Digital Marketing Analyst,Principal Title
+2252,ICT Account Manager,Principal Title
+2252,ICT Business Development Manager,Principal Title
+2252,ICT Sales Representative,Principal Title
+2253,Media Liaison Officer,Specialisation
+2253,Press Officer,Specialisation
+2253,Promotions Officer,Specialisation
+2253,Public Affairs Officer,Specialisation
+2253,Public Relations Consultant,Specialisation
+2253,Public Relations Officer,Specialisation
+2253,Public Relations Professional,Principal Title
+2254,Sales Representative (Industrial Products),Principal Title
+2254,Medical Representative,Specialisation
+2254,Sales Representative (Medical and Pharmaceutical Products),Principal Title
+2254,Sales Representative (Educational Products and Services),Occupation in nec category
+2254,Technical Sales Representatives nec,Principal Title
+2311,Aeroplane Pilot,Principal Title
+2311,Air Traffic Controller,Principal Title
+2311,Flying Instructor,Principal Title
+2311,Gliding Pilot Instructor,Specialisation
+2311,Helicopter Pilot Instructor,Specialisation
+2311,Helicopter Pilot,Principal Title
+2311,Air Transport Professionals nec,Principal Title
+2311,Aircraft Navigator,Occupation in nec category
+2311,Airworthiness Inspector,Occupation in nec category
+2311,Balloonist,Occupation in nec category
+2311,Flight Engineer Inspector,Occupation in nec category
+2312,Master Fisher,Principal Title
+2312,Marine Engineer,Alternative Title
+2312,Mechanical Engineering Officer (Navy),Specialisation
+2312,Ship's Engineer,Principal Title
+2312,Weapons Electrical Engineering Officer (Navy),Specialisation
+2312,Dredge Master,Specialisation
+2312,Ship's Captain,Alternative Title
+2312,Ship's Master,Principal Title
+2312,Ship's Pilot,Specialisation
+2312,Tug Master,Specialisation
+2312,Deck Officer,Alternative Title
+2312,Navigating Officer (Ship's),Specialisation
+2312,Seaman Officer (Navy),Specialisation
+2312,Ship's Officer,Principal Title
+2312,Marine Surveyor,Principal Title
+2312,Ship's Surveyor,Alternative Title
+2312,Boating Safety Officer,Occupation in nec category
+2312,Marine Safety Officer,Occupation in nec category
+2312,Marine Transport Professionals nec,Principal Title
+2312,Vessel Traffic Officer,Occupation in nec category
+2321,Architect,Principal Title
+2321,Conservation or Heritage Architect,Specialisation
+2321,Landscape Architect,Principal Title
+2322,Cadastral Surveyor,Specialisation
+2322,Engineering Surveyor,Specialisation
+2322,Geodetic Surveyor,Specialisation
+2322,Hydrographic Surveyor,Specialisation
+2322,Mine Surveyor,Specialisation
+2322,Photogrammetric Surveyor,Specialisation
+2322,Surveyor,Principal Title
+2322,Cartographer,Principal Title
+2322,Geographic Information Systems Manager,Specialisation
+2322,Geospatial Analyst,Specialisation
+2322,Other Spatial Scientist,Principal Title
+2323,Costume Designer,Specialisation
+2323,Fashion Designer,Principal Title
+2323,Ceramic Designer,Specialisation
+2323,Furniture Designer,Specialisation
+2323,Glass Designer,Specialisation
+2323,Industrial Designer,Principal Title
+2323,Product Designer,Alternative Title
+2323,Textile Designer,Specialisation
+2323,Jewellery Designer,Principal Title
+2324,Exhibition Designer,Specialisation
+2324,Film and Video Graphics Designer,Specialisation
+2324,Graphic Artist,Alternative Title
+2324,Graphic Designer,Principal Title
+2324,Publication Designer,Specialisation
+2324,Animator,Specialisation
+2324,Cartoonist,Specialisation
+2324,Illustrator,Principal Title
+2324,Technical Illustrator,Specialisation
+2324,Digital Media Designer,Alternative Title
+2324,Instructional Designer,Specialisation
+2324,Interactive Media Designer,Alternative Title
+2324,Multimedia Designer,Principal Title
+2324,Web Designer,Principal Title
+2325,Commercial Interior Designer,Specialisation
+2325,Environmental Designer,Specialisation
+2325,Interior Designer,Principal Title
+2325,Residential Interior Designer,Specialisation
+2325,Retail Interior Designer,Specialisation
+2326,Land Planner,Specialisation
+2326,Resource Management Planner (NZ),Specialisation
+2326,Town Planner,Specialisation
+2326,Traffic and Transport Planner,Specialisation
+2326,Urban and Regional Planner,Principal Title
+2331,Chemical Engineer,Principal Title
+2331,Materials Engineer,Principal Title
+2332,Airfield Engineer Officer (Air Force),Specialisation
+2332,Civil Engineer,Principal Title
+2332,Hydraulics Engineer,Specialisation
+2332,Geotechnical Engineer,Principal Title
+2332,Building Economist,Alternative Title
+2332,Construction Economist,Alternative Title
+2332,Quantity Surveyor,Principal Title
+2332,Structural Engineer,Principal Title
+2332,Roading Engineer (NZ),Specialisation
+2332,Transport Engineer,Principal Title
+2333,Electrical Design Engineer,Specialisation
+2333,Electrical Engineer,Principal Title
+2333,Railway Signalling Engineer,Specialisation
+2333,Signalling and Communications Engineer,Specialisation
+2334,Combat System Engineer,Specialisation
+2334,Electronics Engineer,Principal Title
+2335,Engineering Assurance Engineer,Specialisation
+2335,Industrial Engineer,Principal Title
+2335,Integrated Logistics Support Engineer,Specialisation
+2335,Process Engineer (Industrial),Specialisation
+2335,Airconditioning Engineer,Specialisation
+2335,Building Services Engineer,Specialisation
+2335,Heating and Ventilation Engineer,Specialisation
+2335,Mechanical Engineer,Principal Title
+2335,Automation and Control Engineer,Specialisation
+2335,Maintenance Engineer (Shipbuilding),Specialisation
+2335,Production or Plant Engineer,Principal Title
+2336,Mining Engineer (excluding Petroleum),Principal Title
+2336,Process Engineer (Mining),Specialisation
+2336,Mud Engineer,Specialisation
+2336,Petroleum Engineer,Principal Title
+2336,Petrophysical Engineer,Specialisation
+2339,Aeronautical Engineer,Principal Title
+2339,Aeronautical Engineering Officer (Navy),Specialisation
+2339,Aerospace Engineer,Specialisation
+2339,Aerospace Engineer Officer - Aeronautical (Air Force),Specialisation
+2339,Aerospace Engineer Officer - Armament (Air Force),Specialisation
+2339,Aerospace Engineer Officer - Electronics (Air Force),Specialisation
+2339,Avionics Systems Engineer,Specialisation
+2339,Weapons Aeronautical Engineering Officer (Navy),Specialisation
+2339,Agricultural Engineer,Principal Title
+2339,Natural Resources Engineer,Alternative Title
+2339,Bioengineer,Specialisation
+2339,Biomedical Engineer,Principal Title
+2339,Clinical Engineer,Specialisation
+2339,Medical Engineer,Specialisation
+2339,Biomedical Engineering Technologist,Specialisation
+2339,Engineering Technologist,Principal Title
+2339,Industrial Engineering Technologist,Specialisation
+2339,Mining Engineering Technologist,Specialisation
+2339,Safety Engineering Technologist,Specialisation
+2339,Structural Engineering Technologist,Specialisation
+2339,Environmental Engineer,Principal Title
+2339,Naval Architect / Marine Designer,Principal Title
+2339,Shipbuilding Designer,Specialisation
+2339,Acoustic Engineer,Occupation in nec category
+2339,Calibration Engineer,Occupation in nec category
+2339,Corrosion Engineer,Occupation in nec category
+2339,Engineering Professionals nec,Principal Title
+2339,Fire Safety Engineer,Occupation in nec category
+2339,Mechatronics Engineer,Occupation in nec category
+2339,Product Design Engineer,Occupation in nec category
+2339,Safety Engineer,Occupation in nec category
+2339,Test and Activation Engineer (Naval Shipbuilding),Occupation in nec category
+2341,Agricultural Adviser,Alternative Title
+2341,Agricultural Consultant,Principal Title
+2341,Agricultural Extension Officer,Specialisation
+2341,Landcare Officer,Specialisation
+2341,Forester / Forest Scientist,Principal Title
+2341,Forestry Adviser,Specialisation
+2341,Forestry Consultant,Specialisation
+2341,Agricultural Research Scientist,Principal Title
+2341,Agricultural Scientist,Alternative Title
+2341,Research Agronomist,Specialisation
+2341,Agronomist,Principal Title
+2341,Animal Nutritionist,Specialisation
+2341,Sales Agronomist,Specialisation
+2341,Aquaculture or Fisheries Research Scientist,Alternative Title
+2341,Aquaculture or Fisheries Scientist,Principal Title
+2342,Analytical Chemist,Specialisation
+2342,Chemist,Principal Title
+2342,Industrial Chemist,Specialisation
+2342,Food Scientist,Alternative Title
+2342,Food Technologist,Principal Title
+2342,Oenologist,Alternative Title
+2342,Wine Maker,Principal Title
+2343,Conservation Officer,Principal Title
+2343,Landcare Facilitator,Specialisation
+2343,Environmental Adviser,Alternative Title
+2343,Environmental Auditor,Alternative Title
+2343,Environmental Consultant,Principal Title
+2343,Environmental Officer,Alternative Title
+2343,Air Pollution Analyst,Specialisation
+2343,Ecologist,Specialisation
+2343,Environmental Research Scientist,Principal Title
+2343,Environmental Scientist,Alternative Title
+2343,Land Degradation Analyst,Specialisation
+2343,Water Quality Analyst,Specialisation
+2343,Aboriginal and Torres Strait Islander Land and Sea Ranger,Specialisation
+2343,Park Ranger,Principal Title
+2343,Environmental Educator,Occupation in nec category
+2343,Environmental Scientists nec,Principal Title
+2343,Soil Scientist,Occupation in nec category
+2344,Geologist,Principal Title
+2344,Marine Geologist,Specialisation
+2344,Palaeontologist,Specialisation
+2344,Geophysicist,Principal Title
+2344,Oceanographer,Specialisation
+2344,Seismologist,Specialisation
+2344,Hydrogeologist,Principal Title
+2345,Biologist (General),Alternative Title
+2345,Life Scientist (General),Principal Title
+2345,Biochemist,Principal Title
+2345,Enzyme Chemist,Specialisation
+2345,Protein Chemist,Specialisation
+2345,Biotechnologist,Principal Title
+2345,Cell Geneticist,Specialisation
+2345,Molecular Biologist,Specialisation
+2345,Molecular Geneticist,Specialisation
+2345,Botanist,Principal Title
+2345,Plant Pathologist,Specialisation
+2345,Plant Physiologist,Specialisation
+2345,Plant Taxonomist,Specialisation
+2345,Marine Biologist,Principal Title
+2345,Bacteriologist (Non-medical),Specialisation
+2345,Microbiologist,Principal Title
+2345,Entomologist,Principal Title
+2345,Entomologist (Biosecurity),Specialisation
+2345,Medical Entomologist,Specialisation
+2345,Zoologist,Principal Title
+2345,Anatomist,Occupation in nec category
+2345,Animal Behaviourist,Occupation in nec category
+2345,Life Scientists nec,Principal Title
+2345,Neuroscientist,Occupation in nec category
+2345,Parasitologist,Occupation in nec category
+2345,Pharmacologist (Non-clinical),Occupation in nec category
+2345,Physiologist,Occupation in nec category
+2345,Toxicologist,Occupation in nec category
+2346,Hospital Scientist,Alternative Title
+2346,IVF Embryologist,Specialisation
+2346,Medical Laboratory Scientist,Principal Title
+2346,Medical Scientific Officer,Alternative Title
+2346,Respiratory Scientist,Principal Title
+2347,Veterinarian,Principal Title
+2347,Veterinary Parasitologist,Specialisation
+2347,Veterinary Pathologist,Specialisation
+2347,Veterinary Surgeon,Alternative Title
+2349,Art Conservator,Specialisation
+2349,Conservator,Principal Title
+2349,Metallurgist,Principal Title
+2349,Welding Engineer,Specialisation
+2349,Climatologist,Specialisation
+2349,Meteorologist,Principal Title
+2349,Weather Forecaster,Specialisation
+2349,Astronomer,Specialisation
+2349,Medical Physicist,Specialisation
+2349,Physicist,Principal Title
+2349,Exercise Physiologist,Principal Title
+2349,Materials Scientist,Occupation in nec category
+2349,Metrologist,Occupation in nec category
+2349,Natural and Physical Science Professionals nec,Principal Title
+2349,Polymer Scientist,Occupation in nec category
+2411,Early Childhood (Pre-primary School) Teacher,Principal Title
+2411,Kindergarten Teacher,Alternative Title
+2411,Preschool Director,Specialisation
+2411,Kaiako Kohanga Reo (Māori Language Nest Teacher),Principal Title
+2412,Kaiako Kura Kaupapa Māori (Māori-medium Primary School Teacher),Principal Title
+2412,Pouako Kura Kaupapa Māori (Māori-medium Primary School Senior Teacher),Principal Title
+2412,Primary School Teacher,Principal Title
+2412,Primary School Teacher-Librarian,Specialisation
+2413,Middle School Teacher / Intermediate School Teacher,Principal Title
+2414,Kaiako Kura Tuarua (NZ),Specialisation
+2414,Secondary School Teacher,Principal Title
+2414,Secondary School Teacher-Librarian,Specialisation
+2415,Behaviour Support Teacher,Specialisation
+2415,Remedial Teacher,Specialisation
+2415,Special Needs Teacher,Principal Title
+2415,Teacher of Gifted Students,Specialisation
+2415,Teacher of the Hearing Impaired,Principal Title
+2415,Teacher of the Sight Impaired,Principal Title
+2415,Aboriginal Education Teacher,Occupation in nec category
+2415,Correspondence School Teacher,Occupation in nec category
+2415,Distance Education Teacher,Occupation in nec category
+2415,Special Education Teachers nec,Principal Title
+2421,University Lecturer,Principal Title
+2421,University Demonstrator,Specialisation
+2421,University Tutor,Principal Title
+2422,Adult Education Teacher,Specialisation
+2422,TAFE Lecturer,Specialisation
+2422,TAFE Teacher,Specialisation
+2422,Vocational Education Teacher / Polytechnic Teacher,Principal Title
+2422,Workplace Trainer and Assessor,Specialisation
+2491,Curriculum Advisory Teacher,Specialisation
+2491,Education Adviser,Principal Title
+2491,Education Officer,Specialisation
+2491,Home-School Liaison Officer,Specialisation
+2491,Preschool Adviser,Specialisation
+2491,Education Reviewer,Principal Title
+2491,School Inspector,Specialisation
+2492,Art Teacher (Private Tuition),Principal Title
+2492,Ballet Teacher (Private Tuition),Specialisation
+2492,Dance Teacher (Private Tuition),Principal Title
+2492,Drama Teacher (Private Tuition),Principal Title
+2492,Elocution Teacher,Specialisation
+2492,Music Teacher (Private Tuition),Principal Title
+2492,Singing Teacher (Private Tuition),Specialisation
+2492,Craft Teacher (Private Tuition),Occupation in nec category
+2492,Dressmaking Teacher (Private Tuition),Occupation in nec category
+2492,Language Tutor (Private Tuition),Occupation in nec category
+2492,Maths Tutor (Private Tuition),Occupation in nec category
+2492,Private Tutors and Teachers nec,Principal Title
+2493,English as a Second Language Teacher,Alternative Title
+2493,Teacher of English to Speakers of Other Languages,Principal Title
+2511,Dietitian,Principal Title
+2511,Nutritionist,Principal Title
+2512,Magnetic Resonance Technologist,Specialisation
+2512,Medical Diagnostic Radiographer,Principal Title
+2512,Medical Imaging Technologist,Alternative Title
+2512,Medical Radiation Therapist,Principal Title
+2512,Nuclear Medicine Technologist,Principal Title
+2512,Sonographer,Principal Title
+2512,Ultrasonographer,Alternative Title
+2513,Environmental Health Officer,Principal Title
+2513,Food Safety Auditor,Specialisation
+2513,Food Safety Officer,Specialisation
+2513,Occupational Health and Safety Adviser,Principal Title
+2513,Occupational Health and Safety Coordinator,Alternative Title
+2513,Occupational Health and Safety Officer,Alternative Title
+2513,Occupational Hygienist,Specialisation
+2513,Workplace Rehabilitation Officer,Specialisation
+2514,Optometrist,Principal Title
+2514,Orthoptist,Principal Title
+2515,Hospital Pharmacist,Principal Title
+2515,Pharmaceutical Officer (Army),Specialisation
+2515,Industrial Pharmacist,Principal Title
+2515,Community Pharmacist,Alternative Title
+2515,Retail Pharmacist,Principal Title
+2519,Asthma Educator,Specialisation
+2519,Childbirth Educator,Specialisation
+2519,Community Health Worker,Alternative Title
+2519,Diabetes Educator,Specialisation
+2519,Health Educator,Alternative Title
+2519,Health Promotion Officer,Principal Title
+2519,Orthotist or Prosthetist,Principal Title
+2519,Genetic Counsellor,Occupation in nec category
+2519,Health Diagnostic and Promotion Professionals nec,Principal Title
+2521,Chiropractor,Principal Title
+2521,Osteopath,Principal Title
+2522,Acupuncturist,Principal Title
+2522,Homoeopath,Principal Title
+2522,Naturopath,Principal Title
+2522,Chinese Herbalist,Specialisation
+2522,Chinese Medicine Practitioner,Alternative Title
+2522,Oriental Medicine Practitioner,Alternative Title
+2522,Traditional Chinese Medicine Practitioner,Principal Title
+2522,Traditional Māori Health Practitioner,Principal Title
+2522,Complementary Health Therapists nec,Principal Title
+2522,Dance Therapist,Occupation in nec category
+2522,Drama Therapist,Occupation in nec category
+2522,Hypnotherapist,Occupation in nec category
+2522,Music Therapist,Occupation in nec category
+2522,Play Therapist,Occupation in nec category
+2523,Dental Specialist,Principal Title
+2523,Endodontist,Specialisation
+2523,Oral and Maxillofacial Surgeon,Specialisation
+2523,Oral Pathologist,Specialisation
+2523,Orthodontist,Specialisation
+2523,Paedodontist,Specialisation
+2523,Periodontist,Specialisation
+2523,Prosthodontist,Specialisation
+2523,Dental Practitioner,Alternative Title
+2523,Dental Surgeon,Alternative Title
+2523,Dentist,Principal Title
+2524,Occupational Therapist,Principal Title
+2525,Aquatic Physiotherapist,Specialisation
+2525,Cardiothoracic Physiotherapist,Specialisation
+2525,Continence and Women's Health Physiotherapist,Specialisation
+2525,Gerontological Physiotherapist,Specialisation
+2525,Māori Physiotherapist (NZ),Specialisation
+2525,Musculoskeletal Physiotherapist,Specialisation
+2525,Neurological Physiotherapist,Specialisation
+2525,Occupational Health Physiotherapist,Specialisation
+2525,Paediatric Physiotherapist,Specialisation
+2525,Physical Therapist,Alternative Title
+2525,Physiotherapist,Principal Title
+2525,Sports Physiotherapist,Specialisation
+2526,Podiatric Surgeon,Specialisation
+2526,Podiatrist,Principal Title
+2527,Audiologist,Principal Title
+2527,Speech Pathologist / Speech Language Therapist,Principal Title
+2527,Speech Therapist,Alternative Title
+2531,General Medical Practitioner,Alternative Title
+2531,General Practitioner,Principal Title
+2531,Medical Officer (Navy),Specialisation
+2531,Medical Intern,Specialisation
+2531,Resident Medical Officer,Principal Title
+2532,Anaesthetist,Principal Title
+2532,Intensive Care Anaesthetist,Specialisation
+2532,Obstetric Anaesthetist,Specialisation
+2532,Pain Management Specialist,Specialisation
+2533,Specialist Physician (General Medicine),Principal Title
+2533,Cardiologist,Principal Title
+2533,Clinical Haematologist,Principal Title
+2533,Medical Oncologist,Principal Title
+2533,Medical Oncology Physician,Alternative Title
+2533,Diabetologist,Specialisation
+2533,Endocrinologist,Principal Title
+2533,Gastroenterologist,Principal Title
+2533,Intensive Care Medicine Specialist,Alternative Title
+2533,Intensive Care Specialist,Principal Title
+2533,Intensivist,Alternative Title
+2533,Neurologist,Principal Title
+2533,Neonatologist,Specialisation
+2533,Paediatric Thoracic Physician,Specialisation
+2533,Paediatrician,Principal Title
+2533,Nephrologist,Alternative Title
+2533,Renal Medicine Physician,Alternative Title
+2533,Renal Medicine Specialist,Principal Title
+2533,Rheumatologist,Principal Title
+2533,Pulmonary Specialist,Specialisation
+2533,Respiratory Medicine Physician,Alternative Title
+2533,Respiratory Physician,Specialisation
+2533,Thoracic Medicine Physician,Alternative Title
+2533,Thoracic Medicine Specialist,Principal Title
+2533,Clinical Allergist,Occupation in nec category
+2533,Clinical Geneticist,Occupation in nec category
+2533,Clinical Immunologist,Occupation in nec category
+2533,Clinical Pharmacologist,Occupation in nec category
+2533,Geriatrician,Occupation in nec category
+2533,Infectious Diseases Physician,Occupation in nec category
+2533,Musculoskeletal Physician (NZ),Occupation in nec category
+2533,Occupational Medicine Physician,Occupation in nec category
+2533,Palliative Medicine Physician,Occupation in nec category
+2533,Public Health Physician,Occupation in nec category
+2533,Rehabilitation Medicine Physician,Occupation in nec category
+2533,Sexual Health Physician,Occupation in nec category
+2533,Sleep Medicine Physician,Occupation in nec category
+2533,Specialist Physicians nec,Principal Title
+2534,Adolescent Psychiatrist,Specialisation
+2534,Child and Adolescent Psychiatrist,Specialisation
+2534,Child Psychiatrist,Specialisation
+2534,Forensic Psychiatrist,Specialisation
+2534,Geriatric Psychiatrist,Specialisation
+2534,Medical Psychotherapist,Specialisation
+2534,Psychiatrist,Principal Title
+2535,Surgeon (General),Principal Title
+2535,Cardiothoracic Surgeon,Principal Title
+2535,Neurosurgeon,Principal Title
+2535,Orthopaedic Surgeon,Principal Title
+2535,"Ear, Nose and Throat Specialist",Alternative Title
+2535,Head and Neck Surgeon,Alternative Title
+2535,Laryngologist,Specialisation
+2535,Otologist,Specialisation
+2535,Otorhinolaryngologist,Principal Title
+2535,Rhinologist,Specialisation
+2535,Paediatric Surgeon,Principal Title
+2535,Plastic and Reconstructive Surgeon,Principal Title
+2535,Urologist,Principal Title
+2535,Vascular Surgeon,Principal Title
+2539,Dermatologist,Principal Title
+2539,Emergency Medicine Specialist,Principal Title
+2539,Emergency Physician,Alternative Title
+2539,Gynaecological Oncologist,Specialisation
+2539,Obstetrician and Gynaecologist,Principal Title
+2539,Reproductive Endocrinologist,Specialisation
+2539,Urogynaecologist,Specialisation
+2539,Eye Specialist,Alternative Title
+2539,Eye Surgeon,Alternative Title
+2539,Ophthalmologist,Principal Title
+2539,Clinical Cytopathologist,Specialisation
+2539,Forensic Pathologist,Specialisation
+2539,Immunologist,Specialisation
+2539,Pathologist,Principal Title
+2539,Diagnostic and Interventional Radiologist,Principal Title
+2539,Medical Imaging Specialist,Specialisation
+2539,Radiation Oncologist,Principal Title
+2539,Medical Practitioners nec,Principal Title
+2539,Nuclear Medicine Physician,Occupation in nec category
+2539,Sports Physician,Occupation in nec category
+2541,Certified Midwife,Alternative Title
+2541,Community Midwife,Specialisation
+2541,Midwife,Principal Title
+2541,Midwife Practitioner,Specialisation
+2541,Registered Midwife,Alternative Title
+2542,Clinical Nurse Educator,Alternative Title
+2542,Nurse Educator,Principal Title
+2542,Staff Development Nurse,Alternative Title
+2542,Nurse Researcher,Principal Title
+2543,Charge Nurse,Alternative Title
+2543,Nurse Manager,Principal Title
+2543,Nurse Supervisor,Alternative Title
+2543,Nurse Unit Manager,Alternative Title
+2544,Nurse Practitioner,Principal Title
+2544,Registered Nurse (Aged Care),Principal Title
+2544,Registered Nurse (Gerontology),Specialisation
+2544,Plunket Nurse (NZ),Specialisation
+2544,Registered Nurse (Child and Family Health),Principal Title
+2544,Registered Nurse (Community Health),Principal Title
+2544,Registered Nurse (Health Education and Promotion),Specialisation
+2544,Registered Nurse (Public Health),Specialisation
+2544,Registered Nurse (School Nurse),Specialisation
+2544,Registered Nurse (Acute Care),Specialisation
+2544,Registered Nurse (Critical Care and Emergency),Principal Title
+2544,Registered Nurse (Emergency/Trauma),Specialisation
+2544,Registered Nurse (High Dependency),Specialisation
+2544,Registered Nurse (Neonatal Intensive Care),Specialisation
+2544,Registered Nurse (Paediatric Intensive Care),Specialisation
+2544,Mental Retardation Nurse,Alternative Title
+2544,Registered Nurse (Developmental Disability),Principal Title
+2544,Registered Nurse (Disability and Rehabilitation),Principal Title
+2544,Registered Nurse (Rehabilitation),Specialisation
+2544,Registered Nurse (Medical),Principal Title
+2544,Practice Nurse,Alternative Title
+2544,Primary Health Care Nurse (NZ),Alternative Title
+2544,Registered Nurse (Medical Practice),Principal Title
+2544,Psychiatric Nurse,Alternative Title
+2544,Psychopaedic Nurse (NZ),Specialisation
+2544,Registered Nurse (Child and Adolescence Mental Health),Specialisation
+2544,Registered Nurse (Drug and Alcohol),Specialisation
+2544,Registered Nurse (Mental Health),Principal Title
+2544,Registered Nurse (Psychiatric Rehabilitation),Specialisation
+2544,Registered Nurse (Psychogeriatric Care),Specialisation
+2544,Operating Room Nurse,Alternative Title
+2544,Registered Nurse (Anaesthetic),Specialisation
+2544,Registered Nurse (Operating Room),Specialisation
+2544,Registered Nurse (Perioperative),Principal Title
+2544,Registered Nurse (Recovery),Specialisation
+2544,Registered Nurse (Surgical),Principal Title
+2544,Registered Nurse (Paediatrics),Principal Title
+2544,Aboriginal Health Nurse,Occupation in nec category
+2544,Flight Nurse,Occupation in nec category
+2544,Immunisation Nurse,Occupation in nec category
+2544,Nursing Officer (Defence Forces),Occupation in nec category
+2544,Pathology Nurse,Occupation in nec category
+2544,Radiology Nurse,Occupation in nec category
+2544,Red Cross Blood Service Nurse,Occupation in nec category
+2544,Registered Nurse (Infection Control),Occupation in nec category
+2544,Registered Nurses nec,Principal Title
+2544,Remote Area Nurse,Occupation in nec category
+2611,BA (ICT),Alternative Title
+2611,Business Consultant (ICT),Alternative Title
+2611,Business Systems Analyst,Specialisation
+2611,ICT Business Analyst,Principal Title
+2611,Systems Analyst,Principal Title
+2611,UI Designer,Alternative Title
+2611,Usability Architect,Alternative Title
+2611,User Experience Designer (ICT),Principal Title
+2611,User Interface Designer,Alternative Title
+2611,UX Designer,Alternative Title
+2612,Electronic Game Developer,Alternative Title
+2612,Multimedia Developer,Alternative Title
+2612,Multimedia Programmer,Alternative Title
+2612,Multimedia Specialist,Principal Title
+2612,Web Developer,Principal Title
+2612,Web Programmer,Alternative Title
+2613,Analyst Programmer,Principal Title
+2613,Programmer Analyst,Alternative Title
+2613,Applications Developer,Alternative Title
+2613,Cyber Security Developer,Specialisation
+2613,Database Developer,Specialisation
+2613,Database Programmer (Systems),Specialisation
+2613,Developer Programmer,Principal Title
+2613,ICT Developer,Alternative Title
+2613,ICT Programmer,Alternative Title
+2613,Network Programmer,Specialisation
+2613,Software Developer,Specialisation
+2613,Software Programmer,Specialisation
+2613,Computer Applications Engineer,Specialisation
+2613,Database Designer,Specialisation
+2613,Software Architect,Alternative Title
+2613,Software Designer,Alternative Title
+2613,Software Engineer,Principal Title
+2613,Systems Architect,Specialisation
+2613,Software Tester,Principal Title
+2613,Cyber Security Engineer,Principal Title
+2613,ICT Security Engineer,Alternative Title
+2613,Information Security Engineer,Alternative Title
+2613,Cloud Computing Engineer,Specialisation
+2613,Continuous Integration Engineer,Specialisation
+2613,Devops Engineer,Principal Title
+2613,Ethical Hacker,Alternative Title
+2613,ICT Vulnerability Tester,Alternative Title
+2613,Penetration Tester,Principal Title
+2613,White Hat,Alternative Title
+2613,Software and Applications Programmers nec,Principal Title
+2621,Database Administrator,Principal Title
+2621,Database Analyst,Specialisation
+2621,Database Operator,Alternative Title
+2621,Database Specialist,Alternative Title
+2621,Database Support,Alternative Title
+2621,DBA,Alternative Title
+2621,Systems Administrator,Principal Title
+2621,Systems Manager,Alternative Title
+2621,Cyber Governance Risk and Compliance Specialist,Principal Title
+2621,Cyber Security Advice and Assessment Specialist,Principal Title
+2621,Cyber Security Adviser,Alternative Title
+2621,Cyber Security Consultant,Alternative Title
+2621,ICT Security Adviser,Alternative Title
+2621,ICT Security Consultant,Alternative Title
+2621,Cyber Security Analyst,Principal Title
+2621,Cyber Security Researcher or Vulnerability Researcher,Specialisation
+2621,Cyber Security Vulnerability Assessor,Specialisation
+2621,Cyber Threat Analyst,Specialisation
+2621,ICT Security Analyst,Alternative Title
+2621,Information Security Analyst,Alternative Title
+2621,Malware Analyst,Specialisation
+2621,Cyber Security Architect,Principal Title
+2621,Enterprise Security Architect,Alternative Title
+2621,ICT Security Architect,Alternative Title
+2621,Cyber Security Incident Responder,Specialisation
+2621,Cyber Security Operations Coordinator,Principal Title
+2621,Cyber Security Operations Manager,Alternative Title
+2621,Security Administrator,Alternative Title
+2631,Computer Network and Systems Engineer,Principal Title
+2631,Computer Network Engineer,Specialisation
+2631,Computer Systems Integrator,Specialisation
+2631,LAN Administrator,Specialisation
+2631,Network Administrator,Principal Title
+2631,Network Specialist,Alternative Title
+2631,Network Support,Alternative Title
+2631,Network Analyst,Principal Title
+2631,Network Architect,Specialisation
+2631,Network Consultant,Specialisation
+2631,Network Designer,Alternative Title
+2631,Network Strategist,Alternative Title
+2632,Computer Systems Auditor,Specialisation
+2632,ICT Quality Assurance Engineer,Principal Title
+2632,Quality Analyst (ICT),Alternative Title
+2632,Quality Manager (ICT),Alternative Title
+2632,Quality Specialist (ICT),Alternative Title
+2632,Systems Auditor (ICT),Specialisation
+2632,ICT Support Engineer,Principal Title
+2632,Support Analyst,Alternative Title
+2632,Support Architect,Alternative Title
+2632,ICT Systems Test Engineer,Principal Title
+2632,Systems Tester,Alternative Title
+2632,Test Analyst (ICT),Alternative Title
+2632,ICT Support and Test Engineers nec,Principal Title
+2633,Signals Officer (Army) (NZ),Specialisation
+2633,Telecommunications Engineer,Principal Title
+2633,Communications Consultant,Alternative Title
+2633,Communications Specialist (ICT),Alternative Title
+2633,Telecommunications Consultant,Alternative Title
+2633,Telecommunications Network Engineer,Principal Title
+2633,Telecommunications Specialist,Alternative Title
+2711,Barrister,Principal Title
+2711,Queen's Counsel,Specialisation
+2711,Senior Counsel,Specialisation
+2712,District Court Judge,Specialisation
+2712,Family Court Justice,Specialisation
+2712,High Court Justice,Specialisation
+2712,Judge,Principal Title
+2712,Supreme Court Judge,Specialisation
+2712,Youth Court Judge (NZ),Specialisation
+2712,Chamber Magistrate,Alternative Title
+2712,Children's Court Magistrate,Specialisation
+2712,Industrial Court Magistrate,Specialisation
+2712,Licensing Court Magistrate,Specialisation
+2712,Magistrate,Principal Title
+2712,Administrative Appeals Tribunal Member,Specialisation
+2712,Industrial Relations Commissioner,Specialisation
+2712,Tribunal Member,Principal Title
+2712,Waitangi Tribunal Member (NZ),Specialisation
+2712,Intellectual Property Lawyer,Principal Title
+2712,Patent Attorney,Specialisation
+2712,Trade Mark Attorney,Specialisation
+2712,Family Court Registrar,Occupation in nec category
+2712,Family Law Mediator,Occupation in nec category
+2712,Judicial and Other Legal Professionals nec,Principal Title
+2712,Judicial Registrar,Occupation in nec category
+2712,Legal Officer,Occupation in nec category
+2712,Legal Researcher,Occupation in nec category
+2712,Parliamentary Counsel,Occupation in nec category
+2713,Solicitor,Principal Title
+2721,Careers Adviser,Alternative Title
+2721,Careers Counsellor,Principal Title
+2721,Drug and Alcohol Counsellor,Principal Title
+2721,Family and Marriage Counsellor,Principal Title
+2721,Family Court Counsellor,Specialisation
+2721,Rehabilitation Counsellor,Principal Title
+2721,School Counsellor,Alternative Title
+2721,Student Counsellor,Principal Title
+2721,Counsellors nec,Principal Title
+2721,Gambling Counsellor,Occupation in nec category
+2721,Grief Counsellor,Occupation in nec category
+2721,Life Coach,Occupation in nec category
+2721,Sexual Assault Counsellor / Sexual Abuse Counsellor,Occupation in nec category
+2721,Trauma Counsellor,Occupation in nec category
+2722,Aboriginal Ceremonial Celebrant,Specialisation
+2722,Chaplain,Specialisation
+2722,Imam,Specialisation
+2722,Minister of Religion,Principal Title
+2722,Monk,Specialisation
+2722,Priest,Specialisation
+2722,Rabbi,Specialisation
+2722,Salvation Army Officer,Specialisation
+2723,Clinical Psychologist,Principal Title
+2723,Forensic Psychologist,Specialisation
+2723,Health Psychologist,Specialisation
+2723,Neuropsychologist,Specialisation
+2723,Educational Psychologist,Principal Title
+2723,Industrial Psychologist,Alternative Title
+2723,Occupational Psychologist,Alternative Title
+2723,Organisational Psychologist,Principal Title
+2723,Art Psychotherapist or Therapist,Specialisation
+2723,Psychotherapist,Principal Title
+2723,Counselling Psychologist,Occupation in nec category
+2723,Psychologists nec,Principal Title
+2723,Sport Psychologist,Occupation in nec category
+2724,Art Historian,Specialisation
+2724,Cultural Historian,Specialisation
+2724,Economic Historian,Specialisation
+2724,Geographical Historian,Specialisation
+2724,Historian,Principal Title
+2724,Interpreter,Principal Title
+2724,Kai Whakaruruhau (Advisor) (NZ),Specialisation
+2724,Translator,Principal Title
+2724,Archaeologist,Principal Title
+2724,Anthropologist,Occupation in nec category
+2724,Criminologist,Occupation in nec category
+2724,Geographer,Occupation in nec category
+2724,Heritage Consultant,Occupation in nec category
+2724,Linguist,Occupation in nec category
+2724,Parole Board Member,Occupation in nec category
+2724,Political Scientist,Occupation in nec category
+2724,Social Professionals nec,Principal Title
+2724,Sociologist,Occupation in nec category
+2724,Transport Analyst,Occupation in nec category
+2725,Social Worker,Principal Title
+2725,Whanau Support Worker (Family Support Worker) (NZ),Specialisation
+2726,Community Artist,Alternative Title
+2726,Community Arts Officer,Alternative Title
+2726,Community Arts Worker,Principal Title
+2726,Community Cultural Development Officer,Specialisation
+2726,Recreation Adviser,Alternative Title
+2726,Recreation Officer / Recreation Coordinator,Principal Title
+2726,Welfare Case Worker,Alternative Title
+2726,Welfare Worker,Principal Title
+3111,Agricultural and Agritech Technician,Principal Title
+3111,Agriculture Laboratory Technician,Specialisation
+3111,Precision Agricultural Technician,Specialisation
+3111,Animal Husbandry Technician,Principal Title
+3111,Artificial Insemination Technician,Specialisation
+3111,Aquaculture or Fisheries Technician,Principal Title
+3111,Fisheries Technical Officer,Specialisation
+3111,Hatchery Technician (Aquaculture),Specialisation
+3111,Irrigation Designer,Principal Title
+3111,Irrigation Planner,Alternative Title
+3112,Anaesthetic Technician,Principal Title
+3112,Cardiac Technician,Principal Title
+3112,Cardiac Technologist,Specialisation
+3112,Electrocardiographic Technician,Specialisation
+3112,Medical Laboratory Technical Officer,Alternative Title
+3112,Medical Laboratory Technician,Principal Title
+3112,Operating Theatre Technician,Principal Title
+3112,Dispensary Technician,Alternative Title
+3112,Pharmacy Technician,Principal Title
+3112,Blood Collector,Specialisation
+3112,Pathology Collector / Phlebotomist,Principal Title
+3112,Specimen Collector,Alternative Title
+3112,Respiratory Technician,Principal Title
+3112,Sleep Technician,Alternative Title
+3112,Neurophysiological Technician,Specialisation
+3112,Audiometrist,Occupation in nec category
+3112,Dialysis Technician,Occupation in nec category
+3112,Electroencephalographic Technician,Occupation in nec category
+3112,Medical Technicians nec,Principal Title
+3112,Mortuary Technician,Occupation in nec category
+3112,Ophthalmic Technician,Occupation in nec category
+3112,Orthotic and Prosthetic Technician,Occupation in nec category
+3112,Perfusionist,Occupation in nec category
+3112,Renal Technician,Occupation in nec category
+3113,Fisheries Inspector,Alternative Title
+3113,Fisheries Officer,Principal Title
+3113,Meat Inspector,Principal Title
+3113,Biosecurity Officer,Principal Title
+3113,Dairy Quality Assurance Officer,Specialisation
+3113,Meat Quality Assurance Officer,Specialisation
+3113,Primary Products Quality Assurance Officer,Principal Title
+3113,Primary Products Assurance and Inspection Officers nec,Principal Title
+3114,Chemical Instrumentation  Officer,Specialisation
+3114,Chemical Process Analyst,Specialisation
+3114,Chemistry Laboratory Technician,Specialisation
+3114,Chemistry Technical Officer,Alternative Title
+3114,Chemistry Technician,Principal Title
+3114,Dairy Laboratory Technician,Specialisation
+3114,Petroleum Laboratory Technician,Specialisation
+3114,Sugar Laboratory Assistant,Specialisation
+3114,Earth Science Laboratory Technician,Specialisation
+3114,Earth Science Technical Officer,Alternative Title
+3114,Earth Science Technician,Principal Title
+3114,Geochemical Laboratory Technician,Specialisation
+3114,Geological Technical Officer,Specialisation
+3114,Geoscience Laboratory Technician,Specialisation
+3114,Meteorological Observer,Specialisation
+3114,Seismology Technical Officer,Specialisation
+3114,Soil Science Technical Officer,Specialisation
+3114,Water Resources Technical Officer,Specialisation
+3114,Biological Technical Officer,Specialisation
+3114,Botanical Technical Officer,Specialisation
+3114,Ecological Technical Officer,Specialisation
+3114,Environmental Technical Officer,Specialisation
+3114,Forestry Technical Officer,Specialisation
+3114,Forestry Technician,Specialisation
+3114,Life Science Technical Officer,Alternative Title
+3114,Life Science Technician,Principal Title
+3114,Wood Technologist,Specialisation
+3114,Zoology Technical Officer,Specialisation
+3114,School Laboratory Technician,Principal Title
+3114,Hydrographer,Principal Title
+3114,Calibration Technician,Occupation in nec category
+3114,Drug and Alcohol Tester,Occupation in nec category
+3114,Fibre Technologist,Occupation in nec category
+3114,Fingerprint Expert,Occupation in nec category
+3114,Science Technicians nec,Principal Title
+3114,Textile Technical Officer,Occupation in nec category
+3121,Architectural Associate,Alternative Title
+3121,Architectural Draftsperson,Principal Title
+3121,Building Drafting Officer,Specialisation
+3121,Building Associate,Principal Title
+3121,Building Construction Supervisor,Specialisation
+3121,Clerk of Works,Specialisation
+3121,Building Certifier,Alternative Title
+3121,Building Inspector,Principal Title
+3121,Building Surveyor,Alternative Title
+3121,Electrical Installation Inspector,Specialisation
+3121,Building Estimator,Alternative Title
+3121,Construction Estimator,Principal Title
+3121,Drainage Inspector,Specialisation
+3121,Gas Plumbing Inspector,Specialisation
+3121,Plumbing Inspector,Principal Title
+3121,Sanitary Plumbing and Water Supply Inspector,Specialisation
+3121,Aerial Survey Technician,Specialisation
+3121,GIS Technician,Alternative Title
+3121,Photogrammetrist,Specialisation
+3121,Surveying or Spatial Science Technician,Principal Title
+3121,"Architectural, Building and Surveying Technicians nec",Principal Title
+3121,Energy Assessor,Occupation in nec category
+3121,Roof Truss Detailer,Occupation in nec category
+3121,Structural Steel Detailer,Occupation in nec category
+3122,Civil Engineering Design Draftsperson,Specialisation
+3122,Civil Engineering Draftsperson,Principal Title
+3122,Plumbing Engineering Draftsperson,Specialisation
+3122,Road Design Draftsperson,Specialisation
+3122,Sewage Reticulation Drafting Officer,Specialisation
+3122,Structural Engineering Drafting Officer,Specialisation
+3122,Civil Engineering Assistant,Specialisation
+3122,Civil Engineering Technician,Principal Title
+3122,Civil Laboratory Technician,Specialisation
+3122,Geotechnical Laboratory Technician,Specialisation
+3123,Electrical Engineering Design Draftsperson,Specialisation
+3123,Electrical Engineering Detail Draftsperson,Specialisation
+3123,Electrical Engineering Drafting Officer,Specialisation
+3123,Electrical Engineering Draftsperson,Principal Title
+3123,Relays Draftsperson,Specialisation
+3123,Substation Design Draftsperson,Specialisation
+3123,Electrical Engineering Laboratory Technician,Specialisation
+3123,Electrical Engineering Technical Officer,Alternative Title
+3123,Electrical Engineering Technician,Principal Title
+3123,Electrical Instrument Technician,Specialisation
+3124,Communications and Data Systems Drafting Officer,Specialisation
+3124,Control Systems Drafting Officer,Specialisation
+3124,Electronic Engineering Draftsperson,Principal Title
+3124,Electronics Detail Draftsperson,Specialisation
+3124,Aircraft Electronics Technician,Specialisation
+3124,Combat Systems Technician,Specialisation
+3124,Communications  Engineering Technician,Specialisation
+3124,Computer Numeric Control Technician,Specialisation
+3124,Digital Controls Technician,Specialisation
+3124,Electronic Engineering Technician,Principal Title
+3124,Flight Surveyor,Specialisation
+3124,Printed Circuit Board Designer,Specialisation
+3124,Process Control Technician,Specialisation
+3124,Telemetry Technician,Specialisation
+3125,Airconditioning Drafting Officer,Specialisation
+3125,Heating and Ventilating Technical Officer,Specialisation
+3125,Mechanical Engineering Draftsperson,Principal Title
+3125,Tool Design Draftsperson,Specialisation
+3125,Tool Designer,Specialisation
+3125,Boiler Testing Technician,Specialisation
+3125,Hydraulic Controls Technician,Specialisation
+3125,Mechanical Engineering Technician,Principal Title
+3125,Mechanical Laboratory Technician,Specialisation
+3125,Pipe Testing Technician,Specialisation
+3126,Boilers and Pressure Vessels Inspector,Specialisation
+3126,Gas Examiner,Specialisation
+3126,Lifts and Cranes Inspector,Specialisation
+3126,Mines Inspector,Specialisation
+3126,Occupational Health and Safety Inspector,Specialisation
+3126,Safety Inspector,Principal Title
+3129,Maintenance Planner,Principal Title
+3129,Maintenance Scheduler,Alternative Title
+3129,Shutdown Coordinator,Alternative Title
+3129,Shutdown Planner,Alternative Title
+3129,Metallurgical or Materials Technician,Principal Title
+3129,Non-destructive Testing Technician,Specialisation
+3129,Petroleum Products Laboratory Technician,Specialisation
+3129,Petroleum Refinery Laboratory Technician,Specialisation
+3129,Pressure Testing Technician,Specialisation
+3129,Ultrasound Technician,Specialisation
+3129,Welding Engineering Technician,Specialisation
+3129,Mine Deputy,Principal Title
+3129,Mining Technician,Specialisation
+3129,Open Cut Examiner,Specialisation
+3129,Aerospace Draftsperson,Specialisation
+3129,Architecture Technician,Specialisation
+3129,Mining Detail Draftsperson,Specialisation
+3129,Other Draftsperson,Principal Title
+3129,Shipbuilding Draftsperson,Specialisation
+3129,Automation Technician,Occupation in nec category
+3129,Biomedical Technician,Occupation in nec category
+3129,Building and Engineering Technicians nec,Principal Title
+3131,Hardware Technician,Principal Title
+3131,ICT Customer Support Officer,Principal Title
+3131,ICT Help Desk Officer,Alternative Title
+3131,ICT Help Desk Technician,Alternative Title
+3131,Network Support Technician,Specialisation
+3131,Operator Command Support Systems (Army),Specialisation
+3131,Systems Support Officer,Alternative Title
+3131,Web Administrator,Principal Title
+3131,Web Master,Alternative Title
+3131,Applications Packager,Occupation in nec category
+3131,Computer Systems Technician,Occupation in nec category
+3131,ICT Support Technicians nec,Principal Title
+3132,Radiocommunications Technician,Principal Title
+3132,Telecommunications Field Engineer,Principal Title
+3132,Telecommunications Network Planner,Principal Title
+3132,Telecommunications Technical Officer or Technologist,Principal Title
+3211,Automotive Electrical Fitter,Alternative Title
+3211,Automotive Electrician,Principal Title
+3212,Automatic Transmission Mechanic,Specialisation
+3212,Automotive Airconditioning Mechanic,Specialisation
+3212,Automotive Light Mechanic,Alternative Title
+3212,Brake Mechanic,Specialisation
+3212,Ground Support Equipment Fitter (Air Force),Specialisation
+3212,Motor Mechanic (General),Principal Title
+3212,Roadside Mechanic,Specialisation
+3212,Vehicle Mechanic (Army),Specialisation
+3212,Automotive Heavy Mechanic,Specialisation
+3212,Diesel Motor Mechanic,Principal Title
+3212,Motorcycle Mechanic,Principal Title
+3212,Chainsaw Mechanic,Specialisation
+3212,Lawnmower Mechanic,Specialisation
+3212,Outboard Motor Mechanic,Specialisation
+3212,Small Engine Mechanic,Principal Title
+3221,Blacksmith,Principal Title
+3221,Hammer Smith,Specialisation
+3221,Spring Maker,Specialisation
+3221,Tool Smith,Specialisation
+3221,Anodiser,Specialisation
+3221,Electroformer,Specialisation
+3221,Electroplater,Principal Title
+3221,Galvaniser,Specialisation
+3221,Farrier,Principal Title
+3221,Coremaker,Specialisation
+3221,Metal Casting Trades Worker,Principal Title
+3221,Metal Moulder,Specialisation
+3221,Metal Polisher,Principal Title
+3222,Sheetmetal Fabricator,Alternative Title
+3222,Sheetmetal Worker,Principal Title
+3223,Boilermaker-Welder,Specialisation
+3223,Metal Fabricator,Principal Title
+3223,Pressure Welder,Principal Title
+3223,Special Class Welder,Specialisation
+3223,Welder (First Class) (Aus) / Welder (NZ),Principal Title
+3231,Aircraft Maintenance Engineer (Avionics),Principal Title
+3231,Aircraft Maintenance Engineer (Electrical),Specialisation
+3231,Aircraft Maintenance Engineer (Instruments),Specialisation
+3231,Aircraft Maintenance Engineer (Radio),Specialisation
+3231,Avionics Technician (Defence),Specialisation
+3231,Licensed Aircraft Maintenance Engineer (Electrical),Specialisation
+3231,Licensed Aircraft Maintenance Engineer (Instruments),Specialisation
+3231,Licensed Aircraft Maintenance Engineer (Radio),Specialisation
+3231,Aircraft Maintenance Engineer (Airframes),Specialisation
+3231,Aircraft Maintenance Engineer (Engines),Specialisation
+3231,Aircraft Maintenance Engineer (Mechanical),Principal Title
+3231,"Aircraft Technician (Air Force, Army)",Specialisation
+3231,Aviation Technician Aircraft (Navy),Specialisation
+3231,Licensed Aircraft Maintenance Engineer (Airframes),Specialisation
+3231,Licensed Aircraft Maintenance Engineer (Engines),Specialisation
+3231,Aircraft Maintenance Engineer (Structures),Principal Title
+3231,"Aircraft Structural Fitter (Air Force, Army)",Specialisation
+3232,Diesel Fitter-Mechanic,Specialisation
+3232,Fitter (General),Principal Title
+3232,Fitter-Machinist,Specialisation
+3232,Fitter-Mechanic,Specialisation
+3232,Locomotive Maintainer,Specialisation
+3232,Maintenance Fitter,Specialisation
+3232,Mechanic (Diesel and Heavy Earthmoving Equipment),Specialisation
+3232,Stationary Plant Mechanic,Specialisation
+3232,Fitter and Turner,Principal Title
+3232,Fitter Armament (Army),Specialisation
+3232,Fitter-Welder,Principal Title
+3232,Aircraft Machinist,Specialisation
+3232,Automotive Machinist,Specialisation
+3232,Metal Machine Setter,Specialisation
+3232,Metal Machinist (First Class),Principal Title
+3232,Metal Turner,Specialisation
+3232,Milling Machinist,Specialisation
+3232,Vertical Borer,Specialisation
+3232,Loom Tuner,Specialisation
+3232,Sewing Machine Mechanic,Specialisation
+3232,Textile Machine Mechanic,Specialisation
+3232,"Textile, Clothing and Footwear Mechanic",Principal Title
+3232,Metal Fitters and Machinists nec,Principal Title
+3232,Printing Engineer,Occupation in nec category
+3233,Engraver,Principal Title
+3233,Gunsmith,Principal Title
+3233,Locksmith,Principal Title
+3233,Camera Repairer,Specialisation
+3233,Precision Instrument Maker and Repairer,Principal Title
+3233,Scalemaker,Specialisation
+3233,Scientific Instrument Maker and Repairer,Specialisation
+3233,Saw Doctor,Principal Title
+3233,Saw Sharpener,Specialisation
+3233,Watch and Clock Maker and Repairer,Principal Title
+3234,Engineering Patternmaker,Principal Title
+3234,Die Caster,Specialisation
+3234,Die Sinker,Specialisation
+3234,Jigmaker (Metal),Specialisation
+3234,Plastic Mould Maker,Specialisation
+3234,Press-tool Maker,Specialisation
+3234,Toolmaker,Principal Title
+3241,Collision Repairer,Alternative Title
+3241,Panelbeater,Principal Title
+3242,Coach Builder,Specialisation
+3242,Vehicle Body Builder,Principal Title
+3242,Vehicle Body Maker,Alternative Title
+3242,Vehicle Trimmer,Principal Title
+3242,Vehicle Upholsterer,Specialisation
+3243,Vehicle Painter,Principal Title
+3243,Vehicle Refinisher,Alternative Title
+3311,Blocklayer,Alternative Title
+3311,Brick Paver,Specialisation
+3311,Bricklayer,Principal Title
+3311,Refractory Bricklayer,Specialisation
+3311,Monumental Stonemason,Specialisation
+3311,Stonemason,Principal Title
+3312,Carpenter and Joiner,Principal Title
+3312,Shopfitter,Specialisation
+3312,Carpenter,Principal Title
+3312,Fixing Carpenter,Specialisation
+3312,Formwork Carpenter,Specialisation
+3312,Prop and Scenery Maker,Specialisation
+3312,Roof Carpenter,Specialisation
+3312,Joiner,Principal Title
+3312,Stairbuilder,Specialisation
+3321,Carpet Layer,Specialisation
+3321,Floor Finisher,Principal Title
+3321,Floor Sander,Specialisation
+3321,Timber Floor Installer,Specialisation
+3321,Vinyl Layer,Specialisation
+3322,House Painter,Specialisation
+3322,Painter,Principal Title
+3322,Painter and Decorator,Alternative Title
+3331,Glazier,Principal Title
+3332,Ceiling Fixer,Specialisation
+3332,Drywall Plasterer,Alternative Title
+3332,Plasterer (Wall and Ceiling),Principal Title
+3332,Wall and Ceiling Fixer,Alternative Title
+3332,Renderer (Solid Plaster),Principal Title
+3332,Solid Plasterer,Alternative Title
+3333,Roof Tiler,Principal Title
+3334,Ceramic Tiler,Specialisation
+3334,Pool Tiler,Specialisation
+3334,Wall and Floor Tiler,Principal Title
+3341,Airconditioning and Mechanical Services Plumber,Principal Title
+3341,Drainer,Principal Title
+3341,Plumber and Drainer,Alternative Title
+3341,Gasfitter,Principal Title
+3341,Plumber and Gasfitter,Alternative Title
+3341,Fascia and Guttering Installer,Specialisation
+3341,Roof Plumber,Principal Title
+3341,Plumber (General),Principal Title
+3341,Fire Protection Plumber,Principal Title
+3341,Sprinkler Fitter,Specialisation
+3411,Armature Winder,Specialisation
+3411,Electrical Contractor,Alternative Title
+3411,Electrical Fitter,Alternative Title
+3411,Electrician (General),Principal Title
+3411,Railway Signal Electrician,Specialisation
+3411,Solar Installer,Specialisation
+3411,Electrician (Special Class),Principal Title
+3411,Lift Electrician,Alternative Title
+3411,Lift Mechanic,Principal Title
+3421,Airconditioning and Refrigeration Mechanic,Principal Title
+3422,Electrical Linesworker (Distribution) / Electrical Line Mechanic (Distribution),Specialisation
+3422,Electrical Linesworker (Transmission) / Electrical Line Mechanic (Transmission),Specialisation
+3422,Electrical Linesworker / Electrical Line Mechanic,Principal Title
+3422,Railway Traction Line Worker,Specialisation
+3422,Technical Cable Jointer,Principal Title
+3423,Business Machine Mechanic,Principal Title
+3423,Office Equipment Technician,Alternative Title
+3423,Office Machine Technician,Alternative Title
+3423,Photocopier Technician,Specialisation
+3423,Communication Information Systems Sailor (Navy),Specialisation
+3423,Communications and Information Systems Controller (Air Force),Specialisation
+3423,Communications Operator,Principal Title
+3423,Operator Specialist Communications (Army),Specialisation
+3423,Audiovisual Technician,Specialisation
+3423,Electronic Equipment Trades Worker,Principal Title
+3423,Fire Alarm Technician,Specialisation
+3423,Home Theatre Technician,Specialisation
+3423,Security Technician,Specialisation
+3423,Video Technician,Specialisation
+3423,Communication Electronic Technician (Air Force),Specialisation
+3423,Electronic Instrument Trades Worker (General),Principal Title
+3423,Electronic Technician (Navy),Specialisation
+3423,Instrument and Control Service Person,Alternative Title
+3423,Electronic Instrument Trades Worker (Special Class),Principal Title
+3423,Industrial Measurement and Control Technician,Alternative Title
+3424,Cabler (Data and Telecommunications),Principal Title
+3424,Fibre Optic Cable Splicer,Specialisation
+3424,Fibre Optics Jointer,Specialisation
+3424,Telecommunications Cable Jointer,Principal Title
+3424,Operator Bearer Systems (Army),Specialisation
+3424,Telecommunications Linesworker / Telecommunications Line Mechanic,Principal Title
+3424,Communications Technician,Alternative Title
+3424,Technician Telecommunication Systems (Army),Specialisation
+3424,Telecommunications Technician,Principal Title
+3511,Baker,Principal Title
+3511,Dough Maker,Specialisation
+3511,Cake Decorator,Specialisation
+3511,Pastrycook,Principal Title
+3512,Butcher or Smallgoods Maker,Principal Title
+3513,Chef,Principal Title
+3513,Chef de Partie,Specialisation
+3513,Commis Chef,Specialisation
+3513,Demi Chef,Specialisation
+3513,Second Chef,Specialisation
+3513,Sous Chef,Specialisation
+3514,Cook,Principal Title
+3611,Dog Handler or Trainer,Principal Title
+3611,Horse Breaker,Specialisation
+3611,Horse Trainer,Principal Title
+3611,Pet Groomer,Principal Title
+3611,Aquarist,Specialisation
+3611,Zookeeper,Principal Title
+3611,Kennel Hand,Principal Title
+3611,Exercise Rider,Alternative Title
+3611,Track Rider,Principal Title
+3611,Trackwork Rider,Alternative Title
+3611,Animal Attendants and Trainers nec,Principal Title
+3611,Animal Trainer,Occupation in nec category
+3611,Animal Welfare Officer,Occupation in nec category
+3613,Animal Nurse,Alternative Title
+3613,Veterinary Assistant,Alternative Title
+3613,Veterinary Nurse,Principal Title
+3621,Florist,Principal Title
+3623,Golf Course Superintendent,Specialisation
+3623,Head Curator (Sportsground),Specialisation
+3623,Sports Turf Manager,Principal Title
+3623,Sportsground Manager,Alternative Title
+3623,Greenkeeper,Alternative Title
+3623,Grounds Curator,Specialisation
+3623,Groundsperson (Sportsground),Alternative Title
+3623,Sports Turf Trades Worker,Principal Title
+3623,Sportsground Foreperson,Specialisation
+3623,Turf Tradesperson,Alternative Title
+3624,Forest Nursery Production Operator,Specialisation
+3624,Nurseryperson,Principal Title
+3624,Plant Propagator,Specialisation
+3625,Arboricultural Consultant,Specialisation
+3625,Arboriculturist,Alternative Title
+3625,Arborist,Principal Title
+3625,Urban Forester,Alternative Title
+3625,Tree Surgeon,Alternative Title
+3625,Tree Worker,Principal Title
+3625,Utility Tree Worker,Specialisation
+3626,Gardener (General),Principal Title
+3627,Landscape Gardener,Principal Title
+3627,Irrigation Technician,Principal Title
+3631,Aquaculture Supervisor,Principal Title
+3631,Processing Supervisor (Aquaculture),Specialisation
+3631,Fishing Leading Hand,Principal Title
+3631,Forestry Operations Supervisor,Principal Title
+3631,Horticultural Chemical Spray Operator,Specialisation
+3631,Horticultural Fertigation Manager,Specialisation
+3631,Horticultural Harvest Supervisor,Specialisation
+3631,Horticultural Irrigation Manager,Specialisation
+3631,Horticultural Machine Supervisor,Specialisation
+3631,Horticultural Packing Facility Supervisor,Specialisation
+3631,Horticultural Production Supervisor,Specialisation
+3631,Horticultural Supervisor or Specialist,Principal Title
+3631,Horticulture Section Manager,Specialisation
+3631,Senior Broadacre Crop and Livestock Farm Worker,Principal Title
+3631,Broadacre Crop Chemical Spray Operator,Specialisation
+3631,Senior Broadacre Crop Farm Worker,Principal Title
+3631,Leading Hand (Vineyard),Alternative Title
+3631,Vineyard Supervisor,Principal Title
+3631,"Senior Aquaculture, Crop and Forestry Workers nec",Principal Title
+3632,Leading Hand (Beef Cattle),Alternative Title
+3632,Overseer (Beef Cattle),Alternative Title
+3632,Senior Beef Cattle Station Worker,Principal Title
+3632,Senior Cattle and Sheep Farm Worker,Principal Title
+3632,Dairy Herd Manager,Alternative Title
+3632,Production Manager (Dairy Cattle) (Skill Level 2),Specialisation
+3632,Senior Dairy Cattle Farm Worker,Principal Title
+3632,Senior Piggery Attendant,Alternative Title
+3632,Senior Piggery Stockperson,Principal Title
+3632,Senior Sheep Farm Worker,Principal Title
+3632,Senior Horse Stud Worker,Specialisation
+3632,Senior Livestock Farm Workers nec,Principal Title
+3632,Senior Poultry Farm Worker,Specialisation
+3633,Shearer,Principal Title
+3633,Wool Classer,Principal Title
+3911,Barber,Specialisation
+3911,Hairdresser,Principal Title
+3921,Mailhouse Operator (Aus),Specialisation
+3921,Paper Guillotine Operator (Bookbinding),Specialisation
+3921,Print Finisher,Principal Title
+3921,Screen Printer,Principal Title
+3921,Screen Printing Stencil Preparer,Specialisation
+3921,Textiles Printer,Specialisation
+3922,Desktop Publishing Operator,Specialisation
+3922,Graphic Pre-press Trades Worker,Principal Title
+3923,Flexographic Printing Machinist,Specialisation
+3923,Gravure Printing Machinist,Specialisation
+3923,Label Printing Machinist,Specialisation
+3923,Letterpress Printing Machinist,Specialisation
+3923,Lithographic Printing Machinist,Specialisation
+3923,Printing Machinist,Principal Title
+3923,Reel Fed Printer,Specialisation
+3923,Sheet Fed Printer,Specialisation
+3923,Digital Printer,Specialisation
+3923,Instant Printer Operator,Alternative Title
+3923,Small Offset Printer,Principal Title
+3931,Canvas Goods Fabricator,Principal Title
+3931,Canvas Goods Maker,Alternative Title
+3931,Leather Goods Maker,Principal Title
+3931,Saddler,Specialisation
+3931,Sail Maker,Principal Title
+3931,Medical Grade Shoemaker,Specialisation
+3931,Shoe Repairer,Specialisation
+3931,Shoemaker,Principal Title
+3932,Apparel Cutter,Principal Title
+3932,Clothing Patternmaker,Principal Title
+3932,Pattern Grader (Clothing),Specialisation
+3932,Patternmaker-Grader,Specialisation
+3932,Costume Maker,Specialisation
+3932,Dressmaker or Tailor,Principal Title
+3932,Wardrobe Assistant,Specialisation
+3932,Wardrobe Coordinator,Specialisation
+3932,Clothing Trades Workers nec,Principal Title
+3932,Milliner,Occupation in nec category
+3933,Furniture Upholsterer,Specialisation
+3933,Mattress Maker,Specialisation
+3933,Upholsterer,Principal Title
+3941,Cabinet Installer,Specialisation
+3941,Cabinet Maker,Principal Title
+3941,Kitchen Installer,Specialisation
+3941,Wardrobe Installer,Specialisation
+3941,Furniture Maker,Principal Title
+3942,French Polisher,Specialisation
+3942,Furniture Finisher,Principal Title
+3942,Picture Framer,Principal Title
+3942,Automatic Profile Sander Operator,Specialisation
+3942,Copy Lathe Operator,Specialisation
+3942,Edge Bander Operator,Specialisation
+3942,Jigmaker (Wood),Specialisation
+3942,Panel Saw Operator,Specialisation
+3942,Sawmill Moulder Operator,Specialisation
+3942,Wood Machinist,Principal Title
+3942,Woodworking Machine Setter,Specialisation
+3942,Wood Turner,Principal Title
+3942,Cooper,Occupation in nec category
+3942,Wood Machinists and Other Wood Trades Workers nec,Principal Title
+3942,Wood Model Maker,Occupation in nec category
+3991,Boat Builder and Repairer,Principal Title
+3991,Composite Boat Builder,Specialisation
+3991,Rigger (Boat),Specialisation
+3991,Sparmaker,Specialisation
+3991,Wooden Boat Builder,Specialisation
+3991,Yacht Builder,Specialisation
+3991,Loftsman/woman (Marine),Specialisation
+3991,Ship's Carpenter,Specialisation
+3991,Shipwright,Principal Title
+3992,Chemical Plant Operator,Principal Title
+3992,Chemicals Distiller,Specialisation
+3992,Chemicals Fermentation Operator,Specialisation
+3992,Industrial Gas Production Operator,Specialisation
+3992,Paint Maker,Specialisation
+3992,Pharmaceutical Plant Operator,Specialisation
+3992,Pilot Plant Operator,Specialisation
+3992,Gas Compressor Turbine Operator,Specialisation
+3992,Gas or Petroleum Operator,Principal Title
+3992,Oil and Gas Well Treatment Operator,Alternative Title
+3992,"Oil, Gas and Pipe Tester",Alternative Title
+3992,Petroleum and Gas Refining and Pumping Operator,Alternative Title
+3992,Petroleum Blending Plant Operator,Specialisation
+3992,Petroleum Terminal Plant Operator,Specialisation
+3992,Refinery Pipeline Operator,Specialisation
+3992,Power Generation Plant Operator,Principal Title
+3992,Wind Turbine Technician,Specialisation
+3993,Gallery or Museum Technician,Principal Title
+3993,Taxidermist,Specialisation
+3993,Library Technician,Principal Title
+3994,Diamond Cutter,Specialisation
+3994,Faceter,Specialisation
+3994,Gem Setter,Specialisation
+3994,Goldsmith,Specialisation
+3994,Jeweller,Principal Title
+3994,Lapidary,Specialisation
+3994,Opal Polisher,Specialisation
+3994,Ring Maker,Specialisation
+3994,Silversmith,Specialisation
+3995,Broadcast Transmitter Operator,Principal Title
+3995,"Camera Operator (Film, Television or Video)",Principal Title
+3995,Focus Puller (Film),Specialisation
+3995,Light Technician,Principal Title
+3995,Make Up Artist,Principal Title
+3995,Musical Instrument Maker or Repairer,Principal Title
+3995,Piano Tuner,Specialisation
+3995,Audio Operator,Specialisation
+3995,Dubbing Machine Operator,Specialisation
+3995,Foley Artist,Specialisation
+3995,Re-recording Mixer,Specialisation
+3995,Sound Editor,Specialisation
+3995,Sound Effects Person,Specialisation
+3995,Sound Mixer,Specialisation
+3995,Sound Recordist,Specialisation
+3995,Sound Technician,Principal Title
+3995,Video and Sound Recorder,Specialisation
+3995,Television Equipment Operator,Principal Title
+3995,Vision Mixer,Specialisation
+3995,Continuity Person,Occupation in nec category
+3995,Microphone Boom Operator,Occupation in nec category
+3995,Performing Arts Road Manager,Occupation in nec category
+3995,Performing Arts Technicians nec,Principal Title
+3995,Special Effects Person,Occupation in nec category
+3995,Theatrical Dresser,Occupation in nec category
+3996,Sign Manufacturer,Specialisation
+3996,Signwriter,Principal Title
+3999,Abalone Diver,Specialisation
+3999,Clearance Diver (Navy),Specialisation
+3999,Diver,Principal Title
+3999,Fisheries Diver,Specialisation
+3999,Hyperbaric Welder Diver,Specialisation
+3999,Offshore Diver,Specialisation
+3999,Onshore Diver,Specialisation
+3999,Pearl Diver,Specialisation
+3999,Saturation Diver,Specialisation
+3999,Scientific Diver,Specialisation
+3999,Interior Decorator,Principal Title
+3999,Optical Dispenser / Dispensing Optician,Principal Title
+3999,Optical Mechanic,Principal Title
+3999,Photographer's Assistant,Principal Title
+3999,Plastics Fitter,Alternative Title
+3999,Plastics Technician,Principal Title
+3999,Fire Extinguisher Technician,Specialisation
+3999,Fire Protection Equipment Technician,Principal Title
+3999,Airborne Electronics Analyst (Air Force),Occupation in nec category
+3999,Architectural Model Maker,Occupation in nec category
+3999,Canoe Maker,Occupation in nec category
+3999,Coffee Machine Technician,Occupation in nec category
+3999,Fibre Composite Technician,Occupation in nec category
+3999,Glass Blower,Occupation in nec category
+3999,Grain Protection Officer,Occupation in nec category
+3999,Hide and Skin Classer,Occupation in nec category
+3999,Kayak Maker,Occupation in nec category
+3999,Parachute Rigger,Occupation in nec category
+3999,Pearl Technician,Occupation in nec category
+3999,Pyrotechnician,Occupation in nec category
+3999,Ski Technician,Occupation in nec category
+3999,Surfboard Maker,Occupation in nec category
+3999,Technicians and Trades Workers nec,Principal Title
+4111,Ambulance Officer,Principal Title
+4111,Patient Transport Officer,Specialisation
+4111,Intensive Care Ambulance Paramedic (Aus) / Ambulance Paramedic (NZ),Principal Title
+4112,Dental Hygienist,Principal Title
+4112,Clinical Dental Technician,Alternative Title
+4112,Dental Prosthetist,Principal Title
+4112,Dental Laboratory Assistant,Specialisation
+4112,Dental Technician,Principal Title
+4112,Dental Therapist,Principal Title
+4112,Oral Health Therapist,Specialisation
+4113,Activities Coordinator,Specialisation
+4113,Activities Officer,Specialisation
+4113,Diversional Therapist,Principal Title
+4113,Recreational Therapist,Alternative Title
+4114,Enrolled Nurse,Principal Title
+4114,Medical Assistant (Defence),Specialisation
+4114,Nursing Assistant (NZ),Alternative Title
+4114,Mothercraft Nurse,Principal Title
+4115,Aboriginal and Torres Strait Islander Health Worker,Principal Title
+4115,Kaiāwhina (Hauora) (Māori Health Assistant),Principal Title
+4116,Chinese (Tui-Na) Masseur,Specialisation
+4116,Massage Therapist,Principal Title
+4116,Remedial Masseur,Specialisation
+4116,Shiatsu Therapist,Specialisation
+4116,Sports Medicine Masseur,Specialisation
+4116,Thai Masseur,Specialisation
+4117,Community Development Officer,Specialisation
+4117,Community Support Worker,Specialisation
+4117,Community Worker,Principal Title
+4117,Housing Officer,Specialisation
+4117,Disabilities Services Officer,Principal Title
+4117,Family Support Worker,Principal Title
+4117,Parole or Probation Officer,Principal Title
+4117,Residential Care Officer,Principal Title
+4117,Juvenile Justice Officer,Specialisation
+4117,Youth Accommodation Support Worker,Specialisation
+4117,Youth Liaison Officer,Specialisation
+4117,Youth Officer,Alternative Title
+4117,Youth Support Worker,Alternative Title
+4117,Youth Worker,Principal Title
+4211,Child Care Aide,Alternative Title
+4211,Child Care Group Leader (Aus),Specialisation
+4211,Child Care Worker,Principal Title
+4211,Children's Nursery Assistant,Specialisation
+4211,Creche Attendant,Specialisation
+4211,Early Childhood Worker,Specialisation
+4211,Family Day Care Worker,Principal Title
+4211,Family Day Carer,Alternative Title
+4211,Nanny,Principal Title
+4211,Out of School Hours Care Worker,Principal Title
+4221,Aboriginal and Torres Strait Islander Education Worker,Principal Title
+4221,Aboriginal Education Worker Coordinator,Specialisation
+4221,Aboriginal Home-School Liaison Officer,Specialisation
+4221,Integration Aide,Principal Title
+4221,Kaiāwhina Kohanga Reo (Māori Language Nest Assistant),Principal Title
+4221,Kaiāwhina Kura Kaupapa Māori (Māori-medium School Assistant),Principal Title
+4221,Kindergarten Assistant,Specialisation
+4221,Preschool Aide,Principal Title
+4221,School Services Officer,Specialisation
+4221,Student Liaison Officer,Specialisation
+4221,Teachers' Aide,Principal Title
+4221,Teachers' Assistant,Specialisation
+4231,Aged or Disabled Care Worker,Alternative Title
+4231,Aged or Disabled Carer,Principal Title
+4231,Personal Care Worker,Alternative Title
+4231,Personal Carer,Alternative Title
+4232,Dental Assistant,Principal Title
+4232,Dental Chairside Assistant,Alternative Title
+4232,Dental Nurse,Alternative Title
+4233,Hospital Orderly,Principal Title
+4233,Patient Services Assistant,Alternative Title
+4233,Wardsperson,Alternative Title
+4233,Assistant in Nursing,Alternative Title
+4233,Nurses' Aide (NZ),Alternative Title
+4233,Nursing Support Worker,Principal Title
+4233,Health Care Assistant,Specialisation
+4233,Personal Care Assistant,Principal Title
+4233,Diversional Therapist's Assistant,Specialisation
+4233,Occupational Therapist's Assistant,Specialisation
+4233,Physiotherapist's Assistant,Specialisation
+4233,Therapist's Assistant,Alternative Title
+4233,Therapy Aide,Principal Title
+4234,Child or Youth Residential Care Assistant,Principal Title
+4234,Hostel Parent,Principal Title
+4234,House Parent,Alternative Title
+4234,Refuge Worker,Principal Title
+4311,Bar Attendant,Principal Title
+4311,Bar Steward,Alternative Title
+4311,Barista,Principal Title
+4312,Cafe Assistant,Alternative Title
+4312,Cafe Attendant,Alternative Title
+4312,Cafe Worker,Principal Title
+4312,Canteen Attendant,Specialisation
+4313,Casino Gaming Inspector,Specialisation
+4313,Croupier,Alternative Title
+4313,Gaming Pit Boss,Specialisation
+4313,Gaming Worker,Principal Title
+4314,Front Office Manager (Hotel),Specialisation
+4314,Head Housekeeper,Specialisation
+4314,Head Porter (Hotel),Specialisation
+4314,Hotel Concierge,Specialisation
+4314,Hotel Office Manager,Specialisation
+4314,Hotel Service Manager,Principal Title
+4314,Hotel Service Supervisor,Alternative Title
+4315,Drink Waiter,Specialisation
+4315,Food and Beverage Attendant,Alternative Title
+4315,Formal Service Waiter,Specialisation
+4315,Silver Service Waiter,Specialisation
+4315,Sommelier,Specialisation
+4315,Waiter,Principal Title
+4315,Wine Steward,Specialisation
+4319,Bar Back,Alternative Title
+4319,Bar Useful or Busser,Principal Title
+4319,Glassie,Alternative Title
+4319,Doorperson or Luggage Porter,Principal Title
+4319,Cellar Hand (Hotel),Occupation in nec category
+4319,Hospitality Workers nec,Principal Title
+4319,Uniform Room Attendant,Occupation in nec category
+4411,Acoustic Warfare Analyst (Navy),Specialisation
+4411,Air Dispatcher (Army),Specialisation
+4411,Air Surveillance Operator (Air Force),Specialisation
+4411,Aircraft Life Support Fitter (Air Force),Specialisation
+4411,Aircraft Life Support Fitter (Army),Specialisation
+4411,Aircrewman (Navy),Specialisation
+4411,Airfield Defence Guard (Air Force),Specialisation
+4411,Boatswains Mate (Navy),Specialisation
+4411,Combat Engineer (Army),Specialisation
+4411,Combat Systems Operator (Navy),Specialisation
+4411,Combat Systems Operator Mine Warfare (Navy),Specialisation
+4411,Commando (Army),Specialisation
+4411,Crewman Armoured Personnel Carrier M113 (Army),Specialisation
+4411,Crewman Australian Light Armoured Vehicle (ASLAV) (Army),Specialisation
+4411,Crewman Main Battle Tank (Army),Specialisation
+4411,Defence Force Member - Other Ranks,Principal Title
+4411,Electronic Warfare - Linguist (Navy),Specialisation
+4411,Electronic Warfare - Technical (Navy),Specialisation
+4411,Geospatial Imagery Intelligence Analyst (Air Force),Specialisation
+4411,Ground Crewman Mission Support (Army),Specialisation
+4411,Gun Number (Army),Specialisation
+4411,Marine Specialist (Army),Specialisation
+4411,Naval Police Coxswain (Navy),Specialisation
+4411,Operator Artillery Meteorology and Surveyor (Army),Specialisation
+4411,Operator Electronic Warfare (Army),Specialisation
+4411,Operator Ground Based Air Defence (Army),Specialisation
+4411,Operator Weapon Locating Radar (Army),Specialisation
+4411,Rifleman (Army),Specialisation
+4411,Security Police (Air Force),Specialisation
+4411,Signal Operator Linguist (Air Force),Specialisation
+4411,Signal Operator Technical (Air Force),Specialisation
+4412,Emergency Response Officer,Alternative Title
+4412,Emergency Service Worker,Principal Title
+4412,Industrial Paramedic,Specialisation
+4412,Fire Engineer (Army),Specialisation
+4412,Fire Fighter,Principal Title
+4412,Fire Prevention Officer,Specialisation
+4412,Leading Firefighter,Specialisation
+4413,Detective,Principal Title
+4413,Detective Sergeant,Specialisation
+4413,Plain Clothes Police Officer,Specialisation
+4413,Bomb Squad Officer,Specialisation
+4413,Mounted Police Officer,Specialisation
+4413,Police Officer,Principal Title
+4413,Search and Rescue Officer,Specialisation
+4413,Tactical Response Group Officer,Specialisation
+4421,Correctional Officer,Alternative Title
+4421,Corrections Officer,Alternative Title
+4421,Custodial Officer,Specialisation
+4421,Prison Officer,Principal Title
+4422,"Alarm, Security or Surveillance Monitor",Principal Title
+4422,Armoured Car Escort,Principal Title
+4422,Bouncer,Alternative Title
+4422,Crowd Controller,Principal Title
+4422,Private Inquiry Agent,Alternative Title
+4422,Private Investigator,Principal Title
+4422,Retail Loss Prevention Officer,Principal Title
+4422,Security Consultant,Principal Title
+4422,Mobile Patrol Officer,Specialisation
+4422,Railway Patrol Officer,Specialisation
+4422,Security Guard,Alternative Title
+4422,Security Officer,Principal Title
+4422,Bodyguard,Occupation in nec category
+4422,Security Officers and Guards nec,Principal Title
+4511,Beauty Therapist,Principal Title
+4511,Electrologist (Hair Remover),Specialisation
+4511,Manicurist,Specialisation
+4511,Nail Technician,Specialisation
+4512,Driving Instructor,Principal Title
+4512,Motorcycle Riding Instructor,Specialisation
+4513,Funeral Director,Principal Title
+4513,Mortician,Alternative Title
+4513,Undertaker,Alternative Title
+4513,Embalmer,Occupation in nec category
+4513,Funeral Director's Assistant,Occupation in nec category
+4513,Funeral Workers nec,Principal Title
+4514,Gallery or Museum Attendant,Alternative Title
+4514,Gallery or Museum Guide,Principal Title
+4514,Regional Guide,Specialisation
+4514,Tour Escort,Alternative Title
+4514,Tour Guide,Principal Title
+4514,Tour Leader,Alternative Title
+4515,Aromatherapist,Specialisation
+4515,Holistic Pulser,Specialisation
+4515,Iridologist,Specialisation
+4515,Kinesiologist,Specialisation
+4515,Natural Remedy Consultant,Principal Title
+4515,Reflexologist,Specialisation
+4515,Weight Loss Consultant,Principal Title
+4515,Herbalist (Western),Principal Title
+4516,Tourist Adviser,Alternative Title
+4516,Tourist Information Officer,Principal Title
+4516,Business Travel Consultant,Specialisation
+4516,Domestic Travel Consultant,Specialisation
+4516,International Travel Consultant,Specialisation
+4516,Travel Agent,Alternative Title
+4516,Travel Consultant,Principal Title
+4517,Cabin Crew,Alternative Title
+4517,Cabin Supervisor (Aircraft),Specialisation
+4517,Crew Attendant (Air Force),Specialisation
+4517,Flight Attendant,Principal Title
+4517,Marine Steward,Occupation in nec category
+4517,Travel Attendants nec,Principal Title
+4518,Civil Celebrant,Principal Title
+4518,Hair or Beauty Salon Assistant,Principal Title
+4518,Dominatrix,Specialisation
+4518,Prostitute,Alternative Title
+4518,Sex Worker or Escort,Principal Title
+4518,Telephone Sex Worker,Specialisation
+4518,Body Artist,Principal Title
+4518,Body Piercer,Specialisation
+4518,Tattooist,Specialisation
+4518,First Aid Instructor,Alternative Title
+4518,First Aid Trainer,Principal Title
+4518,Pastoral Worker,Specialisation
+4518,Religious Assistant,Principal Title
+4518,Astrologer,Occupation in nec category
+4518,Bus Escort,Occupation in nec category
+4518,Butler,Occupation in nec category
+4518,Dog Walker,Occupation in nec category
+4518,First Aid Officer,Occupation in nec category
+4518,Horse Racing Analyst,Occupation in nec category
+4518,Nutrition Assistant,Occupation in nec category
+4518,Personal Service Workers nec,Principal Title
+4521,Aerobics Instructor,Specialisation
+4521,Fitness Instructor,Principal Title
+4521,Gym Instructor,Specialisation
+4521,Physical Fitness Trainer,Specialisation
+4522,Bungy Jump Master,Principal Title
+4522,Fishing Guide,Principal Title
+4522,Fly Fishing Guide,Specialisation
+4522,Ocean Fishing Guide,Specialisation
+4522,Hunting Guide,Principal Title
+4522,Climbing Guide,Specialisation
+4522,Mountain or Glacier Guide,Principal Title
+4522,Ski Guide,Specialisation
+4522,Abseiling Instructor,Specialisation
+4522,Adventure Challenge Instructor,Specialisation
+4522,Hang-gliding Instructor,Specialisation
+4522,Outdoor Adventure Instructor,Principal Title
+4522,Outdoor Adventure Leader,Alternative Title
+4522,Outdoor Education Teacher,Specialisation
+4522,Outdoor Pursuits Instructor,Specialisation
+4522,Paragliding Instructor,Specialisation
+4522,Rock Climbing Instructor,Specialisation
+4522,Bushwalking Guide,Alternative Title
+4522,Trekking Guide,Principal Title
+4522,Whitewater Rafting Guide,Principal Title
+4522,Caving Guide,Occupation in nec category
+4522,Cycle Touring Guide,Occupation in nec category
+4522,Horse Trekking Guide,Occupation in nec category
+4522,Outdoor Adventure Guides nec,Principal Title
+4522,Sea Kayaking Guide,Occupation in nec category
+4522,Skydiving Instructor,Occupation in nec category
+4523,Dive Master,Specialisation
+4523,Diving Instructor (Open Water),Principal Title
+4523,Scuba Instructor,Specialisation
+4523,Snorkelling Instructor,Specialisation
+4523,Surface Supply Breathing Apparatus (SSBA) Instructor,Specialisation
+4523,Callisthenics Instructor,Specialisation
+4523,Gymnastics Coach or Instructor,Principal Title
+4523,Rhythmic Gymnastics Coach,Specialisation
+4523,Dressage Instructor,Specialisation
+4523,Horse Riding Coach or Instructor,Principal Title
+4523,Polo Coach,Specialisation
+4523,Show Jumping Instructor,Specialisation
+4523,Skiing Instructor,Specialisation
+4523,Snowboarding Instructor,Specialisation
+4523,Snowsport Instructor,Principal Title
+4523,Diving Coach,Specialisation
+4523,Learn to Swim Instructor,Specialisation
+4523,Swimming Coach or Instructor,Principal Title
+4523,Tennis Coach,Principal Title
+4523,Basketball Coach,Specialisation
+4523,Cricket Coach,Specialisation
+4523,Football Coach,Specialisation
+4523,Martial Arts Instructor,Specialisation
+4523,Other Sports Coach or Instructor,Principal Title
+4523,Sports Trainer,Specialisation
+4523,Windsurfing Instructor,Specialisation
+4523,Dog and Horse Racing Official,Principal Title
+4523,Handicapper (Racing),Specialisation
+4523,Race Steward,Alternative Title
+4523,Sports Development Officer,Principal Title
+4523,Linesperson (Sport),Specialisation
+4523,Referee,Alternative Title
+4523,Sports Umpire,Principal Title
+4523,Other Sports Official,Principal Title
+4523,Timekeeper (Sports),Specialisation
+4524,Australian Rules Footballer,Specialisation
+4524,Footballer,Principal Title
+4524,Rugby League Footballer,Specialisation
+4524,Rugby Union Footballer,Specialisation
+4524,Soccer Player,Specialisation
+4524,Golfer,Principal Title
+4524,Apprentice Jockey,Specialisation
+4524,Jockey,Principal Title
+4524,Steeplechase Jockey,Specialisation
+4524,Lifeguard,Principal Title
+4524,Athlete,Occupation in nec category
+4524,Cricketer,Occupation in nec category
+4524,Cyclist,Occupation in nec category
+4524,Harness Racing Driver,Occupation in nec category
+4524,Racing Driver,Occupation in nec category
+4524,Sportspersons nec,Principal Title
+4524,Surfer,Occupation in nec category
+4524,Tennis Player,Occupation in nec category
+5111,Contract Administrator,Principal Title
+5111,Contract Officer,Alternative Title
+5111,Program or Project Administrator,Principal Title
+5111,Project Coordinator,Alternative Title
+5121,Office Manager,Principal Title
+5122,Chiropractic Practice Manager,Specialisation
+5122,Dental Practice Manager,Specialisation
+5122,Health Practice Manager,Principal Title
+5122,Medical Practice Manager,Specialisation
+5122,Physiotherapy Practice Manager,Specialisation
+5122,Accounting Practice Manager,Occupation in nec category
+5122,Architectural Practice Manager,Occupation in nec category
+5122,Legal Practice Manager,Occupation in nec category
+5122,Practice Managers nec,Principal Title
+5122,Veterinary Practice Manager,Occupation in nec category
+5211,Personal Assistant,Principal Title
+5212,Secretary (General),Principal Title
+5212,Legal Secretary,Principal Title
+5311,General Clerk,Principal Title
+5321,Data Entry Operator,Principal Title
+5321,Data Processing Operator,Alternative Title
+5321,Braille Transcriber,Specialisation
+5321,Court Reporter,Specialisation
+5321,Hansard Reporter,Specialisation
+5321,Machine Shorthand Reporter,Principal Title
+5321,Realtime Reporter,Specialisation
+5321,Stenocaptioner,Specialisation
+5321,Typist,Alternative Title
+5321,Word Processing Operator,Principal Title
+5411,Call Centre Supervisor,Alternative Title
+5411,Call or Contact Centre Coach,Specialisation
+5411,Call or Contact Centre Team Leader,Principal Title
+5411,Call or Contact Centre Workforce Planner,Specialisation
+5411,Contact Centre Supervisor,Alternative Title
+5411,Call or Contact Centre Operator,Principal Title
+5412,Information Officer,Principal Title
+5421,Receptionist (General),Principal Title
+5421,Admissions Clerk,Principal Title
+5421,Hospital Ward Clerk,Alternative Title
+5421,Hotel or Motel Receptionist,Principal Title
+5421,Medical Receptionist,Principal Title
+5511,Accounts Clerk,Principal Title
+5511,Accounts Payable or Receivable Clerk,Alternative Title
+5511,Audit Clerk,Specialisation
+5511,Investment Accounting Clerk,Specialisation
+5511,Cost Clerk,Principal Title
+5512,Bookkeeper,Principal Title
+5512,Financial Administration Officer,Specialisation
+5513,Pay Clerk,Alternative Title
+5513,Payroll Clerk,Principal Title
+5513,Payroll Officer,Alternative Title
+5521,Bank Worker,Principal Title
+5522,Credit or Loans Officer (Aus) / Finance Clerk (NZ),Principal Title
+5522,Lending Consultant,Alternative Title
+5522,Loans Consultant,Alternative Title
+5522,Loans Officer,Alternative Title
+5523,Bookmaker,Principal Title
+5523,Health Insurance Assessor,Specialisation
+5523,Insurance Clerk,Alternative Title
+5523,Insurance Consultant,Principal Title
+5523,Superannuation Clerk,Specialisation
+5523,Money Market Clerk,Principal Title
+5523,Scrip Clerk (Stockbroking),Alternative Title
+5523,Securities Clerk,Alternative Title
+5523,Actuarial Clerk,Specialisation
+5523,Statistical Clerk,Principal Title
+5611,Betting Agency Counter Clerk,Principal Title
+5611,Bookmaker's Clerk,Principal Title
+5611,Penciller,Alternative Title
+5611,Telephone Betting Clerk,Principal Title
+5611,Betting Clerks nec,Principal Title
+5611,Keno Terminal Operator,Occupation in nec category
+5612,Bicycle Courier,Specialisation
+5612,Courier,Principal Title
+5612,Motorbike Courier,Specialisation
+5612,Parcel Contractor,Specialisation
+5612,Rural Mail Contractor,Specialisation
+5612,Postal Delivery Officer,Principal Title
+5612,Postie,Alternative Title
+5613,Filing or Registry Clerk,Principal Title
+5613,Medical Record Clerk,Specialisation
+5613,Records Clerk,Alternative Title
+5614,Mail Clerk,Principal Title
+5614,Mail Officer,Alternative Title
+5614,Parcel Post Officer,Specialisation
+5614,Postal Sorting Officer,Principal Title
+5615,Interviewer,Alternative Title
+5615,Market Research Interviewer,Specialisation
+5615,Survey Interviewer,Principal Title
+5616,Switchboard Operator,Principal Title
+5616,Telephone Operator,Alternative Title
+5619,Classified Advertising Clerk,Principal Title
+5619,Meter Reader,Principal Title
+5619,Parking Inspector,Principal Title
+5619,Cash Processor,Occupation in nec category
+5619,Clerical and Office Support Workers nec,Principal Title
+5619,Media Monitor,Occupation in nec category
+5911,Delivery Clerk,Specialisation
+5911,Logistics Clerk,Specialisation
+5911,Production Clerk,Principal Title
+5911,Production Recorder,Alternative Title
+5911,Schedule Clerk,Alternative Title
+5911,Procurement Officer,Alternative Title
+5911,Purchasing Officer,Principal Title
+5911,Inventory Clerk,Specialisation
+5911,Stock Clerk,Principal Title
+5911,Stock Control Clerk,Alternative Title
+5911,Stores Clerk,Alternative Title
+5911,Supply Clerk,Specialisation
+5911,Warehouse Administrator,Principal Title
+5911,Customer Orders Clerk,Alternative Title
+5911,Internal Salesperson,Specialisation
+5911,Mail Order Clerk,Specialisation
+5911,Order Clerk,Principal Title
+5911,Sales Order Clerk,Alternative Title
+5912,Aircraft Load Controller,Specialisation
+5912,Despatch Clerk,Alternative Title
+5912,Despatching and Receiving Clerk,Principal Title
+5912,Freight Clerk,Alternative Title
+5912,Shipping and Receiving Clerk,Specialisation
+5912,Truck Despatcher,Specialisation
+5912,Bond Clerk,Specialisation
+5912,Customs Agent,Specialisation
+5912,Customs Broker,Specialisation
+5912,Import-Export Clerk,Principal Title
+5912,Wharf Tally Clerk,Specialisation
+5991,Conveyancer,Principal Title
+5991,Settlement Agent,Alternative Title
+5991,Legal Executive,Principal Title
+5992,Clerk of Court,Principal Title
+5992,Court Bailiff or Sheriff (Aus) / Court Collections Officer (NZ),Principal Title
+5992,Sheriff's Officer (Aus),Specialisation
+5992,Court Attendant,Alternative Title
+5992,Court Officer,Alternative Title
+5992,Court Orderly (Aus) / Court Registry Officer (NZ),Principal Title
+5992,Court Usher,Specialisation
+5992,Law Clerk,Principal Title
+5992,Legal Clerk,Alternative Title
+5992,Trust Clerk,Alternative Title
+5992,Trust Officer,Principal Title
+5993,Collection Agent,Specialisation
+5993,Collection Officer,Specialisation
+5993,Debt Collector,Principal Title
+5993,Debt Recovery Officer,Alternative Title
+5993,Mercantile Agent,Alternative Title
+5993,Repossession Agent,Specialisation
+5994,Employment Office Clerk,Alternative Title
+5994,Human Resource Clerk,Principal Title
+5994,Human Resource Records Clerk,Alternative Title
+5994,Personnel Records Clerk,Alternative Title
+5994,Psychological Examiner (Army),Specialisation
+5994,Roster Clerk,Specialisation
+5995,Customs Inspector,Alternative Title
+5995,Customs Investigator,Specialisation
+5995,Customs Officer,Principal Title
+5995,Immigration Officer,Principal Title
+5995,Motor Vehicle Licence Examiner,Principal Title
+5995,Biosecurity Officer (Weeds and Pests),Alternative Title
+5995,"Invasive Pest, Weed and Disease Inspector",Principal Title
+5995,Noxious Weeds and Pest Inspector,Alternative Title
+5995,Social Security Assessor,Principal Title
+5995,Taxation Inspector,Principal Title
+5995,Locomotive Inspector,Specialisation
+5995,Train Examiner,Principal Title
+5995,Bus Inspector,Specialisation
+5995,Tram Inspector,Specialisation
+5995,Transport Operations Inspector,Principal Title
+5995,Boring Inspector,Specialisation
+5995,Stream Control Officer,Specialisation
+5995,Water Inspector,Principal Title
+5995,Animal Management Officer,Occupation in nec category
+5995,Assessment and Compliance Officer,Occupation in nec category
+5995,Inspectors and Regulatory Officers nec,Principal Title
+5995,Trade Mark Examiner,Occupation in nec category
+5995,Weights and Measures Inspector,Occupation in nec category
+5996,Insurance Investigator,Principal Title
+5996,Insurance Loss Adjuster,Principal Title
+5996,Insurance Loss Assessor,Alternative Title
+5996,Insurance Risk Surveyor,Principal Title
+5997,Library Assistant,Principal Title
+5997,Library Attendant,Alternative Title
+5997,Library Clerk,Alternative Title
+5999,"Production Assistant (Film, Television, Radio or Stage)",Principal Title
+5999,Proof Reader,Principal Title
+5999,Communications Controller,Alternative Title
+5999,Control Room Operator,Alternative Title
+5999,Radio Despatcher,Principal Title
+5999,Clinical Coder,Principal Title
+5999,Facilities Administrator,Principal Title
+5999,Facilities Assistant,Alternative Title
+5999,Facilities Coordinator,Alternative Title
+5999,Facilities Officer,Alternative Title
+5999,Clerical and Administrative Workers nec,Principal Title
+5999,Coding Clerk,Occupation in nec category
+5999,Examination Supervisor,Occupation in nec category
+5999,Travel Clerk,Occupation in nec category
+6111,Auctioneer,Principal Title
+6111,Stock and Station Agent,Principal Title
+6112,Insurance Agent,Principal Title
+6112,Insurance Underwriter,Specialisation
+6112,Life Assurance Representative,Specialisation
+6113,Sales Representative (Building and Plumbing Supplies),Principal Title
+6113,Sales Representative (Advertising),Specialisation
+6113,Sales Representative (Business Services),Principal Title
+6113,Sales Representative (Printing),Specialisation
+6113,Sales Representative (Motor Vehicle Parts and Accessories),Principal Title
+6113,Sales Representative (Personal and Household Goods),Principal Title
+6113,New Home Sales Consultant,Occupation in nec category
+6113,Sales Representative (Jewellery and Watches),Occupation in nec category
+6113,Sales Representatives nec,Principal Title
+6121,Business Agent,Alternative Title
+6121,Business Broker,Principal Title
+6121,Franchise Broker,Specialisation
+6121,Body Corporate Manager,Specialisation
+6121,Property Manager,Principal Title
+6121,Real Estate Agency Principal / Real Estate Agency Licensee,Principal Title
+6121,Real Estate Agent,Principal Title
+6121,Property Portfolio Officer,Specialisation
+6121,Real Estate Representative,Principal Title
+6121,Real Estate Salesperson,Alternative Title
+6121,Real Estate Subagent,Alternative Title
+6211,Clothing Sales Assistant,Specialisation
+6211,Cosmetic Sales Assistant,Specialisation
+6211,Fast Food Sales Assistant,Specialisation
+6211,Hardware Sales Assistant,Specialisation
+6211,Retail Sales Assistant,Alternative Title
+6211,Sales Assistant (General),Principal Title
+6212,ICT Sales Assistant,Principal Title
+6212,Mobile Phone Salesperson,Specialisation
+6213,Fleet Salesperson,Specialisation
+6213,Motor Vehicle or Caravan Salesperson,Principal Title
+6213,Motor Vehicle Salesperson,Alternative Title
+6213,Automotive Parts Interpreter,Alternative Title
+6213,Motor Vehicle Parts Interpreter / Automotive Parts Salesperson,Principal Title
+6214,Pharmacy Sales Assistant,Principal Title
+6215,Checkout Supervisor,Alternative Title
+6215,Retail Supervisor,Principal Title
+6215,Sales Department Supervisor,Alternative Title
+6216,Driveway Attendant,Alternative Title
+6216,Service Station Attendant,Principal Title
+6217,Cash Van Salesperson,Principal Title
+6217,Ice-cream Van Vendor,Specialisation
+6217,Milk Vendor,Specialisation
+6217,Door-to-door Fundraising Collector,Specialisation
+6217,Door-to-door Salesperson,Principal Title
+6217,Party Plan Salesperson,Specialisation
+6217,Market Stall Vendor,Specialisation
+6217,Street Vendor,Principal Title
+6219,Automotive Dismantler,Specialisation
+6219,Bottle Dealer,Specialisation
+6219,Materials Recycler,Principal Title
+6219,Scrap Materials Buyer,Alternative Title
+6219,Waste Recycler,Specialisation
+6219,Car Rental Sales Assistant,Specialisation
+6219,Industrial Hire Sales Assistant,Specialisation
+6219,Rental Clerk,Alternative Title
+6219,Rental Salesperson,Principal Title
+6219,Video Library Assistant,Specialisation
+6219,Carpet Measurer,Occupation in nec category
+6219,Lotteries Agent,Occupation in nec category
+6219,Sales Assistants and Salespersons nec,Principal Title
+6219,Swimming Pool Salesperson,Occupation in nec category
+6311,Checkout Operator,Principal Title
+6311,Service Station Console Operator,Specialisation
+6311,Cashier,Alternative Title
+6311,Office Cashier,Principal Title
+6391,Model,Principal Title
+6391,Merchandiser,Alternative Title
+6391,Sales Demonstrator,Principal Title
+6392,Merchandise Planner,Specialisation
+6392,Retail Buyer,Principal Title
+6392,Wool Buyer,Principal Title
+6393,Telemarketer,Principal Title
+6394,Booking Clerk,Specialisation
+6394,Check-in Agent,Specialisation
+6394,Reservations Clerk,Specialisation
+6394,Ticket Seller,Principal Title
+6394,Transport Conductor,Principal Title
+6395,Visual Merchandiser,Principal Title
+6395,Window Dresser,Alternative Title
+6399,Mystery Shopper,Specialisation
+6399,Other Sales Support Worker,Principal Title
+6399,Personal Shopper,Specialisation
+7111,Brick Extruder Operator,Specialisation
+7111,Clay Products Machine Operator,Principal Title
+7111,Porcelain Turner,Specialisation
+7111,Slip Caster,Specialisation
+7111,Concrete Pipe Machine Operator,Specialisation
+7111,Concrete Precast Moulder,Specialisation
+7111,Concrete Products Machine Operator,Principal Title
+7111,Concrete Tile Machine Operator,Specialisation
+7111,Glass Furnace Operator,Specialisation
+7111,Glass Laminating Operator,Specialisation
+7111,Glass Maker,Specialisation
+7111,Glass Melt Operator,Specialisation
+7111,Glass Production Machine Operator,Principal Title
+7111,Glass Toughening Operator,Specialisation
+7111,Glassware Maker,Specialisation
+7111,Marble Cutter,Specialisation
+7111,Stone Polisher,Specialisation
+7111,Stone Processing Machine Operator,Principal Title
+7111,Stone Sawyer,Specialisation
+7111,Brake Lining Maker,Occupation in nec category
+7111,"Clay, Concrete, Glass and Stone Processing Machine Operators nec",Principal Title
+7111,Fibre Cement Moulder,Occupation in nec category
+7111,Plaster Caster,Occupation in nec category
+7111,Plaster Machine Operator,Occupation in nec category
+7112,Industrial Spraypainter,Principal Title
+7112,Powder Coater,Specialisation
+7112,Rust Proofer,Specialisation
+7113,Carton Making Machinist,Specialisation
+7113,Embosser,Specialisation
+7113,Paper Bag Making Machinist,Specialisation
+7113,Paper Products Machine Operator,Principal Title
+7113,Band Saw Operator,Specialisation
+7113,Beam Saw Operator,Specialisation
+7113,Cant Gang Sawyer,Specialisation
+7113,Resawyer,Specialisation
+7113,Ripsaw Operator,Specialisation
+7113,Sawmiller,Alternative Title
+7113,Sawmilling Operator,Principal Title
+7113,Debarker Operator,Specialisation
+7113,Docking Saw Operator,Specialisation
+7113,Log Preparer,Specialisation
+7113,Other Wood Processing Machine Operator,Principal Title
+7113,Plywood and Veneer Repairer,Specialisation
+7113,Veneer Production Machine Operator,Specialisation
+7114,Copy Camera Operator,Specialisation
+7114,Dark Room Attendant,Specialisation
+7114,Digital Photographic Printer,Specialisation
+7114,Film Process Operator,Specialisation
+7114,Minilab Operator,Specialisation
+7114,Photographic Developer and Printer,Principal Title
+7114,Photographic Enlarger Operator,Specialisation
+7114,Slide Developer,Specialisation
+7115,Insulation Extruder Operator,Specialisation
+7115,Optic Fibre Drawer,Specialisation
+7115,Plastic Cablemaking Machine Operator,Principal Title
+7115,Wire Drawer (Plastics),Specialisation
+7115,Pelletising Extruder Operator,Specialisation
+7115,Plastic Compounding and Reclamation Machine Operator,Principal Title
+7115,Powder Hand (Plastics),Specialisation
+7115,Shredder/Granulator Operator,Specialisation
+7115,Acrylic Fabricator,Specialisation
+7115,Plastics Fabricator or Welder,Principal Title
+7115,Vinyl Welder and Fabricator,Specialisation
+7115,Blow Moulding Machine Operator,Specialisation
+7115,Extruding Machine Operator (Plastics),Specialisation
+7115,Injection Moulding Machine Operator (Plastics),Specialisation
+7115,Lamination Machine Operator,Specialisation
+7115,Plastic Production Machine Setter,Specialisation
+7115,Plastics Production Machine Operator (General),Principal Title
+7115,Rotational Moulding Operator (Plastics),Specialisation
+7115,Fibreglass Gun Hand,Specialisation
+7115,Fibreglass Laminator,Specialisation
+7115,Reinforced Plastic and Composite Production Worker,Principal Title
+7115,Resin Transfer Moulding Machine Operator,Specialisation
+7115,Rubber Belt Splicer,Specialisation
+7115,Rubber Compounder,Specialisation
+7115,Rubber Extrusion Machine Operator,Specialisation
+7115,Rubber Knitting and Reinforcing Machine Operator,Specialisation
+7115,Rubber Moulding Machine Operator,Specialisation
+7115,Rubber Production Machine Operator,Principal Title
+7115,Rubber Roller Grinder Operator,Specialisation
+7115,Tyre Builder,Specialisation
+7115,Tyre Retreader,Specialisation
+7115,Plastics and Rubber Production Machine Operators nec,Principal Title
+7115,Thermoforming Machine Operator,Occupation in nec category
+7116,Embroiderer,Specialisation
+7116,Sewing Machinist,Principal Title
+7117,Footwear Production Machine Operator,Principal Title
+7117,Shoemaking Cutter,Specialisation
+7117,Shoemaking Finisher,Specialisation
+7117,Fellmongering Machine Operator,Specialisation
+7117,Hide and Skin Fleshing Machine Operator,Specialisation
+7117,Hide and Skin Processing Machine Operator,Principal Title
+7117,Leather Production Machine Operator,Alternative Title
+7117,Sammying Machine Operator,Specialisation
+7117,Tanner,Specialisation
+7117,Flat Bed Knitter,Specialisation
+7117,Knitting Machine Operator,Principal Title
+7117,Textile Knitter,Alternative Title
+7117,Warp Knitter,Specialisation
+7117,Textile Dyeing and Finishing Machine Operator,Principal Title
+7117,Textile Dyer,Specialisation
+7117,Textile Finisher,Specialisation
+7117,Beamer,Specialisation
+7117,Carpet Weaver,Specialisation
+7117,Loom Operator,Alternative Title
+7117,Weaving Machine Operator,Principal Title
+7117,Cotton Ginner,Specialisation
+7117,Gill Box Operator,Specialisation
+7117,Yarn Carding and Spinning Machine Operator,Principal Title
+7117,Yarn Comber,Specialisation
+7117,Yarn Texture Machine Operator,Specialisation
+7117,Feltmaker,Occupation in nec category
+7117,Net Maker,Occupation in nec category
+7117,Rope Making Machine Operator,Occupation in nec category
+7117,Textile and Footwear Production Machine Operators nec,Principal Title
+7117,Tufting Machine Operator,Occupation in nec category
+7119,Bullet Maker,Specialisation
+7119,Candle Maker,Specialisation
+7119,Chemical Production Machine Operator,Principal Title
+7119,Cosmetics Machine Operator,Specialisation
+7119,Explosives Mixer Operator,Specialisation
+7119,Nitrocellulose Maker,Specialisation
+7119,Paint Tinter,Specialisation
+7119,Tablet Making Machine Operator,Specialisation
+7119,Motion Picture Projectionist,Principal Title
+7119,Sand Blaster,Principal Title
+7119,Sterilisation Technician,Principal Title
+7119,Amusement Ride Operator,Occupation in nec category
+7119,Asbestos Remover,Occupation in nec category
+7119,Brush Maker,Occupation in nec category
+7119,Machine Operators nec,Principal Title
+7119,Unmanned Aerial Vehicle (UAV) Pilot,Occupation in nec category
+7119,Venetian Blind Machine Operator,Occupation in nec category
+7121,Chairlift Operator,Specialisation
+7121,Cherry Picker Operator,Specialisation
+7121,"Crane, Hoist or Lift Operator",Principal Title
+7121,Elevated Work Platform Operator,Specialisation
+7121,Pile Driver,Specialisation
+7121,Portainer Operator,Specialisation
+7121,Tower Crane Operator,Specialisation
+7121,Winch Operator,Specialisation
+7122,Directional Driller,Specialisation
+7122,Driller,Principal Title
+7122,Drilling Plant Operator,Alternative Title
+7122,Exploration Driller,Specialisation
+7122,Jumbo Operator,Specialisation
+7122,Power Tong Operator,Specialisation
+7122,Raise Drill Operator,Specialisation
+7122,Rig Manager,Specialisation
+7122,Rock Drill Operator,Specialisation
+7122,Stope Miner,Specialisation
+7122,Tool Pusher,Specialisation
+7122,Bogger Operator,Specialisation
+7122,Coal Cutter,Specialisation
+7122,Dragline Operator,Specialisation
+7122,Miner,Principal Title
+7122,Mining Plant Operator,Alternative Title
+7122,Opal Miner,Specialisation
+7122,Underground Truck Operator,Specialisation
+7122,Powder Monkey,Alternative Title
+7122,Shot Firer,Principal Title
+7123,Alumina Refinery Operator,Specialisation
+7123,Arc Welder,Specialisation
+7123,Brake Press Operator,Specialisation
+7123,Computer Numeric Control Machine Operator,Specialisation
+7123,Engineering Production Worker,Principal Title
+7123,Foundry Operator,Specialisation
+7123,Furnace Operator (Metals),Specialisation
+7123,Kiln Operator (Metals),Specialisation
+7123,Metal Rolling Mill Operator,Specialisation
+7123,Sheetmetal Worker (Second Class),Specialisation
+7123,Tool Setter,Specialisation
+7123,Turret Punch Operator,Specialisation
+7129,Airconditioning Plant Operator,Specialisation
+7129,Boiler or Engine Operator,Principal Title
+7129,Marine Engine Driver,Specialisation
+7129,Refrigeration Plant Operator,Specialisation
+7129,Bulk Materials Handling Plant Operator,Principal Title
+7129,Grain Handler,Specialisation
+7129,Palletiser Operator,Specialisation
+7129,Receival Point Operator (Grain),Specialisation
+7129,Tank Farm Operator (Petroleum),Specialisation
+7129,Cement Crusher Operator,Specialisation
+7129,Cement Despatch Operator,Specialisation
+7129,Cement Grinding Mill Operator,Specialisation
+7129,Cement Kiln Operator,Specialisation
+7129,Cement Production Plant Operator,Principal Title
+7129,Concrete Batching Plant Operator,Principal Title
+7129,Premix Concrete Batcher,Specialisation
+7129,Concrete Boom Operator,Specialisation
+7129,Concrete Pump Operator,Principal Title
+7129,Bleach Plant Operator,Specialisation
+7129,Dryerman/woman (Paper Mill),Specialisation
+7129,Fourdrinier Machine Operator,Specialisation
+7129,Inverform Machine Operator,Specialisation
+7129,Paper and Pulp Mill Operator,Principal Title
+7129,Paper Machine Operator,Alternative Title
+7129,Paper Maker,Alternative Title
+7129,Paper Rewinder Operator,Specialisation
+7129,Paperboard Machine Operator,Specialisation
+7129,Railway Shunter,Specialisation
+7129,Railway Signal Operator,Principal Title
+7129,Railway Switching and Signalling Operator,Alternative Title
+7129,Railway Yard Assistant,Specialisation
+7129,Train Controller,Principal Title
+7129,Qualified Reticulation Serviceperson,Specialisation
+7129,Waste Water or Water Plant Operator,Principal Title
+7129,Licensed Weigher,Specialisation
+7129,Weighbridge Operator,Principal Title
+7129,Beverage Distiller,Occupation in nec category
+7129,Bitumen Plant Operator,Occupation in nec category
+7129,Crematorium Operator,Occupation in nec category
+7129,Crushing Machine Operator,Occupation in nec category
+7129,Snow Maker,Occupation in nec category
+7129,Stationary Plant Operators nec,Principal Title
+7129,Timber Treatment Plant Operator,Occupation in nec category
+7129,Wash Plant Operator,Occupation in nec category
+7211,Agricultural and Horticultural Mobile Plant Operator,Principal Title
+7211,Cotton Picking Machine Operator,Specialisation
+7211,Harvester Operator,Specialisation
+7211,Tractor Operator,Specialisation
+7211,Forwarder Operator,Specialisation
+7211,Logging Plant Operator,Principal Title
+7211,Skidder Operator,Specialisation
+7211,Tree Feller Operator,Specialisation
+7212,Construction Plant Operator (General),Alternative Title
+7212,Earthmoving Plant Operator (General),Principal Title
+7212,Backhoe Operator,Principal Title
+7212,Bulldozer Operator,Principal Title
+7212,Scraper Operator (Earthmoving),Specialisation
+7212,Excavator Operator,Principal Title
+7212,Hydraulic Rockbreaker Operator,Specialisation
+7212,Trench Digging Machine Operator,Specialisation
+7212,Grader Operator,Principal Title
+7212,Bobcat Operator,Specialisation
+7212,Front-end Loader Operator,Specialisation
+7212,Loader Operator,Principal Title
+7213,Fork Truck Operator,Alternative Title
+7213,Forklift Driver,Principal Title
+7213,Forklift Operator,Alternative Title
+7213,Reach Truck Operator,Specialisation
+7219,Aircraft Baggage Handler and Airline Ground Crew,Principal Title
+7219,Ramp Agent,Specialisation
+7219,Linemarker,Principal Title
+7219,Road Marker,Specialisation
+7219,Paving Plant Operator,Principal Title
+7219,Railway Track Plant Operator,Principal Title
+7219,Road Roller Operator,Principal Title
+7219,Streetsweeper Operator,Principal Title
+7219,Cable Ferry Operator,Occupation in nec category
+7219,Dredge Operator,Occupation in nec category
+7219,Mobile Plant Operators nec,Principal Title
+7219,Mulcher Operator,Occupation in nec category
+7219,Snow Groomer,Occupation in nec category
+7219,Straddle Carrier Operator,Occupation in nec category
+7219,Tunneller,Occupation in nec category
+7311,Chauffeur,Principal Title
+7311,Hire Car Driver,Specialisation
+7311,Limousine Driver,Specialisation
+7311,Taxi Driver,Principal Title
+7311,Automobile Drivers nec,Principal Title
+7311,Oversize Load Pilot Escort,Occupation in nec category
+7311,Rental Car Ferry Driver,Occupation in nec category
+7312,Bus Driver,Principal Title
+7312,Minibus Driver,Specialisation
+7312,School Bus Driver,Specialisation
+7312,Charter and Tour Bus Driver,Principal Title
+7312,Coach Tour Driver,Specialisation
+7312,Passenger Coach Driver,Principal Title
+7313,Electric Train Driver,Specialisation
+7313,Fireperson (Railway),Specialisation
+7313,Locomotive Driver,Alternative Title
+7313,Locomotive Observer,Specialisation
+7313,Rail Car Driver,Specialisation
+7313,Steam Train Driver,Specialisation
+7313,Train Driver,Principal Title
+7313,Tram Driver,Principal Title
+7321,Delivery Driver,Principal Title
+7321,Fast Food Delivery Driver,Specialisation
+7321,Grocery Deliverer,Specialisation
+7321,Meals on Wheels Driver,Specialisation
+7321,Taxi Truck Driver,Specialisation
+7321,Van Driver,Alternative Title
+7331,Cement Mixer Driver,Specialisation
+7331,Compactor Driver (Rubbish Collection),Specialisation
+7331,Grain Truck Driver,Specialisation
+7331,Kaitaraiwa Taraka (NZ),Specialisation
+7331,Livestock Haulier,Specialisation
+7331,Logging Truck Driver,Specialisation
+7331,Road Train Driver,Specialisation
+7331,Tilt Tray Driver,Specialisation
+7331,Truck Driver (General),Principal Title
+7331,Aircraft Refueller,Principal Title
+7331,Ground Crewman Aircraft Support (Army),Specialisation
+7331,Furniture Removalist,Principal Title
+7331,Office Mover,Specialisation
+7331,Milk Tanker Driver,Specialisation
+7331,Petrol Tanker Driver,Specialisation
+7331,Tanker Driver,Principal Title
+7331,Water Tanker Driver,Specialisation
+7331,Mechanic Recovery (Army),Specialisation
+7331,Tow Truck Driver,Principal Title
+7411,Chiller Hand,Specialisation
+7411,Manufacturing Storeperson,Specialisation
+7411,Operator Supply (Army),Specialisation
+7411,Order Picker/Assembler,Specialisation
+7411,Storeperson,Principal Title
+7411,Stores Assistant,Alternative Title
+7411,Stores Despatch Hand,Specialisation
+7411,Stores Naval (Navy),Specialisation
+7411,Warehouse Assistant,Alternative Title
+8111,Car Detailer,Principal Title
+8111,Vehicle Detailer,Alternative Title
+8112,Aircraft Cabin Cleaner,Specialisation
+8112,Commercial Cleaner,Principal Title
+8112,School Cleaner,Specialisation
+8113,Domestic Cleaner,Principal Title
+8114,Commercial Housekeeper,Principal Title
+8114,Domestic Housekeeper,Principal Title
+8115,Folding Machine Operator,Specialisation
+8115,Laundry Worker (General),Principal Title
+8115,Linen Sorter,Specialisation
+8115,Drycleaner,Principal Title
+8115,Ironer or Presser,Principal Title
+8116,Carpet Cleaner,Principal Title
+8116,Upholstery Cleaner,Specialisation
+8116,Window Cleaner,Principal Title
+8116,Chimney Sweep,Occupation in nec category
+8116,Cleaners nec,Principal Title
+8116,Graffiti Cleaner,Occupation in nec category
+8116,High Pressure Cleaner,Occupation in nec category
+8116,Swimming Pool Cleaner,Occupation in nec category
+8211,Bricklayer's Assistant,Specialisation
+8211,Builder's Labourer,Principal Title
+8211,Carpenter's Assistant,Specialisation
+8211,Construction Worker,Alternative Title
+8211,Tiler's Assistant,Specialisation
+8211,"Drainage, Sewerage and Stormwater Labourer",Principal Title
+8211,Earthmoving Labourer,Principal Title
+8211,Grave Digger,Specialisation
+8211,Plumber's Assistant,Principal Title
+8212,Concrete Worker,Alternative Title
+8212,Concreter,Principal Title
+8213,Fence Erector,Alternative Title
+8213,Fencer,Principal Title
+8214,Building Insulation Installer,Principal Title
+8214,Window Tinter (Building),Specialisation
+8214,Awning Installer,Specialisation
+8214,Carport Erector,Specialisation
+8214,Curtain Fitter,Specialisation
+8214,Home Improvement Installer,Principal Title
+8214,Security Door Installer,Specialisation
+8214,Shower Screen Installer,Specialisation
+8215,Paving and Surfacing Labourer,Principal Title
+8216,Railway Track Worker,Principal Title
+8216,Track Inspector,Specialisation
+8217,Construction Rigger,Principal Title
+8217,Scaffolder,Principal Title
+8217,Steel Fixer,Principal Title
+8217,Structural Steel Erector,Principal Title
+8219,Crane Chaser,Principal Title
+8219,Dogman/woman,Specialisation
+8219,Slinger,Specialisation
+8219,Derrick Hand,Specialisation
+8219,Driller's Assistant,Principal Title
+8219,Driller's Offsider,Alternative Title
+8219,Roughneck,Specialisation
+8219,Roustabout (Oil and Gas),Alternative Title
+8219,Well Treatment Offsider,Specialisation
+8219,Lagger,Principal Title
+8219,Mineral Ore Processing Labourer,Alternative Title
+8219,Mining Support Worker,Principal Title
+8219,Pit Crew Support Worker,Specialisation
+8219,Geological Survey Field Assistant,Specialisation
+8219,Seismic Survey Assistant,Specialisation
+8219,Surveyor's Assistant,Principal Title
+8311,Baking Factory Worker,Principal Title
+8311,Biscuit Factory Worker,Specialisation
+8311,Bread Room Hand,Specialisation
+8311,Brewery Worker,Principal Title
+8311,Chocolate Maker,Specialisation
+8311,Confectionery Maker,Principal Title
+8311,Butter Maker,Specialisation
+8311,Cheese Factory Worker,Specialisation
+8311,Cheese Maker,Specialisation
+8311,Dairy Products Maker,Principal Title
+8311,Milk Processing Worker,Specialisation
+8311,Milk Treater,Specialisation
+8311,Pasteuriser Operator,Specialisation
+8311,Yoghurt Maker,Specialisation
+8311,Fruit and Vegetable Factory Worker,Principal Title
+8311,Grain Mill Worker,Principal Title
+8311,Stockfeed Miller,Specialisation
+8311,Sugar Mill Worker,Principal Title
+8311,Winery Cellar Hand,Principal Title
+8311,Coffee Roaster,Occupation in nec category
+8311,Egg Factory Worker,Occupation in nec category
+8311,Food and Drink Factory Workers nec,Principal Title
+8311,Ice-cream Maker,Occupation in nec category
+8311,Margarine Maker,Occupation in nec category
+8311,Pasta Maker,Occupation in nec category
+8312,Meat Boner and Slicer,Principal Title
+8312,Meat Trimmer,Specialisation
+8312,Slaughterer,Principal Title
+8312,Stunner and Shackler (Abattoir),Specialisation
+8313,Meat Process Worker,Principal Title
+8313,Offal Separator,Specialisation
+8313,Poultry Boner,Specialisation
+8313,Poultry Process Worker,Principal Title
+8313,Poultry Slaughterer,Specialisation
+8313,Abalone Sheller,Specialisation
+8313,Mussel Opener (NZ),Specialisation
+8313,Oyster Opener,Specialisation
+8313,Seafood Process Worker,Principal Title
+8321,Chocolate Packer,Principal Title
+8321,Bottling Attendant,Specialisation
+8321,Cannery Worker,Specialisation
+8321,Container Filler,Principal Title
+8321,Labelling Machine Operator,Specialisation
+8321,Fruit and Vegetable Packer,Principal Title
+8321,Meat Packer,Principal Title
+8321,Seafood Packer,Principal Title
+8321,Biscuit Packer,Occupation in nec category
+8321,Bread Packer,Occupation in nec category
+8321,Cheese Packer,Occupation in nec category
+8321,Egg Packer,Occupation in nec category
+8321,Packers nec,Principal Title
+8322,Electrical and Electronic Assembler,Specialisation
+8322,Light Coil Winder,Specialisation
+8322,Product Assembler,Principal Title
+8322,Vehicle Assembler,Specialisation
+8391,Boilermaker's Assistant,Specialisation
+8391,Fitter's Assistant,Specialisation
+8391,Metal Engineering Process Worker,Principal Title
+8391,Metal Forger's Assistant,Specialisation
+8391,Metal Moulder's Assistant,Specialisation
+8392,Cellular Plastics Cutter,Specialisation
+8392,Fibreglass Lay Up Worker,Specialisation
+8392,Plastics Factory Worker,Principal Title
+8392,Plastics Process Hand,Alternative Title
+8392,Latex Foam Worker,Specialisation
+8392,Rubber Factory Worker,Principal Title
+8392,Rubber Process Hand,Alternative Title
+8393,Film Examiner,Specialisation
+8393,Metal Products Viewer,Specialisation
+8393,Product Examiner,Principal Title
+8393,Quality Assurance Assessor,Alternative Title
+8393,Quality Control Assessor,Alternative Title
+8393,Textile Examiner,Specialisation
+8393,Tyre Finisher and Examiner,Specialisation
+8393,Vehicle Assembly Inspector,Specialisation
+8393,Fruit and Vegetable Classer,Specialisation
+8393,Grain Quality Technician,Specialisation
+8393,Meat Grader,Specialisation
+8393,Milk and Cream Grader,Specialisation
+8393,Product Grader,Principal Title
+8393,Timber Grader,Specialisation
+8393,Coal Sample Tester,Specialisation
+8393,Glassware Verifier,Specialisation
+8393,Iron Pellet Tester,Specialisation
+8393,Product Tester,Principal Title
+8394,Paper and Pulp Mill Worker,Principal Title
+8394,"Pulp, Paper Making and Paper Products Labourer",Alternative Title
+8394,Dry Mill Worker (NZ),Specialisation
+8394,Sawmill or Timber Yard Worker,Principal Title
+8394,Tailer-out,Specialisation
+8394,Timber Mill Worker,Alternative Title
+8394,Wood Processing Worker,Alternative Title
+8394,Hardboard Factory Worker,Specialisation
+8394,Joinery Factory Worker,Specialisation
+8394,Particleboard Factory Worker,Specialisation
+8394,Plywood Factory Worker,Specialisation
+8394,Wood and Wood Products Factory Worker,Principal Title
+8394,Wood and Wood Products Labourer,Alternative Title
+8399,Cement and Concrete Plant Worker,Principal Title
+8399,Chemical Plant Worker,Principal Title
+8399,Gas Plant Worker,Specialisation
+8399,Munitions Factory Worker,Specialisation
+8399,Paint Factory Worker,Specialisation
+8399,Brick Handler,Specialisation
+8399,Clay Processing Factory Worker,Principal Title
+8399,Clay Processing Labourer,Alternative Title
+8399,Kiln Labourer,Specialisation
+8399,Fabric and Textile Factory Worker,Principal Title
+8399,Footwear Factory Worker,Principal Title
+8399,Glass Mould Cleaner,Specialisation
+8399,Glass Processing Worker,Principal Title
+8399,Fellmongery Worker,Specialisation
+8399,Hand Flesher,Specialisation
+8399,Hide and Skin Processing Worker,Principal Title
+8399,Tannery Worker,Specialisation
+8399,Recycling Sorter,Alternative Title
+8399,Recycling Worker,Principal Title
+8399,Factory Process Workers nec,Principal Title
+8399,Sheltered Workshop Worker,Occupation in nec category
+8421,Aquaculture Worker,Principal Title
+8422,Cotton Farm Worker,Principal Title
+8422,Fruit Farm Worker,Principal Title
+8422,Orchard Worker (Fruit),Specialisation
+8422,Fruit Picker,Principal Title
+8422,"Grain, Oilseed, Pulse and Pasture Farm Worker (Aus) / Field Farm Worker (NZ)",Principal Title
+8422,Mushroom Picker,Principal Title
+8422,Nut Farm Worker,Principal Title
+8422,Sugar Cane Farm Worker,Principal Title
+8422,Vegetable Farm Worker (Aus) / Market Garden Worker (NZ),Principal Title
+8422,Vegetable Picker,Principal Title
+8422,Vineyard Worker,Principal Title
+8422,Coffee Plantation Worker,Occupation in nec category
+8422,Crop Farm Workers nec,Principal Title
+8422,Flower Buncher or Picker,Occupation in nec category
+8422,Hop Farm Worker,Occupation in nec category
+8422,Kelp Harvester,Occupation in nec category
+8422,Lavender Farm Worker,Occupation in nec category
+8422,Tea Plantation Worker,Occupation in nec category
+8422,Tea Tree Farm Worker,Occupation in nec category
+8422,Turf Farm Worker,Occupation in nec category
+8423,Beef Cattle Farm Worker,Principal Title
+8423,Station Hand (Beef Cattle),Alternative Title
+8423,Cattle and Sheep Farm Worker,Principal Title
+8423,Dairy Cattle Farm Worker,Principal Title
+8423,Cattle Hoof Trimmer,Specialisation
+8423,Horse Hoof Carer,Specialisation
+8423,Lamb Marker,Specialisation
+8423,Livestock Contractor,Alternative Title
+8423,Livestock Husbandry Worker,Principal Title
+8423,Muleser,Specialisation
+8423,Sheep Foot Parer,Specialisation
+8423,Piggery Farm Worker,Principal Title
+8423,Poultry Farm Worker,Principal Title
+8423,Sheep Farm Worker,Principal Title
+8423,Station Hand (Sheep),Alternative Title
+8423,Horse and Stud Worker,Specialisation
+8423,Stablehand,Principal Title
+8423,Shearing Shed Hand,Alternative Title
+8423,Shearing Shed Worker,Alternative Title
+8423,Wool Handler,Principal Title
+8423,Deer Farm Worker,Occupation in nec category
+8423,Emu Farm Worker,Occupation in nec category
+8423,Goat Herder,Occupation in nec category
+8423,Livestock Farm Workers nec,Principal Title
+8423,Ostrich Farm Worker,Occupation in nec category
+8424,Broadacre Crop and Livestock Farm Worker,Principal Title
+8424,Mixed Production Farm Workers nec,Principal Title
+8431,Forestry Worker,Principal Title
+8431,Tree Planter,Specialisation
+8431,Tree Thinner (NZ),Specialisation
+8431,Logger,Alternative Title
+8431,Logging Assistant,Principal Title
+8431,Tree Faller,Principal Title
+8431,Tree Feller,Alternative Title
+8432,Garden Labourer,Principal Title
+8432,Lawn Mower,Specialisation
+8433,Horticultural Nursery Assistant,Principal Title
+8433,Nursery Worker (Horticulture),Alternative Title
+8434,Pest Control Technician,Principal Title
+8434,Pest Controller,Alternative Title
+8434,Pest Management Technician,Alternative Title
+8439,Hunter,Alternative Title
+8439,Hunter-Trapper,Principal Title
+8439,Possum Trapper (NZ),Specialisation
+8439,Shooter,Alternative Title
+8439,Irrigation Assistant,Principal Title
+8439,Irrigation Orchard Hand,Alternative Title
+8439,Irrigation Worker,Alternative Title
+8439,Bush Regenerator,Occupation in nec category
+8439,Forestry and Garden Workers nec,Principal Title
+8439,Indoor Plant Technician,Occupation in nec category
+8439,Seed Collector,Occupation in nec category
+8439,Weed Controller,Occupation in nec category
+8511,Fast Food Cook,Principal Title
+8511,Short Order Cook,Specialisation
+8512,Bakery Assistant,Specialisation
+8512,Pastrycook's Assistant,Principal Title
+8512,Butcher's Assistant,Occupation in nec category
+8512,Chef's Assistant,Occupation in nec category
+8512,Cook's Assistant,Occupation in nec category
+8512,Food Trades Assistants nec,Principal Title
+8513,Dishwasher,Specialisation
+8513,Kitchen Steward,Alternative Title
+8513,Kitchenhand,Principal Title
+8513,Pantry Attendant,Specialisation
+8513,Sandwich Hand,Specialisation
+8911,Freight Handler (Rail or Road),Principal Title
+8911,Freight Loader,Alternative Title
+8911,Furniture Removalist's Assistant,Specialisation
+8911,Truck Driver's Offsider,Principal Title
+8911,Stevedore,Alternative Title
+8911,Waterside Worker,Principal Title
+8911,Wharf Labourer,Alternative Title
+8912,Night Filler,Alternative Title
+8912,Shelf Filler,Principal Title
+8991,Caretaker,Principal Title
+8991,Janitor,Specialisation
+8992,Barge Hand,Specialisation
+8992,Deck Hand,Principal Title
+8992,Ferry Hand,Specialisation
+8992,Seafarer,Alternative Title
+8992,Tug Hand,Specialisation
+8992,Cray Fishing Hand,Specialisation
+8992,Deep Sea Commercial Fishing Hand,Specialisation
+8992,Fishing Hand,Principal Title
+8993,Handyperson,Principal Title
+8993,Hotel Yardperson,Specialisation
+8994,Motor Vehicle Parts and Accessories Fitter (General),Principal Title
+8994,Autoglazier,Principal Title
+8994,Vehicle Window Tinter,Specialisation
+8994,Windscreen Fitter,Alternative Title
+8994,Exhaust and Muffler Fitter,Alternative Title
+8994,Exhaust and Muffler Repairer,Principal Title
+8994,Radiator Fitter,Alternative Title
+8994,Radiator Repairer,Principal Title
+8994,Tyre Fitter,Principal Title
+8995,Printer's Assistant,Principal Title
+8995,Printing Bindery Assistant,Alternative Title
+8995,Printing Table Hand,Alternative Title
+8995,Printing Table Worker,Principal Title
+8996,Garbage Depot Worker,Specialisation
+8996,Recycling or Rubbish Collector,Principal Title
+8996,Waste Removalist,Alternative Title
+8997,Poker Machine Attendant,Specialisation
+8997,Vending Machine Attendant,Principal Title
+8997,Vending Machine Refiller,Alternative Title
+8999,Bicycle Mechanic,Principal Title
+8999,Bicycle Repairer,Alternative Title
+8999,Bicycle Technician,Specialisation
+8999,Car Park Attendant,Principal Title
+8999,Crossing Supervisor,Principal Title
+8999,Electrical or Telecommunications Trades Assistant,Principal Title
+8999,Leaflet or Newspaper Deliverer,Principal Title
+8999,Lube Attendant,Specialisation
+8999,Mechanic's Assistant,Principal Title
+8999,Railways Assistant,Principal Title
+8999,Sign Erector,Principal Title
+8999,Entertainment Usher,Specialisation
+8999,Gatekeeper,Specialisation
+8999,Ticket Collector or Usher,Principal Title
+8999,Turnstile Attendant,Specialisation
+8999,Venue Attendant,Alternative Title
+8999,Trolley Collector,Principal Title
+8999,Events Traffic Controller,Specialisation
+8999,Road Traffic Controller,Principal Title
+8999,Bowling Alley Attendant,Occupation in nec category
+8999,Clothes Sorter,Occupation in nec category
+8999,Grip,Occupation in nec category
+8999,Labourers nec,Principal Title
+8999,Racecourse Barrier Attendant,Occupation in nec category
+8999,Stagehand,Occupation in nec category
+8999,Studio Hand,Occupation in nec category
+8999,Swimming Pool Serviceperson,Occupation in nec category

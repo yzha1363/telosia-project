@@ -1,0 +1,358 @@
+occupation_code,occupation_title,anzsco_level,occupation_matrix_group,automation_exposure,automation_sd,augmentation_exposure,augmentation_sd,rate_of_skill_change,high_fit_transition_rate,entry_level_ad_share
+1111,Chief Executives and Managing Directors,4,Executive and General Management,0.26,0.07,0.67,0.11,5.0,0.41,0.13
+1112,General Managers,4,Executive and General Management,0.31,0.09,0.66,0.1,4.6,0.61,0.18
+1113,Legislators,4,Legal and Insurance,0.26,0.05,0.63,0.1,,,
+1211,Aquaculture Farmers,4,"Agriculture, Animal and Horticulture",0.41,0.15,0.66,0.1,,,
+1212,Crop Farmers,4,"Agriculture, Animal and Horticulture",0.34,0.16,0.67,0.05,,,
+1213,Livestock Farmers,4,"Agriculture, Animal and Horticulture",0.34,0.16,0.65,0.09,,,0.16
+1214,Mixed Crop and Livestock Farmers,4,"Agriculture, Animal and Horticulture",0.36,0.16,0.67,0.05,,,0.32
+1311,"Advertising, Public Relations and Sales Manager",4,"Advertising, Media and Public Relations",0.38,0.04,0.72,0.04,6.4,,0.15
+1321,Corporate Services Managers,4,Administration and Human Resources,0.46,0.14,0.71,0.06,5.1,0.4,0.26
+1322,Finance Managers,4,"Accounting, Banking and Financial Services",0.46,0.09,0.75,0.05,6.1,0.4,0.21
+1323,Human Resource Managers,4,Administration and Human Resources,0.36,0.05,0.66,0.11,4.6,0.35,0.17
+1324,Policy and Planning Managers,4,Executive and General Management,0.4,0.1,0.71,0.06,6.6,0.47,0.2
+1325,Research and Development Managers,4,Executive and General Management,0.43,0.09,0.71,0.04,7.4,0.46,
+1331,Construction Managers,4,"Construction, Architecture and Design",0.33,0.06,0.7,0.0,6.8,0.22,0.21
+1332,Engineering Managers,4,Engineers and Engineering Trades,0.36,0.05,0.71,0.04,6.7,0.54,0.23
+1333,"Importers, Exporters and Wholesalers",4,"Sales, Retail, Wholesale and Real Estate",0.52,0.13,0.73,0.05,6.9,0.29,
+1334,Manufacturers,4,Manufacturing,0.47,0.11,0.7,0.0,,0.23,
+1335,Production Managers,4,Manufacturing,0.42,0.13,0.72,0.03,5.6,0.48,0.18
+1336,"Supply, Distribution and Procurement Managers",4,Transport and Logistics,0.53,0.15,0.74,0.05,4.6,0.44,0.19
+1341,Child Care Centre Managers,4,Health and Community Services,0.31,0.16,0.65,0.12,3.0,0.35,0.19
+1342,Health and Welfare Services Managers,4,Health and Community Services,0.32,0.07,0.69,0.03,3.7,0.35,0.24
+1343,School Principals,4,Education and Training,0.32,0.08,0.66,0.1,2.9,0.51,0.42
+1344,Other Education Managers,4,Education and Training,0.43,0.13,0.74,0.05,3.4,0.4,0.23
+1351,ICT Managers,4,Information and Communication Technology (ICT),0.38,0.13,0.7,0.0,7.5,0.42,0.16
+1391,Commissioned Officers (Management),4,"Government, Defence and Protective Services",0.41,0.16,0.73,0.05,,,
+1392,Senior Non-Commissioned Defence Force Officers,4,"Government, Defence and Protective Services",0.23,0.05,0.47,0.1,,,
+1399,Other Specialist Managers,4,"Sales, Retail, Wholesale and Real Estate",0.36,0.05,0.7,0.0,5.2,0.42,0.26
+1411,Cafe and Restaurant Managers,4,"Hospitality, Food Services and Tourism",0.43,0.16,0.69,0.06,2.8,0.16,0.37
+1412,Caravan Park and Camping Ground Managers,4,"Hospitality, Food Services and Tourism",0.43,0.21,0.65,0.12,,,
+1413,Hotel and Motel Managers,4,"Hospitality, Food Services and Tourism",0.46,0.18,0.69,0.06,,0.2,0.25
+1414,Licensed Club Managers,4,"Hospitality, Food Services and Tourism",0.42,0.2,0.7,0.05,2.5,0.35,0.19
+1419,Other Accommodation and Hospitality Managers,4,"Hospitality, Food Services and Tourism",0.3,0.0,0.7,,2.3,0.02,0.55
+1421,Retail Managers,4,"Sales, Retail, Wholesale and Real Estate",0.48,0.14,0.73,0.05,2.9,,0.33
+1491,"Amusement, Fitness and Sports Centre Managers",4,Sports and Recreation,0.44,0.18,0.73,0.05,,0.02,0.16
+1492,"Call, Contact Centre and Customer Service Managers",4,Administration and Human Resources,0.53,0.13,0.71,0.04,3.7,,0.21
+1493,Conference and Event Organisers,4,"Hospitality, Food Services and Tourism",0.53,0.2,0.73,0.05,2.6,0.33,0.31
+1494,Transport Services Managers,4,Transport and Logistics,0.46,0.15,0.73,0.05,4.3,0.59,0.16
+1499,"Other Hospitality, Retail and Service Managers",4,"Hospitality, Food Services and Tourism",0.38,0.05,0.7,0.0,4.0,0.46,0.26
+2111,"Actors, Dancers and Other Entertainers",4,Arts and Entertainment,0.24,0.1,0.58,0.11,9.6,,0.15
+2112,Music Professionals,4,Arts and Entertainment,0.23,0.09,0.62,0.13,,,
+2113,Photographers,4,Arts and Entertainment,0.24,0.07,0.61,0.14,,,0.19
+2114,Visual Arts and Crafts Professionals,4,Arts and Entertainment,0.16,0.05,0.57,0.18,,,0.31
+2121,"Artistic Directors, Media Producers and Presenters",4,"Advertising, Media and Public Relations",0.41,0.15,0.68,0.07,7.5,,0.27
+2122,"Authors, and Book and Script Editors",4,Arts and Entertainment,0.54,0.15,0.69,0.16,5.8,0.11,0.15
+2123,"Film, Television, Radio and Stage Directors",4,"Advertising, Media and Public Relations",0.36,0.12,0.69,0.03,,,
+2124,Journalists and Other Writers,4,"Advertising, Media and Public Relations",0.61,0.2,0.7,0.13,7.1,,0.15
+2211,Accountants,4,"Accounting, Banking and Financial Services",0.54,0.14,0.73,0.06,6.4,0.45,0.29
+2212,"Auditors, Company Secretaries and Corporate Treasurers",4,"Accounting, Banking and Financial Services",0.45,0.1,0.74,0.05,4.6,0.32,0.34
+2221,Financial Brokers,4,"Accounting, Banking and Financial Services",0.47,0.15,0.75,0.05,3.3,0.18,0.32
+2222,Financial Dealers,4,"Accounting, Banking and Financial Services",0.69,0.11,0.77,0.05,6.7,,0.16
+2223,Financial Investment Advisers and Managers,4,"Accounting, Banking and Financial Services",0.48,0.1,0.74,0.07,7.6,0.38,0.27
+2231,Human Resource Professionals,4,Administration and Human Resources,0.51,0.17,0.68,0.04,4.2,0.46,0.19
+2232,ICT Trainers,4,Information and Communication Technology (ICT),0.58,0.15,0.75,0.05,,,
+2233,Training and Development Professionals,4,Administration and Human Resources,0.57,0.14,0.76,0.05,3.7,0.28,0.28
+2241,"Actuaries, Mathematicians and Statisticians",4,Legal and Insurance,0.58,0.1,0.77,0.07,7.4,0.26,0.21
+2242,"Archivists, Curators and Records Managers",4,Administration and Human Resources,0.5,0.16,0.7,0.05,4.8,0.17,0.24
+2243,Economists,4,"Accounting, Banking and Financial Services",0.59,0.1,0.78,0.05,4.8,0.29,0.21
+2244,Intelligence and Policy Analysts,4,"Government, Defence and Protective Services",0.56,0.13,0.79,0.03,3.7,0.41,0.21
+2245,Land Economists and Valuers,4,"Construction, Architecture and Design",0.43,0.11,0.71,0.12,,,0.29
+2246,Librarians,4,Education and Training,0.52,0.14,0.7,0.04,4.7,0.08,0.35
+2247,Management and Organisation Analysts,4,Administration and Human Resources,0.53,0.14,0.73,0.07,7.1,0.4,0.19
+2249,Other Information and Organisation Professionals,4,Administration and Human Resources,0.4,0.08,0.7,0.0,5.3,0.05,0.21
+2251,Advertising and Marketing Professionals,4,"Advertising, Media and Public Relations",0.54,0.12,0.79,0.03,6.0,0.34,0.24
+2252,ICT Sales Professionals,4,Information and Communication Technology (ICT),0.58,0.18,0.72,0.04,6.2,0.16,0.16
+2253,Public Relations Professionals,4,"Advertising, Media and Public Relations",0.46,0.15,0.7,0.12,4.8,0.31,0.15
+2254,Technical Sales Representatives,4,"Sales, Retail, Wholesale and Real Estate",0.64,0.14,0.71,0.06,9.7,0.18,0.18
+2311,Air Transport Professionals,4,Transport and Logistics,0.31,0.19,0.6,0.17,,0.04,
+2312,Marine Transport Professionals,4,Transport and Logistics,0.26,0.05,0.63,0.13,,0.08,
+2321,Architects and Landscape Architects,4,"Construction, Architecture and Design",0.46,0.15,0.72,0.08,6.0,0.43,0.38
+2322,Surveyors and Spatial Scientists,4,"Construction, Architecture and Design",0.4,0.09,0.76,0.05,4.6,0.2,0.34
+2323,"Fashion, Industrial and Jewellery Designers",4,Arts and Entertainment,0.39,0.15,0.71,0.08,5.2,0.3,0.21
+2324,"Graphic and Web Designers, and Illustrators",4,Arts and Entertainment,0.49,0.18,0.64,0.15,10.9,0.22,0.2
+2325,Interior Designers,4,"Construction, Architecture and Design",0.43,0.16,0.73,0.1,3.3,0.3,0.26
+2326,Urban and Regional Planners,4,"Construction, Architecture and Design",0.45,0.16,0.71,0.09,4.0,0.44,0.28
+2331,Chemical and Materials Engineers,4,Engineers and Engineering Trades,0.31,0.03,0.72,0.04,8.5,0.54,0.28
+2332,Civil Engineering Professionals,4,"Construction, Architecture and Design",0.33,0.12,0.74,0.07,4.5,0.62,0.35
+2333,Electrical Engineers,4,Electrical and Electronics,0.33,0.05,0.71,0.03,6.0,0.48,0.35
+2334,Electronics Engineers,4,Electrical and Electronics,0.34,0.05,0.76,0.05,9.7,0.5,0.26
+2335,"Industrial, Mechanical and Production Engineers",4,Engineers and Engineering Trades,0.37,0.11,0.73,0.04,5.4,0.57,0.36
+2336,Mining Engineers,4,Engineers and Engineering Trades,0.33,0.1,0.72,0.04,7.9,0.5,0.35
+2339,Other Engineering Professionals,4,Engineers and Engineering Trades,0.33,0.05,0.71,0.02,5.9,0.4,0.28
+2341,Agricultural and Forestry Scientists,4,"Agriculture, Animal and Horticulture",0.36,0.07,0.75,0.05,3.0,,0.24
+2342,"Chemists, and Food and Wine Scientists",4,Science,0.33,0.05,0.74,0.05,3.7,0.13,0.25
+2343,Environmental Scientists,4,Science,0.32,0.07,0.72,0.07,5.3,0.06,0.31
+2344,"Geologists, Geophysicists and Hydrogeologists",4,Mining and Energy,0.33,0.09,0.72,0.04,10.8,0.09,0.37
+2345,Life Scientists,4,Science,0.3,0.05,0.74,0.07,8.5,,0.53
+2346,Medical Laboratory Scientists,4,Health and Community Services,0.34,0.16,0.71,0.04,4.4,,0.37
+2347,Veterinarians,4,"Agriculture, Animal and Horticulture",0.22,0.1,0.6,0.14,,,0.33
+2349,Other Natural and Physical Science Professionals,4,Science,0.33,0.05,0.75,0.06,6.5,0.04,0.37
+2411,Early Childhood (Pre-primary School) Teachers,4,Education and Training,0.27,0.05,0.64,0.05,1.6,0.05,0.24
+2412,Primary School Teachers,4,Education and Training,0.32,0.14,0.63,0.09,3.8,0.05,0.3
+2413,Middle School Teachers,4,Education and Training,0.34,0.16,0.6,0.11,,,
+2414,Secondary School Teachers,4,Education and Training,0.35,0.16,0.6,0.11,3.2,0.07,0.28
+2415,Special Education Teachers,4,Education and Training,0.36,0.14,0.71,0.03,4.0,0.08,0.29
+2421,University Lecturers and Tutors,4,Education and Training,0.43,0.15,0.68,0.11,7.3,0.04,0.52
+2422,Vocational Education Teachers,4,Education and Training,0.48,0.18,0.71,0.04,,,0.34
+2491,Education Advisers and Reviewers,4,Education and Training,0.39,0.16,0.71,0.06,,0.09,0.2
+2492,Private Tutors and Teachers,4,Education and Training,0.51,0.17,0.73,0.08,3.1,0.1,0.19
+2493,Teachers of English to Speakers of Other Languages,4,Education and Training,0.56,0.14,0.74,0.05,,,
+2511,Nutrition Professionals,4,Health and Community Services,0.4,0.14,0.76,0.07,2.9,,0.36
+2512,Medical Imaging Professionals,4,Health and Community Services,0.3,0.11,0.61,0.14,3.1,,0.3
+2513,Occupational and Environmental Health Professionals,4,Health and Community Services,0.36,0.05,0.72,0.04,3.7,0.1,0.22
+2514,Optometrists and Orthoptists,4,Health and Community Services,0.23,0.05,0.68,0.04,,0.01,0.54
+2515,Pharmacists,4,Health and Community Services,0.32,0.06,0.68,0.1,4.7,,0.23
+2519,Other Health Diagnostic and Promotion Professionals,4,Health and Community Services,0.3,0.14,0.65,0.07,3.1,0.01,0.37
+2521,Chiropractors and Osteopaths,4,Health and Community Services,0.33,0.17,0.66,0.11,,,0.35
+2522,Complementary Health Therapists,4,Health and Community Services,0.28,0.08,0.64,0.05,,,
+2523,Dental Practitioners,4,Health and Community Services,0.19,0.08,0.66,0.05,2.1,,0.43
+2524,Occupational Therapists,4,Health and Community Services,0.3,0.05,0.66,0.05,2.8,0.05,0.33
+2525,Physiotherapists,4,Health and Community Services,0.3,0.17,0.67,0.05,3.3,,0.34
+2526,Podiatrists,4,Health and Community Services,0.24,0.09,0.6,0.09,2.2,,0.33
+2527,Audiologists and Speech Pathologists \ Therapists,4,Health and Community Services,0.3,0.0,0.69,0.03,2.8,,0.32
+2531,General Practitioners and Resident Medical Officers,4,Health and Community Services,0.34,0.13,0.7,0.0,1.9,,0.08
+2532,Anaesthetists,4,Health and Community Services,0.2,0.08,0.63,0.1,,,0.26
+2533,Specialist Physicians,4,Health and Community Services,0.3,0.19,0.7,0.08,2.1,,0.36
+2534,Psychiatrists,4,Health and Community Services,0.25,0.05,0.61,0.11,2.4,,0.18
+2535,Surgeons,4,Health and Community Services,0.28,0.22,0.64,0.05,2.3,,0.36
+2539,Other Medical Practitioners,4,Health and Community Services,0.2,0.0,0.7,0.0,2.4,0.0,0.32
+2541,Midwives,4,Health and Community Services,0.3,0.17,0.67,0.05,3.6,,0.32
+2542,Nurse Educators and Researchers,4,Health and Community Services,0.36,0.09,0.7,0.0,4.0,0.11,0.4
+2543,Nurse Managers,4,Health and Community Services,0.28,0.04,0.68,0.04,3.7,0.21,0.5
+2544,Registered Nurses,4,Health and Community Services,0.3,0.15,0.67,0.05,2.8,,0.29
+2611,ICT Business and Systems Analysts,4,Information and Communication Technology (ICT),0.58,0.07,0.77,0.05,8.9,0.14,0.17
+2612,Multimedia Specialists and Web Developers,4,Information and Communication Technology (ICT),0.44,0.09,0.76,0.09,18.3,0.08,0.17
+2613,Software and Applications Programmers,4,Information and Communication Technology (ICT),0.63,0.05,0.77,0.05,11.6,0.25,0.23
+2621,"Database and Systems Administrators, and ICT Security Specialists",4,Information and Communication Technology (ICT),0.48,0.11,0.71,0.02,10.7,0.03,0.22
+2631,Computer Network Professionals,4,Information and Communication Technology (ICT),0.45,0.12,0.71,0.04,11.0,0.28,0.22
+2632,ICT Support and Test Engineers,4,Information and Communication Technology (ICT),0.57,0.13,0.75,0.05,8.7,0.2,0.21
+2633,Telecommunications Engineering Professionals,4,Engineers and Engineering Trades,0.41,0.1,0.72,0.03,,0.08,
+2711,Barristers,4,Legal and Insurance,0.43,0.22,0.65,0.12,,0.08,0.25
+2712,Judicial and Other Legal Professionals,4,Legal and Insurance,0.34,0.18,0.58,0.18,5.0,,0.3
+2713,Solicitors,4,Legal and Insurance,0.34,0.14,0.61,0.19,3.0,0.12,0.5
+2721,Counsellors,4,Health and Community Services,0.37,0.17,0.67,0.05,3.1,0.14,0.22
+2722,Ministers of Religion,4,Health and Community Services,0.31,0.16,0.54,0.12,,0.05,0.2
+2723,Psychologists and Psychotherapists,4,Health and Community Services,0.43,0.15,0.69,0.03,3.4,,0.22
+2724,Social Professionals,4,Health and Community Services,0.47,0.13,0.71,0.04,4.4,0.02,0.28
+2725,Social Workers,4,Health and Community Services,0.33,0.15,0.7,0.0,2.6,0.07,0.25
+2726,"Welfare, Recreation and Community Arts Workers",4,Health and Community Services,0.39,0.17,0.67,0.12,3.2,0.12,0.2
+3111,Agricultural Technicians,4,"Agriculture, Animal and Horticulture",0.41,0.14,0.72,0.04,,,0.41
+3112,Medical Technicians,4,Health and Community Services,0.29,0.04,0.69,0.04,3.7,0.04,0.53
+3113,Primary Products Inspectors,4,"Agriculture, Animal and Horticulture",0.34,0.07,0.65,0.1,,,
+3114,Science Technicians,4,Science,0.4,0.18,0.72,0.04,7.1,0.1,0.23
+3121,"Architectural, Building and Surveying Technicians",4,"Construction, Architecture and Design",0.51,0.16,0.74,0.05,4.7,0.43,0.17
+3122,Civil Engineering Draftspersons and Technicians,4,"Construction, Architecture and Design",0.4,0.14,0.69,0.09,6.2,0.34,0.33
+3123,"Electrical Engineering Draftspersons, Technicians",4,Electrical and Electronics,0.48,0.18,0.72,0.08,6.6,,0.28
+3124,"Electronic Engineering Draftspersons, Technicians",4,Electrical and Electronics,0.47,0.16,0.74,0.05,5.2,,0.32
+3125,"Mechanical Engineering Draftspersons, Technicians",4,Engineers and Engineering Trades,0.42,0.13,0.7,0.09,5.7,,0.26
+3126,Safety Inspectors,4,"Construction, Architecture and Design",0.38,0.14,0.69,0.04,,0.18,
+3129,Other Building and Engineering Technicians,4,"Construction, Architecture and Design",0.33,0.06,0.67,0.06,4.3,0.14,0.23
+3131,ICT Support Technicians,4,Information and Communication Technology (ICT),0.53,0.17,0.69,0.12,7.9,0.15,0.23
+3132,Telecommunications Technical Specialists,4,Electrical and Electronics,0.46,0.14,0.69,0.04,,0.03,
+3211,Automotive Electricians,4,Automotive,0.24,0.05,0.58,0.12,3.5,,0.25
+3212,Motor Mechanics,4,Automotive,0.25,0.08,0.59,0.12,3.0,0.38,0.34
+3221,"Metal Casting, Forging and Finishing Trades",4,Engineers and Engineering Trades,0.18,0.04,0.52,0.13,,,
+3222,Sheetmetal Trades Workers,4,Engineers and Engineering Trades,0.25,0.12,0.58,0.1,4.8,,0.18
+3223,Structural Steel and Welding Trades Workers,4,Engineers and Engineering Trades,0.2,0.09,0.58,0.11,4.6,0.29,0.2
+3231,Aircraft Maintenance Engineers,4,Engineers and Engineering Trades,0.26,0.22,0.64,0.05,,0.41,0.32
+3232,Metal Fitters and Machinists,4,Engineers and Engineering Trades,0.22,0.07,0.62,0.1,2.9,0.49,0.22
+3233,Precision Metal Trades Workers,4,Engineers and Engineering Trades,0.28,0.14,0.64,0.05,3.8,,0.28
+3234,Toolmakers and Engineering Patternmakers,4,Engineers and Engineering Trades,0.22,0.08,0.63,0.09,,0.35,
+3241,Panelbeaters,4,Automotive,0.11,0.03,0.41,0.08,,,0.38
+3242,Vehicle Body Builders and Trimmers,4,Automotive,0.23,0.05,0.49,0.12,,,
+3243,Vehicle Painters,4,Automotive,0.13,0.05,0.52,0.12,,,
+3311,Bricklayers and Stonemasons,4,"Construction, Architecture and Design",0.17,0.11,0.49,0.14,2.0,,0.24
+3312,Carpenters and Joiners,4,"Construction, Architecture and Design",0.18,0.1,0.6,0.08,2.2,0.37,0.36
+3321,Floor Finishers,4,"Construction, Architecture and Design",0.23,0.21,0.5,0.13,,,
+3322,Painting Trades Workers,4,"Construction, Architecture and Design",0.13,0.05,0.46,0.12,2.2,,0.29
+3331,Glaziers,4,"Construction, Architecture and Design",0.19,0.11,0.56,0.12,1.7,,0.37
+3332,Plasterers,4,"Construction, Architecture and Design",0.12,0.04,0.44,0.09,0.9,,0.27
+3333,Roof Tilers,4,"Construction, Architecture and Design",0.13,0.1,0.44,0.12,,,0.28
+3334,Wall and Floor Tilers,4,"Construction, Architecture and Design",0.12,0.04,0.63,0.05,,,0.3
+3341,Plumbers,4,"Construction, Architecture and Design",0.15,0.1,0.59,0.07,2.3,0.26,0.39
+3411,Electricians,4,"Construction, Architecture and Design",0.16,0.1,0.57,0.13,3.2,0.47,0.32
+3421,Airconditioning and Refrigeration Mechanics,4,Electrical and Electronics,0.26,0.2,0.56,0.14,3.8,0.3,0.28
+3422,Electrical Distribution Trades Workers,4,Electrical and Electronics,0.15,0.05,0.57,0.09,8.1,0.34,0.32
+3423,Electronics Trades Workers,4,Electrical and Electronics,0.41,0.23,0.67,0.05,4.1,0.44,0.2
+3424,Telecommunications Trades Workers,4,Electrical and Electronics,0.24,0.05,0.58,0.12,4.9,0.27,0.29
+3511,Bakers and Pastrycooks,4,"Hospitality, Food Services and Tourism",0.23,0.07,0.54,0.14,2.4,,0.37
+3512,Butchers and Smallgoods Makers,4,"Hospitality, Food Services and Tourism",0.3,0.19,0.58,0.12,3.6,,0.26
+3513,Chefs,4,"Hospitality, Food Services and Tourism",0.31,0.16,0.65,0.12,3.9,0.38,0.28
+3514,Cooks,4,"Hospitality, Food Services and Tourism",0.22,0.08,0.61,0.09,2.7,0.06,0.17
+3611,Animal Attendants and Trainers,4,"Agriculture, Animal and Horticulture",0.2,0.05,0.53,0.13,3.9,,0.2
+3612,Shearers,4,"Agriculture, Animal and Horticulture",0.16,0.07,0.38,0.12,,,
+3613,Veterinary Nurses,4,"Agriculture, Animal and Horticulture",0.31,0.22,0.57,0.15,,0.01,0.23
+3621,Florists,4,"Sales, Retail, Wholesale and Real Estate",0.28,0.07,0.6,0.09,,0.01,
+3622,Gardeners,4,"Agriculture, Animal and Horticulture",0.19,0.05,0.54,0.14,2.4,,0.24
+3623,Greenkeepers,4,Sports and Recreation,0.2,0.05,0.51,0.11,2.2,,0.26
+3624,Nurserypersons,4,"Agriculture, Animal and Horticulture",0.33,0.22,0.61,0.09,,,
+3911,Hairdressers,4,Personal Services,0.24,0.27,0.47,0.16,3.1,,0.22
+3921,Print Finishers and Screen Printers,4,Manufacturing,0.25,0.08,0.59,0.14,,,
+3922,Graphic Pre-press Trades Workers,4,Manufacturing,0.31,0.07,0.73,0.05,,,
+3923,Printers,4,Manufacturing,0.28,0.18,0.53,0.17,,,
+3931,Canvas and Leather Goods Makers,4,Manufacturing,0.23,0.09,0.63,0.05,,,
+3932,Clothing Trades Workers,4,Manufacturing,0.27,0.13,0.6,0.12,,0.04,
+3933,Upholsterers,4,Manufacturing,0.15,0.1,0.45,0.11,,,
+3941,Cabinetmakers,4,"Construction, Architecture and Design",0.23,0.18,0.63,0.05,3.2,,0.28
+3942,Wood Machinists and Other Wood Trades Workers,4,Manufacturing,0.26,0.16,0.58,0.12,,,
+3991,Boat Builders and Shipwrights,4,Manufacturing,0.22,0.04,0.6,0.09,,,
+3992,"Chemical, Gas, Petroleum and Power Plant Operators",4,Mining and Energy,0.4,0.18,0.69,0.03,,,
+3993,"Gallery, Library and Museum Technicians",4,Arts and Entertainment,0.47,0.28,0.68,0.13,,0.07,0.26
+3994,Jewellers,4,Arts and Entertainment,0.19,0.08,0.58,0.13,,,
+3995,Performing Arts Technicians,4,Arts and Entertainment,0.21,0.06,0.63,0.05,2.9,0.02,0.17
+3996,Signwriters,4,"Advertising, Media and Public Relations",0.36,0.24,0.56,0.2,,,
+3999,Other Miscellaneous Technicians and Trades Workers,4,"Construction, Architecture and Design",0.3,0.06,0.61,0.11,3.3,0.2,0.25
+4111,Ambulance Officers and Paramedics,4,Health and Community Services,0.25,0.18,0.55,0.16,,,0.27
+4112,"Dental Hygienists, Technicians and Therapists",4,Health and Community Services,0.15,0.07,0.59,0.14,2.3,,0.37
+4113,Diversional Therapists,4,Health and Community Services,0.38,0.13,0.69,0.03,,0.02,0.23
+4114,Enrolled and Mothercraft Nurses,4,Health and Community Services,0.26,0.1,0.63,0.11,3.6,0.01,0.23
+4115,Indigenous Health Workers,4,Health and Community Services,0.37,0.16,0.7,0.0,2.5,0.01,0.17
+4116,Massage Therapists,4,Health and Community Services,0.13,0.08,0.43,0.15,,0.01,
+4117,Welfare Support Workers,4,Health and Community Services,0.42,0.16,0.69,0.03,2.8,0.09,0.18
+4211,Child Carers,4,Health and Community Services,0.2,0.06,0.64,0.05,2.1,0.04,0.18
+4221,Education Aides,4,Education and Training,0.31,0.12,0.65,0.11,2.6,0.06,
+4231,Aged and Disabled Carers,4,Health and Community Services,0.21,0.09,0.47,0.17,2.5,0.01,0.17
+4232,Dental Assistants,4,Health and Community Services,0.33,0.25,0.6,0.15,2.7,0.04,1.0
+4233,Nursing Support and Personal Care Workers,4,Health and Community Services,0.26,0.08,0.6,0.1,2.1,0.0,0.59
+4234,Special Care Workers,4,Health and Community Services,0.23,0.07,0.57,0.13,,,
+4311,Bar Attendants and Baristas,4,"Hospitality, Food Services and Tourism",0.24,0.15,0.49,0.17,1.3,0.05,0.12
+4312,Cafe Workers,4,"Hospitality, Food Services and Tourism",0.23,0.17,0.46,0.18,1.0,0.04,0.33
+4313,Gaming Workers,4,"Hospitality, Food Services and Tourism",0.33,0.15,0.55,0.14,1.5,0.02,0.1
+4314,Hotel Service Managers,4,"Hospitality, Food Services and Tourism",0.43,0.17,0.69,0.04,,0.34,0.2
+4315,Waiters,4,"Hospitality, Food Services and Tourism",0.28,0.2,0.44,0.18,2.4,0.06,0.16
+4319,Other Hospitality Workers,4,"Hospitality, Food Services and Tourism",0.29,0.22,0.43,0.18,1.9,0.01,0.39
+4411,Defence Force Members - Other Ranks,4,"Government, Defence and Protective Services",0.17,0.07,0.43,0.14,,,
+4412,Fire and Emergency Workers,4,"Government, Defence and Protective Services",0.18,0.08,0.51,0.14,,0.1,0.28
+4413,Police,4,"Government, Defence and Protective Services",0.27,0.15,0.66,0.05,,,
+4421,Prison Officers,4,"Government, Defence and Protective Services",0.24,0.05,0.45,0.09,,0.11,0.24
+4422,Security Officers and Guards,4,"Government, Defence and Protective Services",0.33,0.16,0.61,0.12,4.3,0.21,0.2
+4511,Beauty Therapists,4,Personal Services,0.33,0.26,0.59,0.16,3.8,,0.12
+4512,Driving Instructors,4,Education and Training,0.33,0.18,0.65,0.12,,0.07,0.61
+4513,Funeral Workers,4,Personal Services,0.34,0.22,0.47,0.21,,,
+4514,"Gallery, Museum and Tour Guides",4,"Hospitality, Food Services and Tourism",0.48,0.23,0.62,0.15,,,
+4515,Personal Care Consultants,4,Health and Community Services,0.29,0.11,0.67,0.08,,,
+4516,Tourism and Travel Advisers,4,"Hospitality, Food Services and Tourism",0.73,0.06,0.75,0.05,3.9,0.18,0.36
+4517,Travel Attendants,4,"Hospitality, Food Services and Tourism",0.26,0.11,0.53,0.14,,0.08,
+4518,Other Personal Service Workers,4,Personal Services,0.25,0.07,0.4,0.0,,,0.28
+4521,Fitness Instructors,4,Personal Services,0.3,0.15,0.62,0.15,3.7,0.1,0.07
+4522,Outdoor Adventure Guides,4,"Hospitality, Food Services and Tourism",0.33,0.21,0.54,0.15,,,
+4523,"Sports Coaches, Instructors and Officials",4,Sports and Recreation,0.34,0.12,0.66,0.11,1.5,,0.22
+4524,Sportspersons,4,Sports and Recreation,0.19,0.1,0.53,0.18,3.1,,0.16
+5111,"Contract, Program and Project Administrators",4,Administration and Human Resources,0.53,0.16,0.73,0.05,4.8,0.5,0.19
+5121,Office Managers,4,Administration and Human Resources,0.46,0.14,0.7,0.05,5.1,0.23,0.19
+5122,Practice Managers,4,Health and Community Services,0.42,0.15,0.7,0.05,4.7,0.34,0.22
+5211,Personal Assistants,4,Administration and Human Resources,0.63,0.22,0.69,0.13,4.6,0.32,0.84
+5212,Secretaries,4,Administration and Human Resources,0.67,0.17,0.69,0.15,4.6,0.38,0.35
+5311,General Clerks,4,Administration and Human Resources,0.71,0.21,0.68,0.19,3.3,0.16,0.3
+5321,Keyboard Operators,4,Administration and Human Resources,0.81,0.07,0.76,0.05,5.2,0.08,0.19
+5411,Call or Contact Centre Workers,4,Administration and Human Resources,0.75,0.09,0.73,0.05,4.9,0.09,0.16
+5412,Information Officers,4,Administration and Human Resources,0.66,0.19,0.7,0.08,2.7,0.13,0.19
+5421,Receptionists,4,Administration and Human Resources,0.66,0.19,0.67,0.11,3.4,0.11,0.22
+5511,Accounting Clerks,4,"Accounting, Banking and Financial Services",0.71,0.08,0.74,0.05,4.2,0.16,0.22
+5512,Bookkeepers,4,"Accounting, Banking and Financial Services",0.69,0.07,0.77,0.05,4.5,0.14,0.21
+5513,Payroll Clerks,4,"Accounting, Banking and Financial Services",0.68,0.04,0.7,0.0,3.7,0.33,0.17
+5521,Bank Workers,4,"Accounting, Banking and Financial Services",0.54,0.12,0.67,0.05,5.3,0.12,0.11
+5522,Credit and Loans Officers,4,"Accounting, Banking and Financial Services",0.68,0.13,0.71,0.04,5.5,0.14,0.22
+5523,"Insurance, Money Market and Statistical Clerks",4,"Accounting, Banking and Financial Services",0.68,0.11,0.74,0.05,4.4,0.13,0.24
+5611,Betting Clerks,4,Sports and Recreation,0.71,0.08,0.69,0.04,,,
+5612,Couriers and Postal Deliverers,4,Transport and Logistics,0.4,0.27,0.59,0.15,3.6,0.06,0.1
+5613,Filing and Registry Clerks,4,Administration and Human Resources,0.76,0.15,0.74,0.05,5.7,0.15,0.19
+5614,Mail Sorters,4,Administration and Human Resources,0.36,0.11,0.6,0.1,5.7,,
+5615,Survey Interviewers,4,Administration and Human Resources,0.71,0.17,0.64,0.1,4.1,,0.32
+5616,Switchboard Operators,4,Administration and Human Resources,0.65,0.2,0.7,0.0,,0.14,
+5619,Other Clerical and Office Support Workers,4,Administration and Human Resources,0.4,0.26,0.57,0.15,3.3,0.01,0.81
+5911,Purchasing and Supply Logistics Clerks,4,Administration and Human Resources,0.58,0.15,0.71,0.06,3.4,0.4,0.22
+5912,Transport and Despatch Clerks,4,Administration and Human Resources,0.64,0.14,0.71,0.03,4.0,0.14,0.26
+5991,Conveyancers and Legal Executives,4,Legal and Insurance,0.49,0.15,0.7,0.11,,,0.45
+5992,Court and Legal Clerks,4,Legal and Insurance,0.37,0.21,0.59,0.2,3.4,,0.6
+5993,Debt Collectors,4,"Accounting, Banking and Financial Services",0.69,0.07,0.7,0.0,4.0,0.1,0.13
+5994,Human Resource Clerks,4,Administration and Human Resources,0.76,0.05,0.73,0.05,3.6,0.34,0.25
+5995,Inspectors and Regulatory Officers,4,Administration and Human Resources,0.39,0.2,0.68,0.04,4.1,,0.25
+5996,"Insurance Investigators, Loss Adjusters and Risk Surveyors",4,Legal and Insurance,0.44,0.17,0.73,0.04,3.9,,0.25
+5997,Library Assistants,4,Education and Training,0.48,0.28,0.63,0.14,,0.1,0.97
+5999,Other Miscellaneous Clerical and Administrative Workers,4,Administration and Human Resources,0.68,0.15,0.75,0.06,4.0,0.16,0.25
+6111,"Auctioneers, and Stock and Station Agents",4,"Agriculture, Animal and Horticulture",0.44,0.15,0.7,0.0,,,
+6112,Insurance Agents,4,Legal and Insurance,0.62,0.16,0.73,0.05,4.5,0.3,0.39
+6113,Sales Representatives,4,"Sales, Retail, Wholesale and Real Estate",0.63,0.19,0.72,0.07,5.0,,0.16
+6121,Real Estate Sales Agents,4,"Sales, Retail, Wholesale and Real Estate",0.47,0.11,0.7,0.05,3.4,0.4,0.3
+6211,Sales Assistants (General),4,"Sales, Retail, Wholesale and Real Estate",0.42,0.13,0.63,0.12,2.7,0.1,0.66
+6212,ICT Sales Assistants,4,Information and Communication Technology (ICT),0.45,0.15,0.6,0.15,,0.0,
+6213,Motor Vehicle and Vehicle Parts Salespersons,4,Automotive,0.59,0.21,0.67,0.13,3.2,0.13,0.19
+6214,Pharmacy Sales Assistants,4,Health and Community Services,0.49,0.16,0.63,0.1,2.9,0.02,0.79
+6215,Retail Supervisors,4,"Sales, Retail, Wholesale and Real Estate",0.42,0.14,0.68,0.04,2.8,0.22,0.67
+6216,Service Station Attendants,4,"Sales, Retail, Wholesale and Real Estate",0.26,0.2,0.48,0.17,,0.2,
+6217,Street Vendors and Related Salespersons,4,"Sales, Retail, Wholesale and Real Estate",0.42,0.23,0.61,0.13,4.7,,
+6219,Other Sales Assistants and Salespersons,4,"Sales, Retail, Wholesale and Real Estate",0.45,0.21,0.65,0.07,4.4,0.04,0.24
+6311,Checkout Operators and Office Cashiers,4,"Sales, Retail, Wholesale and Real Estate",0.5,0.2,0.64,0.11,4.0,,0.36
+6391,Models and Sales Demonstrators,4,Arts and Entertainment,0.36,0.21,0.62,0.16,2.4,0.09,0.15
+6392,Retail and Wool Buyers,4,"Agriculture, Animal and Horticulture",0.4,0.18,0.67,0.12,6.0,0.08,0.26
+6393,Telemarketers,4,"Sales, Retail, Wholesale and Real Estate",0.81,0.09,0.76,0.05,8.1,0.07,0.17
+6394,Ticket Salespersons,4,"Sales, Retail, Wholesale and Real Estate",0.49,0.31,0.52,0.24,,,
+6395,Visual Merchandisers,4,"Advertising, Media and Public Relations",0.33,0.14,0.71,0.04,2.8,0.14,0.33
+7111,"Clay, Concrete, Glass and Stone Processing Machine Operators",4,Manufacturing,0.23,0.05,0.56,0.09,,,
+7112,Industrial Spraypainters,4,Manufacturing,0.18,0.08,0.44,0.12,3.3,,0.33
+7113,Paper and Wood Processing Machine Operators,4,Manufacturing,0.22,0.06,0.5,0.11,,,
+7114,Photographic Developers and Printers,4,Arts and Entertainment,0.39,0.25,0.64,0.11,,,
+7115,Plastics and Rubber Production Machine Operators,4,Manufacturing,0.26,0.07,0.58,0.11,,,0.19
+7116,Sewing Machinists,4,Manufacturing,0.18,0.07,0.51,0.14,,,
+7117,Textile and Footwear Production Machine Operators,4,Manufacturing,0.24,0.07,0.56,0.12,,,
+7119,Other Machine Operators,4,"Construction, Architecture and Design",0.25,0.06,0.6,0.0,2.8,,0.2
+7121,"Crane, Hoist and Lift Operators",4,"Construction, Architecture and Design",0.16,0.07,0.49,0.12,3.2,0.37,0.1
+7122,"Drillers, Miners and Shot Firers",4,Mining and Energy,0.24,0.17,0.5,0.13,3.8,0.09,
+7123,Engineering Production Workers,4,Engineers and Engineering Trades,0.31,0.18,0.63,0.1,4.0,0.49,0.18
+7129,Other Stationary Plant Operators,4,"Construction, Architecture and Design",0.33,0.15,0.59,0.08,2.6,0.04,0.22
+7211,"Agricultural, Forestry and Horticultural Plant Operators",4,"Agriculture, Animal and Horticulture",0.25,0.23,0.54,0.12,2.8,,0.22
+7212,Earthmoving Plant Operators,4,"Construction, Architecture and Design",0.23,0.1,0.51,0.11,2.3,0.28,0.1
+7213,Forklift Drivers,4,Transport and Logistics,0.18,0.07,0.53,0.1,1.5,0.1,0.09
+7219,Other Mobile Plant Operators,4,"Construction, Architecture and Design",0.2,0.0,0.53,0.1,3.3,0.13,0.18
+7311,Automobile Drivers,4,Automotive,0.4,0.29,0.56,0.15,2.3,,0.18
+7312,Bus and Coach Drivers,4,Transport and Logistics,0.39,0.28,0.51,0.15,1.6,,0.12
+7313,Train and Tram Drivers,4,Transport and Logistics,0.38,0.25,0.53,0.15,,0.04,
+7321,Delivery Drivers,4,Transport and Logistics,0.47,0.26,0.59,0.15,2.0,0.06,0.12
+7331,Truck Drivers,4,Transport and Logistics,0.21,0.11,0.56,0.11,2.0,,0.17
+7411,Storepersons,4,"Sales, Retail, Wholesale and Real Estate",0.34,0.22,0.6,0.12,1.5,0.11,0.3
+8111,Car Detailers,4,Automotive,0.11,0.04,0.4,0.1,2.0,,0.25
+8112,Commercial Cleaners,4,Personal Services,0.11,0.03,0.39,0.03,2.2,,0.19
+8113,Domestic Cleaners,4,Personal Services,0.1,0.0,0.42,0.1,2.2,,0.17
+8114,Housekeepers,4,"Hospitality, Food Services and Tourism",0.17,0.07,0.49,0.12,,0.05,
+8115,Laundry Workers,4,Personal Services,0.19,0.06,0.43,0.13,2.6,,0.62
+8116,Other Cleaners,4,Personal Services,0.15,0.05,0.44,0.14,,0.04,
+8211,Building and Plumbing Labourers,4,"Construction, Architecture and Design",0.14,0.05,0.35,0.08,2.9,0.37,0.32
+8212,Concreters,4,"Construction, Architecture and Design",0.1,0.0,0.39,0.03,3.2,,0.21
+8213,Fencers,4,"Construction, Architecture and Design",0.13,0.05,0.41,0.15,,,
+8214,Insulation and Home Improvement Installers,4,"Construction, Architecture and Design",0.17,0.07,0.47,0.12,,,
+8215,Paving and Surfacing Labourers,4,"Construction, Architecture and Design",0.12,0.04,0.32,0.07,,,0.09
+8216,Railway Track Workers,4,Transport and Logistics,0.12,0.04,0.44,0.09,,0.21,
+8217,Structural Steel Construction Workers,4,"Construction, Architecture and Design",0.11,0.04,0.41,0.08,2.7,0.38,0.12
+8219,Other Construction and Mining Labourers,4,"Construction, Architecture and Design",0.18,0.04,0.4,0.0,,0.22,0.32
+8311,Food and Drink Factory Workers,4,Manufacturing,0.21,0.06,0.54,0.11,2.8,,0.15
+8312,"Meat Boners and Slicers, and Slaughterers",4,Manufacturing,0.1,0.0,0.31,0.12,,,
+8313,"Meat, Poultry and Seafood Process Workers",4,Manufacturing,0.13,0.05,0.35,0.12,3.6,,0.22
+8321,Packers,4,Manufacturing,0.29,0.21,0.53,0.14,2.3,,0.15
+8322,Product Assemblers,4,Manufacturing,0.15,0.05,0.45,0.09,3.0,,0.23
+8391,Metal Engineering Process Workers,4,Engineers and Engineering Trades,0.15,0.05,0.48,0.13,,0.08,
+8392,Plastics and Rubber Factory Workers,4,Manufacturing,0.18,0.05,0.45,0.14,,,
+8393,Product Quality Controllers,4,Manufacturing,0.43,0.25,0.69,0.03,6.5,0.22,0.19
+8394,Timber and Wood Process Workers,4,Manufacturing,0.18,0.06,0.42,0.1,,,
+8399,Other Factory Process Workers,4,Manufacturing,0.27,0.08,0.47,0.13,1.7,0.19,0.19
+8411,Aquaculture Workers,4,"Agriculture, Animal and Horticulture",0.3,0.16,0.56,0.12,,,
+8412,Crop Farm Workers,4,"Agriculture, Animal and Horticulture",0.18,0.04,0.53,0.13,1.9,,0.11
+8413,Forestry and Logging Workers,4,"Agriculture, Animal and Horticulture",0.17,0.05,0.49,0.12,,,0.31
+8414,Garden and Nursery Labourers,4,"Agriculture, Animal and Horticulture",0.18,0.04,0.41,0.08,,,
+8415,Livestock Farm Workers,4,"Agriculture, Animal and Horticulture",0.2,0.06,0.47,0.13,,,0.11
+8416,Mixed Crop and Livestock Farm Workers,4,"Agriculture, Animal and Horticulture",0.24,0.07,0.59,0.12,1.5,,0.16
+8419,"Other Farm, Forestry and Garden Workers",4,"Agriculture, Animal and Horticulture",0.25,0.07,0.45,0.21,,,0.4
+8511,Fast Food Cooks,4,"Hospitality, Food Services and Tourism",0.27,0.18,0.56,0.11,,0.03,
+8512,Food Trades Assistants,4,"Hospitality, Food Services and Tourism",0.22,0.22,0.4,0.12,2.0,0.03,0.39
+8513,Kitchenhands,4,"Hospitality, Food Services and Tourism",0.22,0.08,0.53,0.1,1.8,0.03,0.45
+8911,Freight and Furniture Handlers,4,Transport and Logistics,0.33,0.27,0.5,0.14,1.6,,0.18
+8912,Shelf Fillers,4,"Sales, Retail, Wholesale and Real Estate",0.22,0.08,0.47,0.1,2.8,0.09,0.07
+8991,Caretakers,4,Personal Services,0.43,0.21,0.6,0.1,,0.05,0.2
+8992,Deck and Fishing Hands,4,"Agriculture, Animal and Horticulture",0.16,0.05,0.37,0.05,,,0.14
+8993,Handypersons,4,"Construction, Architecture and Design",0.1,0.0,0.43,0.12,2.2,,0.19
+8994,Motor Vehicle Parts and Accessories Fitters,4,Automotive,0.14,0.05,0.51,0.11,1.3,,0.15
+8995,Printing Assistants and Table Workers,4,Manufacturing,0.29,0.15,0.5,0.13,,,
+8996,Recycling and Rubbish Collectors,4,Transport and Logistics,0.17,0.08,0.32,0.1,,,
+8997,Vending Machine Attendants,4,"Sales, Retail, Wholesale and Real Estate",0.35,0.23,0.52,0.13,,,
+8999,Other Miscellaneous Labourers,4,"Construction, Architecture and Design",0.2,0.07,0.41,0.12,2.3,,0.35

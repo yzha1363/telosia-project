@@ -1,0 +1,89 @@
+state_name,sa4_code,sa4_name
+ACT,801,Australian Capital Territory
+NSW,101,Capital Region
+NSW,102,Central Coast
+NSW,103,Central West
+NSW,104,Coffs Harbour - Grafton
+NSW,105,Far West and Orana
+NSW,106,Hunter Valley exc Newcastle
+NSW,107,Illawarra
+NSW,108,Mid North Coast
+NSW,109,Murray
+NSW,110,New England and North West
+NSW,111,Newcastle and Lake Macquarie
+NSW,112,Richmond - Tweed
+NSW,113,Riverina
+NSW,114,Southern Highlands and Shoalhaven
+NSW,115,Sydney - Baulkham Hills and Hawkesbury
+NSW,116,Sydney - Blacktown
+NSW,117,Sydney - City and Inner South
+NSW,118,Sydney - Eastern Suburbs
+NSW,119,Sydney - Inner South West
+NSW,120,Sydney - Inner West
+NSW,121,Sydney - North Sydney and Hornsby
+NSW,122,Sydney - Northern Beaches
+NSW,123,Sydney - Outer South West
+NSW,124,Sydney - Outer West and Blue Mountains
+NSW,125,Sydney - Parramatta
+NSW,126,Sydney - Ryde
+NSW,127,Sydney - South West
+NSW,128,Sydney - Sutherland
+NT,701,Darwin
+NT,702,Northern Territory - Outback
+QLD,301,Brisbane - East
+QLD,302,Brisbane - North
+QLD,303,Brisbane - South
+QLD,304,Brisbane - West
+QLD,305,Brisbane Inner City
+QLD,306,Cairns
+QLD,307,Darling Downs - Maranoa
+QLD,308,Central Queensland
+QLD,309,Gold Coast
+QLD,310,Ipswich
+QLD,311,Logan - Beaudesert
+QLD,312,Mackay - Isaac - Whitsunday
+QLD,313,Moreton Bay - North
+QLD,314,Moreton Bay - South
+QLD,315,Queensland - Outback
+QLD,316,Sunshine Coast
+QLD,317,Toowoomba
+QLD,318,Townsville
+QLD,319,Wide Bay
+SA,401,Adelaide - Central and Hills
+SA,402,Adelaide - North
+SA,403,Adelaide - South
+SA,404,Adelaide - West
+SA,405,Barossa - Yorke - Mid North
+SA,406,South Australia - Outback
+SA,407,South Australia - South East
+TAS,601,Hobart
+TAS,602,Launceston and North East
+TAS,603,South East
+TAS,604,West and North West
+VIC,201,Ballarat
+VIC,202,Bendigo
+VIC,203,Geelong
+VIC,204,Hume
+VIC,205,Latrobe - Gippsland
+VIC,206,Melbourne - Inner
+VIC,207,Melbourne - Inner East
+VIC,208,Melbourne - Inner South
+VIC,209,Melbourne - North East
+VIC,210,Melbourne - North West
+VIC,211,Melbourne - Outer East
+VIC,212,Melbourne - South East
+VIC,213,Melbourne - West
+VIC,214,Mornington Peninsula
+VIC,215,North West
+VIC,216,Shepparton
+VIC,217,Warrnambool and South West
+WA,501,Bunbury
+WA,502,Mandurah
+WA,503,Perth - Inner
+WA,504,Perth - North East
+WA,505,Perth - North West
+WA,506,Perth - South East
+WA,507,Perth - South West
+WA,509,Western Australia - Wheat Belt
+WA,510,Western Australia - Outback (North)
+WA,511,Western Australia - Outback (South)

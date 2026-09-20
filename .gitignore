@@ -1,0 +1,39 @@
+# Secrets and local environment configuration
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Python
+**/.venv/
+**/venv/
+**/__pycache__/
+*.py[cod]
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+
+# Node / frontend build output
+**/node_modules/
+**/dist/
+**/.vite/
+**/.eslintcache
+*.tsbuildinfo
+
+# Raw or local-only project data
+backend/datasets/
+backend/data/annotation/
+backend/data/processed/occupation_hotspot_mapping_review_v1.csv
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

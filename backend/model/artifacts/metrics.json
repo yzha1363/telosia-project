@@ -1,0 +1,67 @@
+{
+  "task": "cross_sectional_association_not_forecast",
+  "target": "WCIFR frequency_rate, mean across non-suppressed years 2014-15 to 2023-24",
+  "split": "grouped by exposure profile rounded to 2 decimal places",
+  "n_dev": 256,
+  "cv_folds": 5,
+  "n_test": 61,
+  "n_occupations_without_published_target": 0,
+  "selected": "ridge",
+  "cross_validation": {
+    "median_baseline": {
+      "mae": 8.89399820877702,
+      "rmse": 17.477221286254927,
+      "r_squared": -0.13485401487913262,
+      "spearman": -0.11306918876130387,
+      "n": 256
+    },
+    "ridge": {
+      "mae": 6.62748016900114,
+      "rmse": 14.766649270645278,
+      "r_squared": 0.18986173025449693,
+      "spearman": 0.7643144901181624,
+      "n": 256
+    },
+    "random_forest": {
+      "mae": 6.911963848916649,
+      "rmse": 15.185500179821483,
+      "r_squared": 0.14325134582895116,
+      "spearman": 0.7412075241047731,
+      "n": 256
+    }
+  },
+  "test": {
+    "mae": 5.5583757847998525,
+    "rmse": 9.430447497771603,
+    "r_squared": -0.20049683819916786,
+    "spearman": 0.7711875635763484,
+    "n": 61
+  },
+  "test_baseline": {
+    "mae": 6.059364313103526,
+    "rmse": 9.246553614001096,
+    "r_squared": -0.15413391109857089,
+    "spearman": null,
+    "n": 61
+  },
+  "test_pairs": {
+    "pair_delta_mae": 8.959464814965775,
+    "pair_direction_accuracy": 0.8115671641791045,
+    "material_pairs": 1608,
+    "tolerance": 1.0,
+    "warning": "Correlated pairs; bootstrap occupations/groups, not pairs."
+  },
+  "production_approved": false,
+  "limitations": [
+    "No body-region injury labels",
+    "Not women-specific",
+    "Not causal",
+    "Related occupations may share source mappings beyond exact profiles",
+    "Target is an across-year average, not a temporal forecast"
+  ],
+  "deployable_signal": "direction_only - predicted_rate must never be shown as a number, only the tier (test R^2 is negative; tier ranking is backed by test Spearman 0.77 / 81% pairwise direction accuracy)",
+  "tier_thresholds": {
+    "low_cutoff": 3.3090416887130725,
+    "high_cutoff": 10.059313379716679
+  }
+}
