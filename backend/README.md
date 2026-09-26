@@ -1,5 +1,8 @@
 # Telosia Backend
 
+Chat tool-protocol repair, local test evidence and remaining verification:
+[CHAT_EARLY_RESULTS.md](CHAT_EARLY_RESULTS.md#protocol-repair-update).
+
 Telosia tells someone what their job is doing to their body, and where people in that job actually went next — built from real Australian workforce and injury data, no account required.
 
 FastAPI + PostgreSQL + SQLAlchemy. Live at **https://telosia.fastapicloud.dev**.
@@ -16,7 +19,7 @@ FastAPI + PostgreSQL + SQLAlchemy. Live at **https://telosia.fastapicloud.dev**.
 | ETL | Pandas, OpenPyXL/xlrd, standalone scripts in `etl/` |
 | Chat model | NVIDIA NIM through its OpenAI-compatible Chat Completions API |
 | Local RAG | Sentence Transformers (`all-MiniLM-L6-v2`) + FAISS cosine similarity |
-| Chat orchestration | Deterministic scope/intent routing, PostgreSQL context building, and bounded generation |
+| Chat orchestration | Model-led dataset discovery, structured read-only queries, calculations and optional RAG |
 | Deployment | FastAPI Cloud (API) + Supabase (Postgres) |
 
 Full pinned dependency list: `requirements.txt`.
@@ -46,23 +49,62 @@ telosia/
 
 | File | Responsibility |
 |---|---|
-| `app/routes/chat.py` | `POST /api/v1/chat` routing and HTTP error handling |
+| `app/routes/chat.py` | JSON chat plus SSE progress/text endpoint; worker-owned lazy DB session |
+| `app/services/chat_execution.py` | Request IDs, stage timings, cancellation and model-client cleanup |
 | `app/schemas/chat.py` | Request/response validation and public API contract |
-| `app/services/chat_intent.py` | Deterministic English body-region and job-comparison intent parsing |
-| `app/services/occupation_demand_search.py` | Cross-occupation BOHD comparison using Sam's existing body-region mapping |
-| `app/services/chat_context.py` | Read-only PostgreSQL context and source metadata assembly |
+| `app/services/chat_context.py` | Optional occupation selection metadata and source lookup; no file reads during preparation |
+| `app/services/chat_data.py` | Public dataset catalog, semantic query validation and read-only SQLAlchemy execution |
+| `app/services/chat_tools.py` | General discovery/query/calculation/RAG tools and request-local evidence |
 | `app/services/rag_retriever.py` | Local FAISS loading, integrity checks, filtering, and Top-K retrieval |
-| `app/services/nvidia_chat.py` | NVIDIA NIM client, system boundary, and deterministic answer formatting |
-| `knowledge/telosia_chat_knowledge.md` | Site scope, terminology, and data limitations supplied to the answer layer |
+| `app/services/nvidia_chat.py` | NVIDIA NIM client, bounded tool-calling loop, and answer boundary |
+| `knowledge/telosia_chat_knowledge.md` | Reference documentation for site scope, terminology, and data limitations; not automatically injected into chat |
 | `knowledge/rag/` | Committed JSONL chunks, FAISS vectors, and manifest used at runtime |
 | `scripts/build_rag_documents.py` | Build reviewed chunks from the local annotation workbook |
 | `scripts/build_rag_index.py` | Generate embeddings and rebuild the FAISS index |
-| `tests/test_chat.py` | Endpoint, scope, response, grounding, and failure-path tests |
-| `tests/test_occupation_demand_search.py` | Intent-to-database occupation-ranking tests |
+| `tests/test_chat.py` | Model loop, endpoint contract, calculations and failure-path tests |
+| `tests/test_chat_data.py` | Structured query, catalog, unit/grain, provenance and body-region tests |
+| `CHAT_DATA_ASSISTANT_README.md` | Data assistant architecture, tool contracts, configuration and examples |
 
 ---
 
 ## Local setup
+
+### Windows (this combined repository)
+
+Run from `telosia-project/backend`. This project owns its `.venv` and `.env`;
+do not use a sibling project's interpreter or credentials file.
+
+```powershell
+py -3.13 -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements-dev.txt
+# First setup only; preserve existing secrets/configuration.
+if (!(Test-Path .env)) { Copy-Item .env.example .env }
+# Configure DATABASE_URL and NVIDIA_API_KEY in .env before starting.
+.\start_backend.cmd
+```
+
+`start_backend.cmd` selects the local interpreter and explicitly loads
+`backend/.env`, overriding stale values in the launching shell for keys present
+in that file. It binds to `127.0.0.1:8000`, matching the frontend proxy.
+The launcher does not change production configuration or initialise the database.
+Stop an existing backend with Ctrl+C in its own terminal before starting another.
+Restart after editing `.env`; editing `.env.example` alone has no runtime effect.
+
+The existing local database and RAG artifacts can be reused without rebuilding
+tables, importing data again, or regenerating vectors. The Python environment
+and `.env` remain Git-ignored. No activation script is needed in PowerShell.
+
+Run diagnostics/tests with this same interpreter:
+
+```powershell
+.\.venv\Scripts\python.exe -m pip check
+.\.venv\Scripts\python.exe -m pytest tests/test_chat_transport.py -q
+.\.venv\Scripts\python.exe scripts/benchmark_chat_latency.py --env-file .env --cases minimal --efforts default --repeats 1 --timeout 30 --output data/benchmarks/local-env-check.json
+```
+
+The last command makes a live model request; use a new output filename each time.
+
+### Original standalone/Linux setup
 
 ```bash
 git clone https://github.com/abdullahmehmood0/telosia.git
@@ -87,7 +129,15 @@ psql -h localhost -d telosia -f database/schema.sql
 DATABASE_URL=postgresql+psycopg://your_username:your_password@localhost:5432/telosia
 NVIDIA_API_KEY=nvapi-your-api-key
 NVIDIA_API_BASE=https://integrate.api.nvidia.com/v1
-NVIDIA_CHAT_MODEL=openai/gpt-oss-20b
+NVIDIA_CHAT_MODEL=deepseek-ai/deepseek-v4.1-flash
+NVIDIA_CHAT_MAX_TOKENS=3072
+NVIDIA_CHAT_TIMEOUT_SECONDS=60
+CHAT_TOTAL_TIMEOUT_SECONDS=240
+CHAT_SUMMARY_RESERVE_SECONDS=60
+CHAT_EXTENDED_TIMEOUT_SECONDS=300
+CHAT_MAX_TRANSIENT_RETRIES=1
+CHAT_MAX_ROUNDS=7
+CHAT_MAX_TOOL_CALLS=12
 RAG_INDEX_DIRECTORY=knowledge/rag
 RAG_MINIMUM_SCORE=0.30
 RAG_ALLOW_UNREVIEWED=false
@@ -153,259 +203,165 @@ All occupation routes are under `/api/v1` (adopted to match the frontend's `API_
 | `GET /api/v1/occupations/{id}/ai-exposure` | ✅ US-7.1 / AC7.1 — published JSA Gen AI exposure ratings, not modelled |
 | `GET /api/v1/occupations/{id}/pay-gap` | ✅ US-4.1 / AC4.1-a / AC4.1-b — published JSA gender pay gap, per 6-digit specialisation |
 | `GET /api/v1/occupations/{id}/injury-insight` | ✅ — a research model's *tier* (direction only, never a number), not published claims data — see below |
-| `POST /api/v1/chat` | ✅ — deterministic occupation comparison, local RAG, PostgreSQL context, and NVIDIA NIM |
+| `POST /api/v1/chat` | ✅ — model-led queries, comparisons and calculations across public datasets, optional RAG and NVIDIA NIM |
+| `POST /api/v1/chat/stream` | ✅ — same request, with live progress, text deltas and a final authoritative result |
 | `GET /api/v1/sources`, `/sources/{id}` | ✅ US-6.1/6.2 |
 
 ### `POST /api/v1/chat`
 
-The chatbot is a bounded Telosia assistant, not an unrestricted general-purpose
-agent. It combines deterministic English intent parsing, live read-only
-PostgreSQL queries, a local FAISS knowledge index, and NVIDIA NIM. The current
-implementation has no autonomous tool calling and performs no database writes.
+The chatbot is a conversational analyst for Telosia's public datasets. The model
+plans its own sequence of field discovery, queries, comparisons, calculations
+and explanations. Users can query across all datasets without selecting an
+occupation. A selection helps resolve “my job” or “this occupation”; it does not
+restrict every question to that occupation.
 
-Supported capabilities:
+The active endpoint no longer uses the previous keyword scope gate, English
+regex intent routing, or mandatory occupation-selection check. Existing legacy
+services are not the request planner.
 
-- explain Telosia datasets, terminology, sources, and limitations;
-- answer occupation-specific questions using the selected occupation's
-  profile, physical-demand exposure, injury-frequency averages, and observed
-  mobility destinations;
-- retrieve approved hazard-to-body association material from the local RAG
-  index;
-- compare occupations with higher or lower recorded BOHD exposure for one or
-  more supported body regions; and
-- return structured occupation results and source metadata for the frontend.
+The tool catalog covers **22 registered public research tables**, when present
+in the connected database, plus a derived `body_region_exposure` dataset. It
+includes occupation profiles/tasks/aliases, pay gaps, AI exposure, injury rates,
+hazard data, mobility, regional employment, NDS statistics, sources, annotation
+evidence and project model metadata. Empty tables remain empty; the assistant
+does not fabricate missing observations.
 
-Explicitly unsupported:
+The model chooses four general tools:
 
-- medical diagnosis, treatment, medication, or emergency instructions;
-- deciding whether a job is medically suitable for an individual;
-- presenting BOHD exposure as observed injury, causation, or personal risk;
-- claims by body part by occupation, because the published source does not
-  provide that measure; and
-- inventing, interpolating, or replacing missing published values with zero.
+| Tool | Purpose |
+|---|---|
+| `describe_data` | Discover datasets, field types, units, observation grain and calculation rules |
+| `query_data` | Select/filter/group/aggregate/sort/page current data; optionally calculate from those result rows in the same call |
+| `calculate` | Perform arithmetic on numeric cells from successful queries in the current request |
+| `search_knowledge` | Retrieve definitions and reviewed evidence from local RAG when relevant |
+
+The backend resolves fields to registered SQLAlchemy columns and binds filter
+values as parameters. It executes queries in isolated read-only PostgreSQL
+transactions with a five-second statement timeout. The change adds no database
+table, column or migration. Sam's body-region mapping is reused directly.
+
+See [CHAT_DATA_ASSISTANT_README.md](CHAT_DATA_ASSISTANT_README.md) for the complete
+data catalog, query/calculation examples, configuration and acceptance checks.
+See [CHAT_LATENCY_REPORT.md](CHAT_LATENCY_REPORT.md) for the local benchmark,
+provider limitations, optional reasoning-effort setting and reproducible commands.
+Query-attached calculations can avoid a separate model round for arithmetic;
+the standalone calculator remains available for cross-query comparisons.
 
 #### Request contract
 
 ```json
 {
-  "message": "What physical demands affect the lower back?",
-  "occupation_id": 237
+  "message": "Which occupations have the lowest recorded exposure for legs and feet?",
+  "occupation_id": null,
+  "history": [],
+  "page_context": "/risk"
 }
 ```
 
 | Field | Type | Required | Validation |
 |---|---|---|---|
-| `message` | string | yes | Trimmed, 2-500 characters, cannot be blank |
-| `occupation_id` | positive integer or `null` | no | Must refer to an existing occupation when supplied |
+| `message` | string | yes | 2–2,000 characters; whitespace is trimmed and blank content rejected |
+| `occupation_id` | positive integer or `null` | no | Context hint; resolved only when a tool needs that occupation |
+| `history` | array of `{role, content}` | no | Up to 10 prior messages; role is `user` or `assistant`; each content is 1–4,000 characters |
+| `page_context` | string or `null` | no | Up to 120 characters; the frontend sends its current route path |
 
-Example without a selected occupation:
+Send prior turns before the new `message`, without duplicating the new question.
+The frontend includes only successful user/assistant exchanges, excluding its
+welcome message and failed requests. Changing the selected occupation resets
+the history sent to the model while preserving messages displayed on screen.
+History and page context help interpret questions; database facts are retrieved
+again rather than trusted from browser-supplied history.
 
 ```bash
 curl -X POST http://127.0.0.1:8000/api/v1/chat \
   -H "Content-Type: application/json" \
-  -d '{"message":"Which jobs have low exposure for the lower back?"}'
+  -d '{"message":"Which two specialisations have the highest gender pay gap?","history":[]}'
 ```
 
-Example for the occupation currently selected by the frontend:
-
-```bash
-curl -X POST http://127.0.0.1:8000/api/v1/chat \
-  -H "Content-Type: application/json" \
-  -d '{"message":"What is the injury frequency rate for this occupation?","occupation_id":237}'
-```
-
-#### Request-routing flow
+#### Request flow and response
 
 ```text
-Validated ChatRequest
-        |
-        v
-Scope guard (Telosia topics only)
-        |
-        +--> unsupported topic -> out_of_scope (no model call)
-        |
-        v
-English body-region/job-comparison intent parser
-        |
-        +--> matched -> Sam's region mapping + approved RAG hazard IDs
-        |              + PostgreSQL BOHD scores -> structured occupations
-        |              (deterministic; no model call)
-        |
-        v
-Occupation-required check
-        |
-        +--> missing occupation -> needs_occupation (no model call)
-        |
-        v
-Local FAISS Top-5 retrieval + optional live occupation context
-        |
-        v
-Deterministic body-mapping answer when supported,
-otherwise bounded NVIDIA NIM generation
-        |
-        v
-ChatResponse with answer, occupation results, and sources
+Validated request + optional selection/history/page
+  -> Model receives compact static schema hints and optional selection ID (no DB reads)
+  -> Model chooses describe_data / query_data / calculate / search_knowledge
+  -> Backend returns rows, units, provenance or a correctable tool error
+  -> Model can refine the query or combine more evidence
+  -> Answer + supporting sources + query trace
 ```
 
-The cross-occupation path recognises English variants for six regions:
+Normal conversation can finish in one model call without database access,
+including when an occupation is selected. Known-field queries can call
+`query_data` directly; `describe_data` is optional. The live schema catalog is
+cached per database engine for five minutes; business rows are queried live.
 
-- Lower back
-- Shoulders and upper arms
-- Hands and wrists
-- Knees
-- Legs and feet
-- Whole body and fall risk
-
-Questions expressing a limitation, such as `I have an issue with my lower
-back; what kind of job should I choose?`, are interpreted as a request for
-occupations with **lower recorded exposure**, not as a medical assessment.
-Questions such as `Which jobs use the hands most?` are interpreted as a
-higher-exposure comparison. The route returns at most four occupations.
-
-For each candidate, the backend:
-
-1. resolves Sam's existing `BODY_REGION_MAPPING` variable names to approved
-   hazard IDs in the RAG metadata;
-2. reads the corresponding occupation exposure scores from PostgreSQL;
-3. takes the maximum contributing variable for each region, matching the body
-   map calculation;
-4. takes the maximum across requested regions when more than one is supplied;
-5. rounds the comparison score to a whole number; and
-6. excludes occupations that do not have a published contributing measure.
-
-The result is an exposure comparison only. It is not a recommendation that a
-job is safe or clinically suitable for a person.
-
-#### Response contract
-
-| Field | Meaning |
+| Response field | Meaning |
 |---|---|
-| `status` | One of `answered`, `out_of_scope`, `needs_occupation`, or `temporarily_unavailable` |
-| `answer` | Plain-English/Markdown answer or a fixed boundary/error message |
-| `occupation_id` | Selected occupation ID, or `null` for a cross-occupation result |
-| `occupation_results` | Structured comparison cards for deterministic higher/lower exposure searches |
-| `sources` | Publisher, dataset, URL, licence, coverage dates, retrieval date, and plain-language note |
+| `status` | `answered` on completion; `partial` for budget-limited summaries or errors with evidence; otherwise `temporarily_unavailable` on upstream failure |
+| `answer` | English/Markdown answer based on returned evidence |
+| `occupation_id` | Supplied selection or `null`; it is not necessarily the scope of the result |
+| `occupation_results` | Legacy-compatible field, currently empty; intermediate query candidates are not presented as final recommendations |
+| `sources` | Database source metadata: publisher, title, URL, licence, dates and note |
+| `tools_used` | Ordered tool names attempted during this request; may include repeated calls |
+| `data_queries` | Successful query metadata: `query_id`, `dataset`, `row_count`, `truncated` |
+| `data_results` | Bounded query previews, grouped and collapsed in the UI |
+| `turn_token` | Signed one-hour status/dataset receipt, accepted as `previous_turn_token` on the next request |
+| `request_id`, `timings`, `elapsed_ms` | Correlate model rounds/attempts, tools and total latency with safe server logs |
+| `error_code`, `error_stage` | Distinguish model timeout, total request timeout and other failures |
 
-Each `occupation_results` item contains:
+The response schema retains `out_of_scope` and `needs_occupation` for compatibility,
+but the active route does not emit those old keyword/selection-gate responses.
+Invalid requests return HTTP 422. Unknown occupation IDs are resolved only by
+requested tools, which return empty data/errors instead of blocking a greeting.
+Missing model configuration or a database failure returns 503. Upstream NVIDIA
+connection, rate-limit and API failures return HTTP 200 with
+`status: "temporarily_unavailable"`, or `partial` when query evidence is available.
 
-```json
-{
-  "occupation_id": 42,
-  "title": "Example occupation",
-  "comparison": "lower",
-  "relative_exposure_score": 18,
-  "body_regions": ["Lower back"],
-  "leading_demands": ["Spend Time Sitting"]
-}
+The frontend now uses `POST /api/v1/chat/stream` with the same JSON body. SSE
+events are `status`, `delta`, `answer_reset`, `data_result`, `result` and `error`. Progress
+separates understanding, querying, searching, calculating, generating and
+retrying. `result` contains the full response above; it replaces provisional
+text. Completed replies enter history as answers; incomplete replies enter as
+explicit status summaries, not verified numeric answers.
+
+The provider socket timeout defaults to 60 seconds. A whole-analysis budget
+defaults to 240 seconds, reserving the last 60 for a summary. An explicit
+`extended_analysis: true` retry allows up to 300 seconds. At most one transient retry before any partial
+model output. Retries use the same remaining budget and do not replay executed
+tools. The frontend follows the advertised server budget plus 15 seconds (at most
+315 seconds), and still supports Stop and cancellation on unmount. A
+stream/deadline error is not described as the database still loading.
+
+Published units and grain still apply. Pay-gap fractions are displayed as
+percentages at six-digit specialisation/cohort level; differences are percentage
+points. Annual injury-frequency rates are averaged, never summed. Body-region
+scores use Sam's maximum-contributor rule, with complete coverage required for
+low-exposure rankings. Missing values remain `null`. Exposure comparisons do
+not determine personal medical suitability.
+
+RAG is optional and called on demand. If its files/model are unavailable, its
+tool reports unavailable evidence and database queries can continue. NVIDIA
+configuration is required for this model-led route. The API key stays in the
+backend `.env`.
+
+#### Run and verify locally
+
+From `backend/`, use the project's Python environment:
+
+```powershell
+.\start_backend.cmd
 ```
 
-The example above documents the response shape only; it is not a published
-Telosia result. Actual values always come from the current database.
+Automated chatbot/query tests replace the external model with controlled
+responses and use local fixtures for query behavior:
 
-Response behaviour:
-
-| Situation | HTTP | Chat `status` |
-|---|---:|---|
-| Supported and answered | 200 | `answered` |
-| Unrelated request or a request containing a configured diagnosis/treatment/medication/emergency term | 200 | `out_of_scope` |
-| An occupation-specific measure was requested without an occupation | 200 | `needs_occupation` |
-| NVIDIA rate limit, connection failure, or upstream API failure | 200 | `temporarily_unavailable` |
-| Missing NVIDIA configuration or invalid/inconsistent RAG artifacts | 503 | FastAPI error detail |
-| Invalid request body | 422 | FastAPI validation detail |
-| Unknown supplied occupation ID | 404 | FastAPI error detail |
-
-#### Context sent to NVIDIA NIM
-
-The model does not connect to PostgreSQL, FAISS, or the frontend directly. The
-backend constructs `TELOSIA_CONTEXT` before the model request. Depending on the
-question, that context contains:
-
-- the reviewed site knowledge boundary;
-- up to five filtered RAG matches;
-- the selected occupation profile and tasks;
-- Sam's calculated body-region exposure data;
-- injury-frequency all-year and latest-five-financial-year **averages**;
-- observed occupation mobility destinations; and
-- supporting source metadata.
-
-The system prompt instructs the model to treat context as data rather than
-instructions, name a selected occupation, distinguish a general mapping from
-an occupation-specific result, and refuse to invent missing values. The
-default request uses temperature `0.2`, a maximum of `600` output tokens, a
-30-second timeout, and one retry.
-
-The NVIDIA API key remains in the backend `.env`. It must never be committed or
-sent to the browser.
-
-#### Local RAG knowledge base
-
-Runtime artifacts live in `knowledge/rag/`:
-
-| Artifact | Purpose |
-|---|---|
-| `documents.jsonl` | Text chunks and structured metadata |
-| `index.faiss` | Normalised 384-dimensional vectors searched by inner product/cosine similarity |
-| `manifest.json` | Embedding model, counts, ordered chunk IDs, dimension, timestamp, and SHA-256 integrity data |
-
-The current index uses `sentence-transformers/all-MiniLM-L6-v2` and contains
-127 chunks: 80 hazard/body-association chunks, 42 body-part lookup chunks, and
-5 methodology chunks. At runtime, `RAG_ALLOW_UNREVIEWED=false` allows approved
-project records and methodology references only. Project approval is a content
-workflow status; it is not clinical validation.
-
-When a body-part term is recognised, retrieval searches the small full index
-and then filters by compatible TOOCS body codes. Otherwise it retrieves a
-larger candidate set before returning the best five results. The default
-minimum cosine-similarity score is `0.30`. Similarity is textual relevance,
-not an injury-risk or association score.
-
-The retriever validates all three artifacts when it loads:
-
-- `documents.jsonl` SHA-256 must match the manifest;
-- document order must match the manifest's ordered chunk IDs;
-- document, manifest, and FAISS vector counts must agree; and
-- FAISS vector dimension must match the manifest.
-
-The retriever and embedding model are cached once per backend process. These
-local RAG files do not add or modify PostgreSQL tables.
-
-#### Rebuilding the RAG artifacts
-
-The committed artifacts are ready for normal runtime use. Rebuilding is only
-required after changing the annotation source or chunking logic. The source
-workbook is local and gitignored at:
-
-```text
-data/annotation/occupational_hazard_body_part_annotations_all_57_english.xlsx
+```powershell
+.\.venv\Scripts\python.exe -m pytest tests/test_chat.py tests/test_chat_data.py tests/test_chat_lazy.py tests/test_chat_stream.py -q
 ```
 
-Rebuild in this order from the repository root:
-
-```bash
-python scripts/build_rag_documents.py
-python scripts/build_rag_index.py
-```
-
-For local review work only, unreviewed annotation records can be included with:
-
-```bash
-python scripts/build_rag_documents.py --include-unreviewed
-```
-
-That option should be paired with `RAG_ALLOW_UNREVIEWED=true` only in an
-explicit local review environment, never silently enabled for deployment.
-After changing `documents.jsonl`, always rebuild `index.faiss` and
-`manifest.json`; otherwise the integrity check deliberately returns a RAG
-configuration error.
-
-#### Chatbot tests
-
-The chatbot tests do not require a live NVIDIA request. Model and database
-boundaries are replaced with controlled test doubles.
-
-```bash
-python -m pytest tests/test_chat.py tests/test_occupation_demand_search.py -q
-```
+Passing these checks verifies contracts and execution behavior; it does not
+establish the external model's accuracy or response time. Test the example
+questions in the detailed README against the configured NVIDIA endpoint and
+inspect `tools_used`, `data_queries` and sources in the response.
 
 ### `GET /api/v1/occupations/search?q=`
 
@@ -674,7 +630,7 @@ CORS_ALLOWED_ORIGINS=http://localhost:5173,http://127.0.0.1:5173,https://wayout-
 | `CORS_ALLOWED_ORIGINS` | no |
 | `NVIDIA_API_KEY` | yes - NVIDIA Developer API key |
 | `NVIDIA_API_BASE` | no - defaults to `https://integrate.api.nvidia.com/v1` |
-| `NVIDIA_CHAT_MODEL` | no - defaults to `openai/gpt-oss-20b` |
+| `NVIDIA_CHAT_MODEL` | no - defaults to `deepseek-ai/deepseek-v4.1-flash` |
 | `RAG_INDEX_DIRECTORY` | no - defaults to `knowledge/rag` |
 | `RAG_MINIMUM_SCORE` | no - defaults to `0.30` cosine similarity |
 | `RAG_ALLOW_UNREVIEWED` | no - defaults to `false`; local review only when enabled |

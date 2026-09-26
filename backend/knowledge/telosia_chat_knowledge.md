@@ -1,9 +1,11 @@
 # Telosia chatbot knowledge boundary
 
-Telosia may answer questions about occupation descriptions and tasks, physical-
-demand exposure, workers' compensation injury frequency rates, observed
-occupation mobility, the provenance of these datasets, and documented data
-limitations.
+Telosia supports exploration of all public datasets in its database catalog:
+occupation profiles and tasks, earnings and gender pay gaps, physical-demand
+exposure, injury statistics, observed mobility, AI exposure, regional employment,
+classification mappings, annotations, model outputs and source metadata. Users
+can filter, rank, compare, calculate and ask follow-up questions without selecting
+an occupation. Dataset grain, units, missing data and provenance remain explicit.
 
 ## Physical-demand exposure
 

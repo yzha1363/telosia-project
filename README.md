@@ -25,26 +25,32 @@ Quick start on Windows PowerShell:
 ```powershell
 cd backend
 py -m venv .venv
-.\.venv\Scripts\Activate.ps1
-pip install -r requirements.txt
-Copy-Item .env.example .env
+.\.venv\Scripts\python.exe -m pip install -r requirements-dev.txt
+# New checkouts only: never overwrite an existing .env.
+if (!(Test-Path .env)) { Copy-Item .env.example .env }
 ```
 
 Set `DATABASE_URL` and `NVIDIA_API_KEY` in `backend/.env`, create/load the
 PostgreSQL database as described in the backend README, then run:
 
 ```powershell
-.\.venv\Scripts\python.exe -m uvicorn app.main:app --reload --port 8000
+.\start_backend.cmd
 ```
 
 Swagger UI: <http://127.0.0.1:8000/docs>
+
+The Windows launcher always uses `backend/.venv` and `backend/.env`, even if a
+different virtual environment is active in your terminal. Local `.env` values
+override stale shell settings. Restart the backend after editing `.env`;
+`.env.example` is documentation only and is not loaded at runtime. Do not use
+a sibling project's Python or `.env`. No PowerShell activation script is needed.
 
 ## Frontend
 
 ```powershell
 cd frontend
-npm install
-npm run dev
+npm.cmd install
+npm.cmd run dev
 ```
 
 For local development, create `frontend/.env.local` containing:
@@ -62,14 +68,14 @@ Backend chatbot tests:
 
 ```powershell
 cd backend
-.\.venv\Scripts\python.exe -m pytest tests/test_chat.py tests/test_occupation_demand_search.py -q
+.\.venv\Scripts\python.exe -m pytest tests/test_chat.py tests/test_chat_data.py -q
 ```
 
 Frontend production build:
 
 ```powershell
 cd frontend
-npm run build
+npm.cmd run build
 ```
 
 ## Security and data handling
