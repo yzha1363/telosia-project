@@ -1,14 +1,17 @@
 <script setup lang="ts">
-import DOMPurify from 'dompurify'
-import MarkdownIt from 'markdown-it'
-import { computed, nextTick, onMounted, onUnmounted, ref } from 'vue'
+import ChatMarkdown from './ChatMarkdown.vue'
+import { computed, nextTick, onMounted, onUnmounted, ref, watch } from 'vue'
 import { useRouter } from 'vue-router'
 import {
-  askChatbot,
+  askChatbotStream,
+  ChatStreamError,
+  type ChatHistoryMessage,
   type ChatOccupationResult,
   type ChatSource,
+  type ChatDataResult,
 } from '../api/telosia'
 import { appState, confirmOccupation } from '../store/appState'
+import { evidenceGroups, recordTurn } from '../api/chatPresentation'
 
 interface ChatMessage {
   id: number
@@ -16,6 +19,10 @@ interface ChatMessage {
   text: string
   occupationResults?: ChatOccupationResult[]
   sources?: ChatSource[]
+  dataResults?: ChatDataResult[]
+  partial?: boolean
+  retryQuestion?: string
+  occupationId?: number
 }
 
 interface PanelSize {
@@ -27,12 +34,16 @@ const router = useRouter()
 const isOpen = ref(false)
 const input = ref('')
 const isSending = ref(false)
+const progressMessage = ref('Understanding your question…')
+const pendingMessageId = ref<number | null>(null)
 const inputElement = ref<HTMLInputElement | null>(null)
 const panelElement = ref<HTMLElement | null>(null)
 const customPanelSize = ref<PanelSize | null>(null)
 const isResizing = ref(false)
 let nextMessageId = 1
 let resizeOrigin: (PanelSize & { x: number; y: number }) | null = null
+let activeRequest: AbortController | null = null
+let isUnmounted = false
 
 const panelStyle = computed(() => {
   if (!customPanelSize.value) return undefined
@@ -119,33 +130,39 @@ function fitCustomPanelToViewport() {
 }
 
 onMounted(() => window.addEventListener('resize', fitCustomPanelToViewport))
-onUnmounted(() => window.removeEventListener('resize', fitCustomPanelToViewport))
-
-const markdown = new MarkdownIt({
-  breaks: true,
-  html: false,
-  linkify: true,
-  typographer: false,
+onUnmounted(() => {
+  isUnmounted = true
+  activeRequest?.abort()
+  window.removeEventListener('resize', fitCustomPanelToViewport)
 })
-
-function renderAssistantMessage(text: string): string {
-  return DOMPurify.sanitize(markdown.render(text), {
-    USE_PROFILES: { html: true },
-  })
-}
 
 const messages = ref<ChatMessage[]>([
   {
     id: nextMessageId++,
     role: 'assistant',
-    text: 'Ask me about occupations, physical-demand exposure, injury frequency, career moves, or Telosia data sources.',
+    text: 'Explore and compare occupations, pay gaps, physical demands, injury frequency, career moves, regional employment, or AI exposure. You can ask about all Telosia data or a selected occupation.',
   },
 ])
+
+const visibleMessages = computed(() => messages.value.filter((message) => (
+  message.id !== pendingMessageId.value || message.text.length > 0 || message.dataResults?.length
+)))
 
 const selectedOccupationId = computed(() => {
   const value = Number(appState.selectedOccupationId)
   return Number.isInteger(value) && value > 0 ? value : undefined
 })
+
+const conversationHistory = ref<ChatHistoryMessage[]>([])
+const previousTurnToken = ref<string>()
+let occupationContextVersion = 0
+
+watch(selectedOccupationId, () => {
+  // Keep the visible conversation, but stop resolving "this job" against an old selection.
+  conversationHistory.value = []
+  previousTurnToken.value = undefined
+  occupationContextVersion += 1
+}, { flush: 'sync' })
 
 async function toggleChat() {
   isOpen.value = !isOpen.value
@@ -155,9 +172,16 @@ async function toggleChat() {
   }
 }
 
-async function sendMessage() {
-  const question = input.value.trim()
+function stopRequest() {
+  activeRequest?.abort()
+}
+
+async function sendMessage(retryQuestion?: string, extended = false) {
+  const question = (retryQuestion ?? input.value).trim()
   if (!question || isSending.value) return
+
+  const requestContextVersion = occupationContextVersion
+  const history = conversationHistory.value.slice(-10)
 
   messages.value.push({
     id: nextMessageId++,
@@ -166,26 +190,71 @@ async function sendMessage() {
   })
   input.value = ''
   isSending.value = true
+  progressMessage.value = 'Understanding your question…'
+  const controller = new AbortController()
+  activeRequest = controller
+  const assistantMessage = ref<ChatMessage>({
+    id: nextMessageId++,
+    role: 'assistant',
+    text: '',
+    occupationId: selectedOccupationId.value,
+  })
+  pendingMessageId.value = assistantMessage.value.id
+  messages.value.push(assistantMessage.value)
 
   try {
-    const response = await askChatbot(question, selectedOccupationId.value)
-    messages.value.push({
-      id: nextMessageId++,
-      role: 'assistant',
-      text: response.answer,
-      occupationResults: response.occupation_results,
-      sources: response.sources,
+    const response = await askChatbotStream(question, selectedOccupationId.value, {
+      history,
+      previous_turn_token: previousTurnToken.value,
+      extended_analysis: extended,
+      page_context: router.currentRoute.value.path.slice(0, 120),
+    }, {
+      signal: controller.signal,
+      onStatus: (status) => {
+        progressMessage.value = status.message
+      },
+      onDelta: (text) => {
+        assistantMessage.value.text += text
+      },
+      onAnswerReset: () => {
+        assistantMessage.value.text = ''
+      },
+      onDataResult: (result) => {
+        const previous = assistantMessage.value.dataResults ?? []
+        assistantMessage.value.dataResults = [...previous.filter((item) => item.query_id !== result.query_id), result]
+      },
     })
-  } catch {
-    messages.value.push({
-      id: nextMessageId++,
-      role: 'assistant',
-      text: 'The Telosia assistant is temporarily unavailable. Please try again later.',
-    })
+    if (isUnmounted) return
+    // The final response includes backend disclosures and replaces any provisional text.
+    assistantMessage.value.text = response.answer
+    assistantMessage.value.occupationResults = response.occupation_results
+    assistantMessage.value.sources = response.sources
+    if (response.data_results?.length) assistantMessage.value.dataResults = response.data_results
+    assistantMessage.value.partial = response.status === 'partial' || response.status === 'temporarily_unavailable'
+    if (assistantMessage.value.partial && !extended) assistantMessage.value.retryQuestion = question
+    if (requestContextVersion === occupationContextVersion) {
+      previousTurnToken.value = response.turn_token
+      conversationHistory.value = recordTurn(history, question, response)
+    }
+  } catch (error) {
+    if (isUnmounted) return
+    assistantMessage.value.text = error instanceof ChatStreamError
+      ? error.message
+      : 'The Telosia assistant is temporarily unavailable. Please try again later.'
+    assistantMessage.value.partial = true
+    if (!extended) assistantMessage.value.retryQuestion = question
+    if (requestContextVersion === occupationContextVersion) {
+      previousTurnToken.value = undefined
+      conversationHistory.value = recordTurn(history, question, { status: 'temporarily_unavailable', answer: '' })
+    }
   } finally {
+    activeRequest = null
+    pendingMessageId.value = null
     isSending.value = false
-    await nextTick()
-    inputElement.value?.focus()
+    if (!isUnmounted) {
+      await nextTick()
+      inputElement.value?.focus()
+    }
   }
 }
 
@@ -248,26 +317,52 @@ async function viewOccupation(result: ChatOccupationResult) {
 
     <p class="chatbot-context">
       <template v-if="appState.selectedOccupationTitle">
-        Using data for <strong>{{ appState.selectedOccupationTitle }}</strong>
+        Selected: <strong>{{ appState.selectedOccupationTitle }}</strong>. You can also explore other occupations.
       </template>
       <template v-else>
-        No occupation selected — answers will be general.
+        Explore all Telosia data. Selecting an occupation is optional.
       </template>
     </p>
 
     <div class="chatbot-messages" aria-live="polite">
       <article
-        v-for="message in messages"
+        v-for="message in visibleMessages"
         :key="message.id"
+        v-memo="[message.text, message.dataResults, message.sources, message.occupationResults, message.partial, message.retryQuestion, message.occupationId, selectedOccupationId, isSending, message.id === pendingMessageId]"
         class="chatbot-message"
         :class="message.role"
+        :aria-busy="message.id === pendingMessageId"
       >
-        <div
+        <ChatMarkdown
           v-if="message.role === 'assistant'"
           class="chatbot-message-content"
-          v-html="renderAssistantMessage(message.text)"
-        ></div>
+          :text="message.text"
+        />
         <p v-else>{{ message.text }}</p>
+        <p v-if="message.partial" class="chatbot-partial">Analysis incomplete — not a finished answer.</p>
+        <button v-if="message.retryQuestion && message.occupationId === selectedOccupationId" type="button" :disabled="isSending" @click="sendMessage(message.retryQuestion, true)">Retry this question · allow up to 5 minutes</button>
+        <p v-if="message.retryQuestion && message.occupationId === selectedOccupationId"><small>Starts a new analysis; it does not resume the previous request.</small></p>
+        <details v-if="message.dataResults?.length" class="chatbot-query-evidence">
+          <summary>{{ message.id === pendingMessageId ? 'Data retrieved — analysis in progress' : 'View supporting data' }} · {{ message.dataResults.length }} queries</summary>
+          <section v-for="group in evidenceGroups(message.dataResults)" :key="group.dataset">
+          <h3>{{ group.label }}</h3>
+          <details v-for="result in group.queries" :key="result.query_id">
+          <summary>Query {{ result.query_id }} · {{ result.row_count }} returned rows</summary>
+          <p>{{ result.notice }}</p>
+          <p v-if="!result.row_count">No matching records were returned. No value was estimated.</p>
+          <p>Showing {{ result.rows.length }} of {{ result.row_count }} returned rows.{{ result.truncated ? ' More matching rows exist.' : '' }}</p>
+          <div style="overflow-x: auto; max-width: 100%">
+            <table>
+              <thead><tr><th v-for="column in result.columns" :key="column">{{ column }}<small v-if="result.fields?.[column]?.unit"> ({{ result.fields[column]?.unit }})</small></th></tr></thead>
+              <tbody><tr v-for="(row, index) in result.rows" :key="index"><td v-for="column in result.columns" :key="column">{{ row[column] ?? 'Not published' }}</td></tr></tbody>
+            </table>
+          </div>
+          <details v-if="result.query"><summary>Query scope</summary><pre style="white-space: pre-wrap; overflow-wrap: anywhere">{{ JSON.stringify(result.query, null, 2) }}</pre></details>
+          <ul v-if="result.notes?.length"><li v-for="note in result.notes" :key="note">{{ note }}</li></ul>
+          <ul><li v-for="source in result.sources" :key="source.source_id">{{ source.publisher }} — {{ source.dataset_title }}</li></ul>
+          </details>
+          </section>
+        </details>
         <div
           v-if="message.occupationResults?.length"
           class="chatbot-occupation-results"
@@ -307,23 +402,46 @@ async function viewOccupation(result: ChatOccupationResult) {
           </ul>
         </details>
       </article>
-      <p v-if="isSending" class="chatbot-thinking">Checking Telosia data…</p>
+      <p v-if="isSending" class="chatbot-thinking" role="status">{{ progressMessage }}</p>
     </div>
 
-    <form class="chatbot-form" @submit.prevent="sendMessage">
+    <form class="chatbot-form" @submit.prevent="sendMessage()">
       <label class="sr" for="chatbot-input">Ask a question about Telosia data</label>
       <input
         id="chatbot-input"
         ref="inputElement"
         v-model="input"
         type="text"
-        maxlength="500"
+        maxlength="2000"
         autocomplete="off"
-        :placeholder="selectedOccupationId ? 'Ask about this occupation…' : 'Ask a general Telosia question…'"
+        placeholder="Ask, compare, or explore Telosia data…"
         :disabled="isSending"
       />
-      <button type="submit" :disabled="isSending || !input.trim()">Send</button>
+      <button v-if="isSending" type="button" @click="stopRequest">Stop</button>
+      <button v-else type="submit" :disabled="!input.trim()">Send</button>
     </form>
     <p class="chatbot-disclaimer">Uses published Telosia data. Not medical advice or a personal risk prediction.</p>
   </section>
 </template>
+
+<style scoped>
+.chatbot-query-evidence {
+  min-width: 0;
+  margin-top: 1rem;
+  padding: 0.75rem;
+  border: 1px solid #d9b9d0;
+  border-radius: 0.5rem;
+  background: #fff;
+}
+.chatbot-query-evidence table { border-collapse: collapse; width: 100%; font-size: 0.85rem; }
+.chatbot-query-evidence th, .chatbot-query-evidence td {
+  text-align: left;
+  vertical-align: top;
+  padding: 0.5rem;
+  border-bottom: 1px solid #eadce5;
+  min-width: 6rem;
+  overflow-wrap: anywhere;
+}
+.chatbot-query-evidence h3 { font-size: 1rem; }
+.chatbot-query-evidence p, .chatbot-query-evidence li { font-size: 0.85rem; }
+</style>
