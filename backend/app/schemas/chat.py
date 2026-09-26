@@ -6,9 +6,18 @@ from typing import Literal
 from pydantic import BaseModel, Field, field_validator
 
 
+class ChatHistoryMessage(BaseModel):
+    role: Literal["user", "assistant"]
+    content: str = Field(min_length=1, max_length=4000)
+
+
 class ChatRequest(BaseModel):
-    message: str = Field(min_length=2, max_length=500)
+    message: str = Field(min_length=2, max_length=2000)
     occupation_id: int | None = Field(default=None, gt=0)
+    history: list[ChatHistoryMessage] = Field(default_factory=list, max_length=10)
+    page_context: str | None = Field(default=None, max_length=120)
+    extended_analysis: bool = False
+    previous_turn_token: str | None = Field(default=None, max_length=6000)
 
     @field_validator("message")
     @classmethod
@@ -40,9 +49,17 @@ class ChatOccupationResult(BaseModel):
     leading_demands: list[str]
 
 
+class ChatDataQuery(BaseModel):
+    query_id: str
+    dataset: str
+    row_count: int
+    truncated: bool
+
+
 class ChatResponse(BaseModel):
     status: Literal[
         "answered",
+        "partial",
         "out_of_scope",
         "needs_occupation",
         "temporarily_unavailable",
@@ -51,3 +68,12 @@ class ChatResponse(BaseModel):
     occupation_id: int | None = None
     occupation_results: list[ChatOccupationResult] = Field(default_factory=list)
     sources: list[ChatSource] = Field(default_factory=list)
+    data_queries: list[ChatDataQuery] = Field(default_factory=list)
+    data_results: list[dict] = Field(default_factory=list)
+    tools_used: list[str] = Field(default_factory=list)
+    request_id: str | None = None
+    elapsed_ms: int | None = None
+    error_code: str | None = None
+    error_stage: str | None = None
+    timings: list[dict] = Field(default_factory=list)
+    turn_token: str | None = None
